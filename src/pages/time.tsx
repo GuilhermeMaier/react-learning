@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import Link from "next/dist/client/link";
 import moment from "moment";
 import axios from "axios";
+import { locationViaCepResponse } from "./api/location/dto/location.dto";
 
 function Time({ staticDate }) {
   const [dynamicDate, setDynamicDate] = useState<string>(staticDate);
+  const [location, setLocation] = useState<locationViaCepResponse>();
 
   const fetchTime = async () => {
     const config = {
@@ -16,11 +18,25 @@ function Time({ staticDate }) {
     setDynamicDate(dynamicDate);
   };
 
+  const fetchLocation = async (location: string) => {
+    const config = {
+      url: "/api/location/",
+    };
+
+    const locationResponse = await axios(config);
+    const locationDate = locationResponse.data;
+    setLocation(locationDate);
+  };
+
   useEffect(() => {
     setInterval(() => {
       fetchTime();
-    }, 900);
+    }, 60000);
   }, []);
+
+  // useEffect(() => {
+  //   fetchLocation("95043070");
+  // }, []);
 
   return (
     <div>
