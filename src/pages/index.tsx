@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/dist/client/router";
 
 function Home() {
+  const router = useRouter();
   return (
     <div>
-      <h1>Home</h1>
+      <h1 onClick={() => router.push("/time")}>Home</h1>
       <Link href="/about">
         <a>Sobre</a>
       </Link>
