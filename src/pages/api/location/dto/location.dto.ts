@@ -1,5 +1,3 @@
-import { createSwaggerSpec, withSwagger } from "next-swagger-doc";
-
 export class locationViaCepBody {
   cep: string;
 }
