@@ -1,27 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import axios from "axios";
 
-async function getText(bookAbbrv: string, chapter: number, verse: number) {
-  try {
-    return await axios.post(`/api/bible/${bookAbbrv}`, {
-      chapter: chapter,
-      verse: verse,
-    });
-  } catch (error) {
-    throw new Error(error);
-  }
-}
-
 function Bible() {
+  const [searchChapter, setSearchChapter] = useState<string>();
+  const [searchVerse, setSearchVerse] = useState<string>();
+  const [verse, setVerse] = useState<string>();
+
+  //   const fetchVerse = async (bookAbbrv: string, chapter: number, verse: number) => {
+  //     try {
+  //       const fetchedVerseResponse =  await axios.post(`/api/bible/${bookAbbrv}`, {
+  //         chapter: chapter,
+  //         verse: verse,
+  //       });
+  //       const fetchedVerse = fetchedVerseResponse.data;
+  //       setVerse(fetchedVerse);
+  //     } catch (error) {
+  //       throw new Error(error);
+  //     }
+  //   }
+  // };
+
+  const fetchTime = async () => {
+    const config = {
+      url: "/api/time",
+    };
+
+    const dynamicDateResponse = await axios(config);
+    const dynamicDate = dynamicDateResponse.data.dynamicDate;
+    setVerse(dynamicDate);
+  };
+
   return (
     <div>
       <h1>Sobre</h1>
       <Link href="/">
         <a>Index</a>
       </Link>
-      <input placeholder={"Capítulo"}></input>
-      <input placeholder={"Versículo"}></input>
+      {/* <input placeholder={"Capítulo"} onChange={setSearchChapter}></input>
+      <input placeholder={"Versículo"} onChange={setSearchVerse}></input> */}
+      <button onClick={fetchTime}></button>
+      <div>{verse}</div>
     </div>
   );
 }
