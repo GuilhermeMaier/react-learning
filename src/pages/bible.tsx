@@ -22,7 +22,6 @@ function Bible() {
       </Link>
       <input placeholder={"Capítulo"}></input>
       <input placeholder={"Versículo"}></input>
-      <button onClick={}></button>
     </div>
   );
 }
