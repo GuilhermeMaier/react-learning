@@ -13,6 +13,9 @@ function Home() {
       <Link href="/time">
         <a>Tempo</a>
       </Link>
+      <Link href="/bible">
+        <a>Bíblia</a>
+      </Link>
       <Contador />
     </div>
   );
