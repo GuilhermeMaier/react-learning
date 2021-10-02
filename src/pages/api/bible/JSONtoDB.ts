@@ -1,7 +1,7 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
 import { Db, MongoClient } from "mongodb";
 import url from "url";
-import { EX } from "./dto/bibleBooks.dto";
+import { LV } from "./dto/bibleBooks.dto";
 
 let cachedDb: Db = null;
 
@@ -18,12 +18,12 @@ async function JSONtoDB(request: VercelRequest, response: VercelResponse) {
   const db = await connectDatabase(process.env.MONGODB_URI);
   const collection = db.collection("bible");
   try {
-    const bibleJSON = EX.chapters.map((ignore, chapterIndex) => {
-      const bibleChapters = EX.chapters[chapterIndex].map(
+    const bibleJSON = LV.chapters.map((ignore, chapterIndex) => {
+      const bibleChapters = LV.chapters[chapterIndex].map(
         (verseDescription, verseIndex) => {
           const bibleVerses = {
-            name: EX.name,
-            abbrev: EX.abbrev,
+            name: LV.name,
+            abbrev: LV.abbrev,
             chapterId: chapterIndex + 1,
             verseId: verseIndex + 1,
             verseDescription,
