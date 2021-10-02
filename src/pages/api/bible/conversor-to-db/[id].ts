@@ -1,7 +1,8 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
-import { bible } from "./dto/bible.dto";
-import { BibleReturn, DBVerse, JsonBook } from "./dto/common.dto";
-import { BibleAbbrvKVM, BIBLE_BOOK_NAME } from "./dto/common.dto";
+import { bible } from "../dto/bible.dto";
+import { BibleReturn, DBVerse, JsonBook } from "../dto/common.dto";
+import { BibleAbbrvKVM, BIBLE_BOOK_NAME } from "../dto/common.dto";
+import insertBookOnDB from "./database";
 
 function reduceArray(arrayOfArrays: DBVerse[][]): [] {
   return [].concat.apply([], arrayOfArrays);
@@ -27,16 +28,21 @@ function convertJsonToDB(book: JsonBook): DBVerse[] {
   return reduced;
 }
 
-function Bible(request: VercelRequest, response: VercelResponse): BibleReturn {
+async function Bible(
+  request: VercelRequest,
+  response: VercelResponse
+): Promise<BibleReturn> {
   const id: string = request.query.id.toString();
   const abbrev: string = BibleAbbrvKVM.get(BIBLE_BOOK_NAME[id]);
   const JsonBook: JsonBook = bible[abbrev];
   const DBBook: DBVerse[] = convertJsonToDB(JsonBook);
-  const returnValue = {
+  const requestBody = {
     data: DBBook,
   };
-  response.status(200).json(returnValue);
-  return returnValue;
+  const DBResponse = await insertBookOnDB(DBBook);
+  const BibleReturn = { data: DBResponse };
+  response.status(200).json(BibleReturn);
+  return BibleReturn;
 }
 
 export default Bible;
