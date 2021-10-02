@@ -138,7 +138,7 @@ export enum BIBLE_BOOK_ABBREVIATION {
 
 const BibleAbbrvKVM = new Map([
   [BIBLE_BOOK_NAME.genesis, BIBLE_BOOK_ABBREVIATION.GN],
-  [BIBLE_BOOK_NAME.exodo, BIBLE_BOOK_ABBREVIATION.EZ],
+  [BIBLE_BOOK_NAME.exodo, BIBLE_BOOK_ABBREVIATION.EX],
   [BIBLE_BOOK_NAME.levitico, BIBLE_BOOK_ABBREVIATION.LV],
   [BIBLE_BOOK_NAME.numeros, BIBLE_BOOK_ABBREVIATION.NM],
   [BIBLE_BOOK_NAME.deuteronomio, BIBLE_BOOK_ABBREVIATION.DT],
@@ -205,3 +205,21 @@ const BibleAbbrvKVM = new Map([
   [BIBLE_BOOK_NAME.apocalipse, BIBLE_BOOK_ABBREVIATION.AP],
 ]);
 export { BibleAbbrvKVM };
+
+export class JsonBook {
+  abbrev: string;
+  chapters: [][];
+  name: string;
+}
+
+export class DBVerse {
+  name: string;
+  abbrev: string;
+  chapterId: number;
+  verseId: number;
+  verseDescription: string;
+}
+
+export class BibleReturn {
+  data: DBVerse[];
+}
