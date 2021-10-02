@@ -31,7 +31,7 @@ function convertJsonToDB(book: JsonBook): DBVerse[] {
 async function Bible(
   request: VercelRequest,
   response: VercelResponse
-): Promise<BibleReturn> {
+): Promise<boolean> {
   const id: string = request.query.id.toString();
   const abbrev: string = BibleAbbrvKVM.get(BIBLE_BOOK_NAME[id]);
   const JsonBook: JsonBook = bible[abbrev];
@@ -40,9 +40,8 @@ async function Bible(
     data: DBBook,
   };
   const DBResponse = await insertBookOnDB(DBBook);
-  const BibleReturn = { data: DBResponse };
-  response.status(200).json(BibleReturn);
-  return BibleReturn;
+  response.status(200).json(DBResponse);
+  return DBResponse;
 }
 
 export default Bible;

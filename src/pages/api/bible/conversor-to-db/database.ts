@@ -14,18 +14,17 @@ async function connectDatabase(uri: string) {
   return db;
 }
 
-async function insertBookOnDB(DBBook: DBVerse[]) {
-  return DBBook;
-  // const db = await connectDatabase(process.env.MONGODB_URI);
-  // const collection = db.collection("bible");
-  // try {
-  //   for (const currentVerse of DBBook) {
-  //     await collection.insertOne(currentVerse);
-  //   }
-  //   return true;
-  // } catch (error) {
-  //   throw new Error(error);
-  // }
+async function insertBookOnDB(DBBook: DBVerse[]): Promise<boolean> {
+  const db = await connectDatabase(process.env.MONGODB_URI);
+  const collection = db.collection("bible");
+  try {
+    for (const currentVerse of DBBook) {
+      await collection.insertOne(currentVerse);
+    }
+    return true;
+  } catch (error) {
+    throw new Error(error);
+  }
 }
 
 export default insertBookOnDB;
