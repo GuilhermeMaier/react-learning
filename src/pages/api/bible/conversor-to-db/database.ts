@@ -1,4 +1,3 @@
-import { VercelRequest, VercelResponse } from "@vercel/node";
 import { Db, MongoClient } from "mongodb";
 import url from "url";
 import { DBVerse } from "../dto/common.dto";
@@ -14,7 +13,7 @@ async function connectDatabase(uri: string) {
   return db;
 }
 
-async function insertBookOnDB(DBBook: DBVerse[]): Promise<boolean> {
+async function addBook(DBBook: DBVerse[]): Promise<boolean> {
   const db = await connectDatabase(process.env.MONGODB_URI);
   const collection = db.collection("bible");
   try {
@@ -39,4 +38,4 @@ async function insertBookOnDB(DBBook: DBVerse[]): Promise<boolean> {
   }
 }
 
-export default insertBookOnDB;
+export default addBook;
