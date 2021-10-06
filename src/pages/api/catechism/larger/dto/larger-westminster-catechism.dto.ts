@@ -16,6 +16,12 @@ export const largerWestminsterCatechism = {
         verseIdStart: 31,
       },
       {
+        abbrv: "SL",
+        chapterId: 73,
+        verseIdStart: 24,
+        verseIdEnd: 26,
+      },
+      {
         abbrv: "JO",
         chapterId: 17,
         verseIdStart: 22,
@@ -64,7 +70,11 @@ export const largerWestminsterCatechism = {
         abbrv: "IIPE",
         chapterId: 1,
         verseIdStart: 19,
-        verseIdEnd: 21,
+      },
+      {
+        abbrv: "IIPE",
+        chapterId: 1,
+        verseIdStart: 21,
       },
       {
         abbrv: "IS",
@@ -95,21 +105,21 @@ export const largerWestminsterCatechism = {
     answer:
       "Demonstra-se que as Escrituras são a Palavra de Deus - pela majestade e pureza do seu conteúdo, pela harmonia de todas as suas partes, e pelo propósito do seu conjunto, que é dar toda a glória a Deus; pela sua luz e pelo poder que possuem para convencer e converter os pecadores e para edificar e confortar os crentes para a salvação. O Espírito de Deus, porém, dando testemunho, pelas Escrituras e juntamente com elas no coração do homem, é o único capaz de completamente persuadi-lo de que elas são realmente a Palavra de Deus.",
     references:
-      "OS 8:12;ICO 2:6-7;SL 119:18;SL 119:129;SL 119:140;SL 12:6;LC 24:27;AT 10:43 E 26;22;RM 16:25-27;AT 28:28;HB 4:12; TG 1:18; SL 19:7-9; RM 15:4: AT 20:32; JO 16:13-14.",
+      "Os 8.12; 1Co 2.6-7; Sl 119.18;Sl 119.129;Sl 119.140; Sl 12.6; Lc 24.27; At 10.43; AT 26.22; Rm 16.25-27; At 28.28; Hb 4.12; Tg 1.18; Sl 19.7-9; Rm 15.4; At 20.32; Jo 16.13-14",
   },
   question5: {
     id: 5,
     question: "Que é o que as Escrituras principalmente ensinam?",
     answer:
       "As Escrituras ensinam principalmente o que o homem deve crer acerca de Deus e o dever que Deus requer do homem.",
-    references: "JO 20:31; IITM 1:13.",
+    references: "Jo 20.31; IITm 1.13",
   },
   question6: {
     id: 6,
     question: "Que revelam as Escrituras acerca de Deus?",
     answer:
       "As Escrituras revelam o que Deus é, quantas pessoas há na Divindade, os seus decretos e como Ele os executa.",
-    references: "MAS. 3:16-17; IS 46:9-10; AT 4:27-28,",
+    references: "Mt 3.16-17; Is 46.9-10; At 4.27-28",
   },
   question7: {
     id: 7,
@@ -117,20 +127,20 @@ export const largerWestminsterCatechism = {
     answer:
       "Deus é espírito, em si e por si infinito em seu ser, glória, bem-aventurança e perfeição; todo - suficiente, eterno, imutável, insondável, onipresente, infinito em poder, sabedoria, santidade, justiça, misericórdia e clemência, longânimo e cheio de bondade e verdade.",
     references:
-      "JO 4:24; EX 3:14; JOH 11:7-9; AT 5:2; ITM 6:15; MT 5:48; RM 11:35-36 SL 90:2 -145:3 E 139:1, 2, 7; ML 2:6; AP 4:8; HB 4:13; RM 16:27; IS 6:3; DT 32:4; EX 34:6.",
+      "Jo 4.24; Ex 3.14; JOH 11.7-9; At 5.2; ITm 6.15; Mt 5.48; Rm 11.35-36; Sl 90.2; Sl 145.3;Sl 139.1-2;Sl 139.7; Ml 2.6; Ap 4.8; Hb 4.13; Rm 16.27; Is 6.3; Dt 32.4; Ex 34.6",
   },
   question8: {
     id: 8,
     question: "Há mais que um Deus?",
     answer: "Há um só Deus, o Deus vivo e verdadeiro.",
-    references: "DT 6:4: JR 10:10; ICO 8:4.",
+    references: "Dt 6.4; Jr 10.10; ICo 8.4",
   },
   question9: {
     id: 9,
     question: "Quantas pessoas há na Divindade?",
     answer:
       "Há três pessoas na Divindade: o Pai, o Filho e o Espírito Santo; estas três pessoas são um só Deus verdadeiro e eterno, da mesma substância, iguais em poder e glória, embora distintas pelas suas propriedades pessoais.",
-    references: "MT 3:16-17, E 28:19; IICO 13:14; JO 10:30.",
+    references: "Mt 3.16-17;Mt 28.19; IICo 13.14; Jo 10.30",
   },
   question10: {
     id: 10,
@@ -138,7 +148,7 @@ export const largerWestminsterCatechism = {
       "Quais são as propriedades pessoais das três pessoas da Divindade?",
     answer:
       "O Pai gerou o Filho, o Filho foi gerado pelo Pai, e o Espírito Santo procede do Pai e do Filho, desde toda à eternidade.",
-    references: "HB 1:5-6; JO 1:14 E 15:26; GL 4:6.",
+    references: "Hb 1.5-6; Jo 1.14; Jo 15.26; Gl 4.6",
   },
   question11: {
     id: 11,
@@ -147,14 +157,14 @@ export const largerWestminsterCatechism = {
     answer:
       "As Escrituras revelam que o Filho e o Espírito Santo são Deus igualmente com o Pai, atribuindo-lhes os mesmos nomes, atributos, obras e culto que só a Deus pertencem.",
     references:
-      "JR 23:6; IS 6:3, 5, 8; JO 12:41; AT 28:25; IJO 5:20; SL 45:6; AT 5:3-4; JO 1:1; IS 9:6; JO 2:24-25; ICO 2:10-11; CL 1:16; GN 1:2; MT 28:19; IICO 13:14.",
+      "Jr 23.6; Is 6.3 Is 6.5 Is 6.8; Jo 12.41; At 28.25; IJo 5.20; Sl 45.6; At 5.3-4; Jo 1.1; Is 9.6; Jo 2.24-25; ICo 2.10-11; Cl 1.16; Gn 1.2; Mt 28.19; IICo 13.14",
   },
   question12: {
     id: 12,
     question: "Que são os decretos de Deus?",
     answer:
       "Os decretos de Deus são os atos sábios, livres e santos do conselho da sua vontade, pelos quais, desde toda a eternidade, Ele, para a sua própria glória, imutavelmente predestinou tudo o que acontece, especialmente com referência aos anjos e ,os homens.",
-    references: "IS 45:6-7; EF 1:11; RM 11:33; SL 33:11: EF 1:4; RM 9:22-23.",
+    references: "Is 45.6-7; Ef 1.11; Rm 11.33; Sl 33.11; Ef 1.4; Rm 9.22-23",
   },
   question13: {
     id: 13,
@@ -163,21 +173,21 @@ export const largerWestminsterCatechism = {
     answer:
       "Deus, por um decreto eterno e imutável, unicamente do seu amor e para patentear a sua gloriosa graça, que tinha de ser manifestada em tempo devido, elegeu alguns anjos para a glória, e, em Cristo, escolheu alguns homens para a vida eterna e os meios para consegui-la; e também, segundo o seu soberano poder e o conselho inescrutável da sua própria vontade (pela qual Ele concede, ou não, os seus favores conforme lhe apraz), deixou e predestinou os mais à desonra e à ira, que lhes serão infligidas por causa dos seus pecados, para patentear a glória da sua justiça.",
     references:
-      "ITM 5:21; EF 2A0; IITS 2:13-14; IPE 1:2; RM 9:17-18, 21-22; JD 4; MT 11:25-26.",
+      "ITM 5.21; Ef 2.10; IITS 2.13-14; IPE 1.2; Rm 9.17-18; Rm 9.21-22; Jd 1.4; Mt 11.25-26",
   },
   question14: {
     id: 14,
     question: "Como executa Deus os seus decretos?",
     answer:
       "Deus executa os seus decretos nas obras da criação e da providência, segundo a sua presciência infalível e o livre e imutável conselho da rua vontade.",
-    references: "DN 4:35; EF 1:11.",
+    references: "Dn 4.35; Ef 1.11",
   },
   question15: {
     id: 15,
     question: "Que é a obra da criação?",
     answer:
       "A obra da criação é aquela pela qual Deus, pela palavra do seu poder, fez do nada o mundo, e tudo quanto nele há, para si no espaço de seis dias, e tudo muito bom.",
-    references: "GN 1: HB 11:3; AP 4:11; RM 11:36.",
+    references: "Gn 1.1; Hb 11.3; Ap 4.11; Rm 11.36",
   },
   question16: {
     id: 16,
@@ -185,7 +195,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Deus criou todos os anjos como espíritos imortais, santos, poderosos e excelentes em conhecimento, para executarem os seus mandamentos e louvarem o seu nome, todavia sujeitos à mudança.",
     references:
-      "CL 1:16; MT 22:30; LC 20:36; MT 25:31, E 24:36; IPE 1:12; IITS 1:7, SL 91:11-12; MT 13:39; SL 103:20-21; IIPE 2:4.",
+      "Cl 1.16; Mt 22.30; Lc 20.36; Mt 25.31; Mt 24.36; IPE 1.12; IITS 1.7, Sl 91.11-12; Mt 13.39; Sl 103.20-21; IIPE 2.4",
   },
   question17: {
     id: 17,
@@ -193,7 +203,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Depois de ter feito todas as mais criaturas, Deus criou o homem, macho e fêmea; formou-o do pó, e a mulher da costela do homem; dotou-os de almas viventes, racionais e imortais; fê-los conforme a sua própria imagem, em conhecimento, retidão e santidade, tendo a lei de Deus escrita em seus corações e poder para a cumprir, com domínio sobre as criaturas, contudo sujeitos a cair.",
     references:
-      "GN 1:7, E 2:7, 32 E 1:26; MT 19:4; EC 12:9; MT 10:28; CL 3:10; EF 4:24; RM 2:14-15; GN 3:6, E 1:28, 3:1-19.",
+      "Gn 1.7;Gn  2.7;Gn  2.32;Gn  1.26; Mt 19.4; Ec 12.9; Mt 10.28; Cl 3.10; Ef 4.24; Rm 2.14-15; Gn 3.6; Gn 1.28; Gn 3.1-19",
   },
   question18: {
     id: 18,
@@ -201,7 +211,7 @@ export const largerWestminsterCatechism = {
     answer:
       "As obras da providência de Deus são a sua mui santa, sábia e poderosa maneira de preservar e governar todas as suas criaturas e todas as suas ações, para a sua própria glória.",
     references:
-      "LV 21:8; SL 104:24: IS 92:29; NE 9:6; HB 1:3; SL 103:19; MT 10:29-30; GN 45:7; RM 11:36; IS 63:14.",
+      "Lv 21.8; Sl 104.24; Is 92.29; Ne 9.6; Hb 1.3; Sl 103.19; Mt 10.29-30; Gn 45.7; Rm 11.36; Is 63.14",
   },
   question19: {
     id: 19,
@@ -209,7 +219,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Deus, pela sua providência, permitiu que alguns dos anjos, voluntária e irremediavelmente, caíssem em pecado e perdição, limitando e ordenando isso, como todos os pecados deles, para a sua própria glória; e estabeleceu os mais em santidade e felicidade, empregando-os todos, conforme lhe apraz, na administração do seu poder, misericórdia e justiça.",
     references:
-      "JD 6; LC 10:17; MC 8:38; ITM 5:21; HB 12:22; SL 103:20; HB 1:14.",
+      "Jd 1.6; Lc 10.17; Mc 8.38; ITM 5.21; Hb 12.22; Sl 103.20; Hb 1.14",
   },
   question20: {
     id: 20,
@@ -218,7 +228,7 @@ export const largerWestminsterCatechism = {
     answer:
       "A providência de Deus para com o homem no estado em que ele foi criado consistiu em colocá-lo no Paraíso, designando-o para o cultivar, dando-lhe liberdade para comer do fruto da terra; pondo as criaturas sob o seu domínio; e ordenando o matrimônio para o seu auxílio; em conceder-lhe comunhão com Deus, instituindo o dia de descanso, entrando em um pacto de vida com ele, sob a condição de obediência pessoal, perfeita e perpetua, da qual a árvore da vida era um penhor, e proibindo-lhe comer da árvore da ciência do bem e do mal sob pena de morte.",
     references:
-      "GN 1:28, E 21:15-16, E 1:26, E 3:8, E 2:3, EX 20:11; GL 3:12; GN 2:9, 16-17.",
+      "Gn 1.28;Gn 21.15-16;Gn 1.26;Gn 3.8;Gn 2.3, Ex 20.11; Gl 3.12; Gn 2.9; Gn 2.16-17",
   },
   question21: {
     id: 21,
