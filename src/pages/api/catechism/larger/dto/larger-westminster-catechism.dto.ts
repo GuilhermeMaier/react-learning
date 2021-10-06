@@ -4,21 +4,90 @@ export const largerWestminsterCatechism = {
     question: "Qual é o fim supremo e principal do homem?",
     answer:
       "O fim supremo e principal do homem e glorificar a Deus e gozá-lo para sempre.",
-    references: "RM 11:36; ICO 10:31; SL 73:24-26; JO 17:22-24.",
+    references: [
+      {
+        abbrv: "RM",
+        chapterId: 11,
+        verseIdStart: 36,
+      },
+      {
+        abbrv: "ICO",
+        chapterId: 10,
+        verseIdStart: 31,
+      },
+      {
+        abbrv: "JO",
+        chapterId: 17,
+        verseIdStart: 22,
+        verseIdEnd: 24,
+      },
+    ],
   },
   question2: {
     id: 2,
     question: "Donde se infere que há um Deus?",
     answer:
       "A própria luz da natureza no espírito do homem e as obras de Deus claramente manifestam que existe um Deus; porém só a sua Palavra e o seu Espírito o revelam de um modo suficiente e eficazmente aos homens para a sua salvação",
-    references: "RM 1:19-20; ICO 2:9-10: IITM 3,15-17.",
+    references: [
+      {
+        abbrv: "RM",
+        chapterId: 1,
+        verseIdStart: 19,
+        verseIdEnd: 20,
+      },
+      {
+        abbrv: "ICO",
+        chapterId: 2,
+        verseIdStart: 9,
+        verseIdEnd: 10,
+      },
+      {
+        abbrv: "IITM",
+        chapterId: 3,
+        verseIdStart: 15,
+        verseIdEnd: 17,
+      },
+    ],
   },
   question3: {
     id: 3,
     question: "Que é a Palavra de Deus?",
     answer:
       "As Escrituras Sagradas, o Velho e o Novo Testamento, são a Palavra de Deus, a única regra de fé e prática.",
-    references: "IITM 3:16; IIPE 1:19 21; IS 8:20; LC 16:29, 31; GL 1:8-9.",
+    references: [
+      {
+        abbrv: "IITM",
+        chapterId: 3,
+        verseIdStart: 16,
+      },
+      {
+        abbrv: "IIPE",
+        chapterId: 1,
+        verseIdStart: 19,
+        verseIdEnd: 21,
+      },
+      {
+        abbrv: "IS",
+        chapterId: 8,
+        verseIdStart: 20,
+      },
+      {
+        abbrv: "LC",
+        chapterId: 16,
+        verseIdStart: 29,
+      },
+      {
+        abbrv: "LC",
+        chapterId: 16,
+        verseIdStart: 31,
+      },
+      {
+        abbrv: "GL",
+        chapterId: 1,
+        verseIdStart: 8,
+        verseIdEnd: 9,
+      },
+    ],
   },
   question4: {
     id: 4,
@@ -26,7 +95,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Demonstra-se que as Escrituras são a Palavra de Deus - pela majestade e pureza do seu conteúdo, pela harmonia de todas as suas partes, e pelo propósito do seu conjunto, que é dar toda a glória a Deus; pela sua luz e pelo poder que possuem para convencer e converter os pecadores e para edificar e confortar os crentes para a salvação. O Espírito de Deus, porém, dando testemunho, pelas Escrituras e juntamente com elas no coração do homem, é o único capaz de completamente persuadi-lo de que elas são realmente a Palavra de Deus.",
     references:
-      "OS 8:12; ICO 2:6-7; SL 119:18, 129, 140; SL 12:6; LC 24:27; AT 10:43 E 26;22; RM, 16:25-27; AT 28:28; HB 4:12; TG 1:18; SL 19:7-9; RM 15:4: AT 20:32; JO 16:13-14.",
+      "OS 8:12;ICO 2:6-7;SL 119:18;SL 119:129;SL 119:140;SL 12:6;LC 24:27;AT 10:43 E 26;22;RM 16:25-27;AT 28:28;HB 4:12; TG 1:18; SL 19:7-9; RM 15:4: AT 20:32; JO 16:13-14.",
   },
   question5: {
     id: 5,

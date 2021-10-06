@@ -1,36 +1,23 @@
 import { Db, MongoClient } from "mongodb";
 import url from "url";
+import { catechism } from "../../catechism/dto/common-catechism.dto";
+import connectDatabase from "../../common/connect";
 import { DBVerse } from "../dto/common.dto";
 
-let cachedDb: Db = null;
-
-async function connectDatabase(uri: string) {
-  if (cachedDb) return cachedDb;
-  const client = await MongoClient.connect(uri);
-  const databaseName = url.parse(uri).pathname.substr(1);
-  const db = client.db(databaseName);
-  cachedDb = db;
-  return db;
-}
-
-async function addBook(DBBook: DBVerse[]): Promise<boolean> {
+async function sendLargerCatechismTodatabase(
+  catechismQuestion: catechism
+): Promise<boolean> {
   const db = await connectDatabase(process.env.MONGODB_URI);
-  const collection = db.collection("bible");
+  const collection = db.collection("larger-westminster-catechism");
   try {
-    for (const currentVerse of DBBook) {
-      const currentDocument = await collection.findOneAndUpdate(
-        {
-          chapterId: currentVerse.chapterId,
-          verseId: currentVerse.verseId,
-          name: currentVerse.name,
-        },
-        {
-          $set: { verseDescription: currentVerse.verseDescription },
-        }
-      );
-      if (currentDocument.value === null) {
-        await collection.insertOne(currentVerse);
-      }
+    const { id, question, answer, references } = catechismQuestion;
+    const findQuery = { id, question, answer };
+    const updateQuery = { references };
+    const currentDocument = await collection.findOneAndUpdate(findQuery, {
+      $set: updateQuery,
+    });
+    if (currentDocument.value === null) {
+      await collection.insertOne(catechismQuestion);
     }
     return true;
   } catch (error) {
@@ -38,4 +25,4 @@ async function addBook(DBBook: DBVerse[]): Promise<boolean> {
   }
 }
 
-export default addBook;
+export default sendLargerCatechismTodatabase;
