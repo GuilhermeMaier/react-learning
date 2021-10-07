@@ -29,3 +29,5 @@ export class catechism {
 //     references.push(reference)
 // })
 // references
+
+// \w+ \d+\:\d+(\-\d+)?;
