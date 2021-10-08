@@ -30,4 +30,5 @@ export class catechism {
 // })
 // references
 
-// \w+ \d+\:\d+(\-\d+)?;
+// \w+ \d+[\:|\.]\d+(\-\d+)?[;]?
+// larger até 134

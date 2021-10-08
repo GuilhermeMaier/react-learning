@@ -203,7 +203,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Depois de ter feito todas as mais criaturas, Deus criou o homem, macho e fêmea; formou-o do pó, e a mulher da costela do homem; dotou-os de almas viventes, racionais e imortais; fê-los conforme a sua própria imagem, em conhecimento, retidão e santidade, tendo a lei de Deus escrita em seus corações e poder para a cumprir, com domínio sobre as criaturas, contudo sujeitos a cair.",
     references:
-      "Gn 1.7;Gn  2.7;Gn  2.32;Gn  1.26; Mt 19.4; Ec 12.9; Mt 10.28; Cl 3.10; Ef 4.24; Rm 2.14-15; Gn 3.6; Gn 1.28; Gn 3.1-19",
+      "Gn 1.7;Gn 2.7;Gn 2.32;Gn 1.26; Mt 19.4; Ec 12.9; Mt 10.28; Cl 3.10; Ef 4.24; Rm 2.14-15; Gn 3.6; Gn 1.28; Gn 3.1-19",
   },
   question18: {
     id: 18,
@@ -235,28 +235,28 @@ export const largerWestminsterCatechism = {
     question: "Continuou o homem no estado em que Deus o criou no princípio?",
     answer:
       "Nossos primeiros pais, sendo deixados à liberdade da sua própria vontade, pela tentação de Satanás transgrediram o mandamento de Deus, comendo do fruto proibido, e por isso caíram do estado de inocência em que foram criados.",
-    references: "GN 3:6-8, 13.",
+    references: "GN 3:6-8; GN 3:13",
   },
   question22: {
     id: 22,
     question: "Caiu todo o gênero humano na primeira transgressão?",
     answer:
       "O pacto sendo feito com Adão, como representante, não para si somente, mas para toda a sua posteridade, todo o gênero humano, descendendo dele por geração ordinária, pecou nele e caiu com ele na primeira transgressão.",
-    references: "AT 17:26; GN 2:17.",
+    references: "AT 17:26; GN 2:17",
   },
   question23: {
     id: 23,
     question: "A que estado ficou reduzido o gênero humano por essa queda?",
     answer:
       "Essa queda reduziu o gênero humano a um estado de pecado e miséria.",
-    references: "RM 5:12; GL 3:10.",
+    references: "RM 5:12; GL 3:10",
   },
   question24: {
     id: 24,
     question: "Que é pecado?",
     answer:
       "Pecado é qualquer falta de conformidade com a lei de Deus, ou a transgressão de qualquer lei por Ele dada como regra, à criatura racional.",
-    references: "RM 3:23; IJO 3:4; GL 3:10-12.",
+    references: "RM 3:23; IJO 3:4; GL 3:10-12",
   },
   question25: {
     id: 25,
@@ -264,7 +264,7 @@ export const largerWestminsterCatechism = {
     answer:
       "O pecado desse estado em que o homem caiu consiste na culpa do primeiro pecado de Adão, na falta de retidão na qual este foi criado e na corrupção da sua natureza pela qual se tornou inteiramente indisposto, incapaz e oposto a todo o bem espiritual e inclinado a todo o mal, e isso continuamente: o que geralmente se chama pecado original, do qual precedem todas as transgressões atuais.",
     references:
-      "RM 5:12, 19 E 5:6, E 3:10-12; EF 2:3; RM8:7-8; GN 6:1; TG 1:14-15; MT 15:19.",
+      "RM 5:12;RM 5:19;RM 5:6;RM 3:10-12; EF 2:3; RM 8:7-8; GN 6:1; TG 1:14-15; MT 15:19",
   },
   question26: {
     id: 26,
@@ -272,7 +272,7 @@ export const largerWestminsterCatechism = {
       "Como é o pecado original transmitido de nossos primeiros pais à sua posteridade?",
     answer:
       "O pecado original é transmitido de nossos primeiros pais à sua posteridade por geração natural, de maneira que todos os que assim procedem deles são concebidos e nascidos em pecado.",
-    references: "SL 51:15; JO 3:6.",
+    references: "SL 51:15; JO 3:6",
   },
   question27: {
     id: 27,
@@ -280,7 +280,7 @@ export const largerWestminsterCatechism = {
     answer:
       "A queda trouxe sobre o gênero humano a perda da comunhão com Deus, o seu desagrado e maldição; de modo que somos por natureza filhos da ira, escravos de Satanás e justamente expostos a todas as punições, neste mundo e no vindouro.",
     references:
-      "GN 3:8, 24; EF 2:2-3; IITM 2:26; LC 11:21-22; HB 2:14; LM 3:39; RM 6:23; MT 25:41, 46.",
+      "GN 3:8, 24; EF 2:2-3; IITM 2:26; LC 11:21-22; HB 2:14; LM 3:39; RM 6:23; MT 25:41, 46",
   },
   question28: {
     id: 28,
@@ -288,14 +288,14 @@ export const largerWestminsterCatechism = {
     answer:
       "As punições do pecado neste mundo são: ou interiores, como cegueira do entendimento, sentimentos depravados, fortes ilusões, dureza de coração, remorso na consciência e afetos baixos; ou exteriores como a maldição de Deus sobre as criaturas por nossa causa e todos os outros males que caem sobre nós em nossos corpos, nossos bens, relações e empregos -juntamente com a morte.",
     references:
-      "EF 4:18; RM, 1:28; IITS 2:11; RM 2:5; IS 33:14; RM 1:26; GN 3:17; DT 28:15; RM 6:21, 23.",
+      "EF 4:18; RM 1:28; IITS 2:11; RM 2:5; IS 33:14; RM 1:26; GN 3:17; DT 28:15; RM 6:21;RM 6:23",
   },
   question29: {
     id: 29,
     question: "Quais são as punições do pecado no mundo vindouro?",
     answer:
       "As punições do pecado no mundo vindouro são a separação eterna da presença consoladora de Deus e os tormentos mais penosos na alma e no corpo, sem intermissão, no fogo do inferno para sempre",
-    references: "IITS 1:9; MC 9:47-48: LC 16:24, 26; AP 14:11.",
+    references: "IITS 1:9; MC 9:47-48: LC 16:24;LC 16:26; AP 14:11",
   },
   question30: {
     id: 30,
@@ -303,14 +303,14 @@ export const largerWestminsterCatechism = {
       "Deixa Deus todo o gênero humano perecer no estado de pecado e miséria?",
     answer:
       "Deus não deixa todos os homens perecer no estado de pecado e miséria, em que caíram pela violação do primeiro pacto comumente chamado o pacto das obras; mas, por puro amor e misericórdia livra os escolhidos desse estado e os introduz num estado de salvação pelo segundo pacto comumente chamado o pacto da graça.",
-    references: "ITS 5:9; GL 3:LC; TT 3:4-7, E 1:2.",
+    references: "ITS 5:9; GL 3:10; TT 3:4-7, E 1:2",
   },
   question31: {
     id: 31,
     question: "Com quem foi feito o pacto da graça?",
     answer:
       "O pacto da graça foi feito com Cristo, como o segundo Adão, e nEle, com todos os eleitos, como sua semente.",
-    references: "GL 3:16; IS 53:10-11; E 59:21.",
+    references: "GL 3:16; IS 53:10-11; IS 59:21",
   },
   question32: {
     id: 32,
@@ -318,14 +318,14 @@ export const largerWestminsterCatechism = {
     answer:
       "A graça de Deus é manifestada no segundo pacto em Ele livremente prover e oferecer aos pecadores um Mediador e a vida e a salvação por Ele; exigindo a fé como condição de interessá-los nEle, promete e dá o Espírito Santo a todos os seus eleitos, para neles operar essa fé, com todas as mais graças salvadoras, e para os habilitar a praticar toda a santa obediência, como evidência da sinceridade da sua fé e gratidão para com Deus e como o caminho que Deus lhes designou para a salvação.",
     references:
-      "GN 3:15: IS 4:3-6; JO 326, 6:27; TT 2:5; IJO 5:11-12; JO 3:36, 1:2; PV 1:23; LC 11:13; ICO 12:3, 9; GL 5:22-23; EZ 34:27; TG 2:18, 12; IICO 5:14-15; EF 2:10.",
+      "GN 3:15: IS 4:3-6; JO 3:26;; JO 6:27; TT 2:5; IJO 5:11-12; JO 3:36; JO 1:2; PV 1:23; LC 11:13; ICO 12:3; ICO 12:9; GL 5:22-23; EZ 34:27; TG 2:18; TG 2:12; IICO 5:14-15; EF 2:10",
   },
   question33: {
     id: 33,
     question: "Foi o pacto da graça sempre administrado de uma só maneira?",
     answer:
       "O pacto da graça não foi administrado da mesma maneira; mas as suas administrações no Velho Testamento eram diferentes das debaixo do Novo.",
-    references: "IICO 3:6-9; HB 8:7-13.",
+    references: "IICO 3:6-9; HB 8:7-13",
   },
   question34: {
     id: 34,
@@ -333,14 +333,14 @@ export const largerWestminsterCatechism = {
     answer:
       "O pacto da graça foi administrado no Velho Testamento por promessas, profecias, sacrifícios, pela circuncisão, pela páscoa e por outros símbolos e ordenanças: todos os quais tipificaram. o Cristo, que havia de vir e eram naquele tempo suficientes para edificar os eleitos na fé do Messias prometido, por quem tiveram, ainda nesse tempo, a plena remissão do pecado e a salvação eterna.",
     references:
-      "RM 15:8; AT 3:24; HB 10:1; RM 4:11, ICO 5:7; HB 11:13; GL 3:7-9. 14.",
+      "RM 15:8; AT 3:24; HB 10:1; RM 4:11, ICO 5:7; HB 11:13; GL 3:7-9; GL 3:14.",
   },
   question35: {
     id: 35,
     question: "Como é o pacto da graça administrado no Novo Testamento?",
     answer:
       "No Novo Testamento, quando Cristo, a substância, foi manifestado, o mesmo pacto da graça foi e continua a ser administrado na pregação da palavra na celebração dos sacramentos do batismo e da Ceia do Senhor; e assim a graça e a salvação são manifestadas em maior plenitude, evidência e eficácia a todas as nações.",
-    references: "LC 24:47-48; MT 28:19-20; ICO 11:23-25; RM 1: 16; IICO 3:6.",
+    references: "LC 24:47-48; MT 28:19-20; ICO 11:23-25; RM 1:16; IICO 3:6",
   },
   question36: {
     id: 36,
@@ -348,14 +348,14 @@ export const largerWestminsterCatechism = {
     answer:
       "0 único Mediador do pacto da graça é o Senhor Jesus Cristo, que, sendo o eterno Filho de Deus, da mesma substância e igual ao Pai, no cumprimento do tempo fêz-se homem, e assim foi e continua a ser Deus e homem em duas naturezas perfeitas e distintas e uma só pessoa para sempre.",
     references:
-      "JO 14:16; ITM 2:5; JO 1:1 E 10:30 ; FP 2:6; GL 4:4; LC 1:35; RM 9:5; CL 2:9; HB 13:8.",
+      "JO 14:16; ITM 2:5; JO 1:1;; JO 10:30; FP 2:6; GL 4:4; LC 1:35; RM 9:5; CL 2:9; HB 13:8",
   },
   question37: {
     id: 37,
     question: "Sendo Cristo o Filho de Deus, como se fêz homem?",
     answer:
       "Cristo, o Filho de Deus, fêz-se homem tomando para si um verdadeiro corpo e uma alma racional sendo concebido pelo poder do Espírito Santo no ventre da Virgem Maria, da sua substância e nascido dela, mas sem pecado.",
-    references: "JO 1:14; MT 26:38; LC 1:31, 35-42; HB 4:15, E 7:26.",
+    references: "JO 1:14; MT 26:38; LC 1:31;; LC 1:35-42; HB 4:15; HB 7:26",
   },
   question38: {
     id: 38,
@@ -363,7 +363,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Era necessário que o Mediador fosse Deus para poder sustentar a natureza humana e guardá-la de cair debaixo da ira infinita de Deus e do poder da morte; para dar valor e eficácia aos seus sofrimentos, obediência e intercessão; e para satisfazer a justiça de Deus, conseguir o seu favor, adquirir um povo peculiar, dar a este povo o seu Espírito, vencer todos os seus inimigos e conduzi-lo à salvação eterna.",
     references:
-      "AT 2:24; RM 1:4; AT 20:28; HB 7:25; RM 3:24-26; EF 1:6; TT 2:14; JO 15:26; LC 1:69, 71, 74; HB 5:9.",
+      "AT 2:24; RM 1:4; AT 20:28; HB 7:25; RM 3:24-26; EF 1:6; TT 2:14; JO 15:26; LC 1:69; LC 1:71; LC 1:74; HB 5:9",
   },
   question39: {
     id: 39,
@@ -371,7 +371,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Era necessário que o Mediador fosse homem para poder levantar a nossa natureza e obedecer à lei, sofrer e interceder por nós em nossa natureza, e simpatizar com as nossas enfermidades; para que recebêssemos a adoção de filhos, e tivéssemos conforto e acesso com confiança ao trono da graça.",
     references:
-      "RM 8:34; IIPE 1:4; MT 5:17; GL 4:4, RM 5:19; HB 2:4; E 7:24-25, E 4:15-16; GL 4:5",
+      "RM 8:34; IIPE 1:4; MT 5:17; GL 4:4, RM 5:19; HB 2:4; HB 7:24-25; HB 4:15-16; GL 4:5",
   },
   question40: {
     id: 40,
@@ -379,14 +379,14 @@ export const largerWestminsterCatechism = {
       "Qual a necessidade de o Mediador ser Deus e homem em uma só pessoa?",
     answer:
       "Era necessário que o Mediador, que havia de reconciliar o homem com Deus, fosse Deus e homem e isto em uma só pessoa, para que as obras próprias de cada natureza fossem aceitas por Deus a nosso favor e que nós confiássemos nelas como as obras da pessoa inteira.",
-    references: "MT 1:21, 23 E 3:17; IPE 2:6.",
+    references: "MT 1:21;MT 1:23;MT 3:17; IPE 2:6",
   },
   question41: {
     id: 41,
     question: "Por que foi o nosso Mediador chamado Jesus?",
     answer:
       "O nosso Mediador foi chamado Jesus, porque salva o seu povo dos pecados.",
-    references: "MT 1:21.",
+    references: "MT 1:21",
   },
   question42: {
     id: 42,
@@ -394,7 +394,7 @@ export const largerWestminsterCatechism = {
     answer:
       "O nosso Mediador foi chamado Cristo, porque foi acima de toda a medida ungido com o Espírito Santo; e assim separado e plenamente revestido com toda a autoridade e poder para exercer as funções de profeta, sacerdote e rei da sua igreja, tanto no estado da sua humilhação, como no da sua exaltação.",
     references:
-      "MT 3:16; JO 3:24; SL 45:7, JO 6:27; AT 3:22; LC 4:18, 21; HB 5:5-6; IS 9:6-7.",
+      "MT 3:16; JO 3:24; SL 45:7; JO 6:27; AT 3:22; LC 4:18; LC 4:21; HB 5:5-6; IS 9:6-7",
   },
   question43: {
     id: 43,
@@ -402,14 +402,14 @@ export const largerWestminsterCatechism = {
     answer:
       "Cristo exerce as funções de profeta revelando a igreja em todos os tempos, pelo seu Espírito e Palavra, por diversos modos de administração, toda a vontade de Deus em todas as coisas concernentes à sua edificação e salvação.",
     references:
-      "JO 1:18; IPE 1:10-12; HB 1:1-2; JO 15:15; EF 4:11-13; JO 20:31.",
+      "JO 1:18; IPE 1:10-12; HB 1:1-2; JO 15:15; EF 4:11-13; JO 20:31",
   },
   question44: {
     id: 44,
     question: "Como exerce Cristo as funções de sacerdote?",
     answer:
       "Cristo exerce as funções de sacerdote oferecendo-se a si mesmo uma vez em sacrifício sem mácula, a Deus, para ser a reconciliação pelos pecados do seu povo e fazendo contínua intercessão por ele.",
-    references: "HB 9:14, 28, E 2:17, E 7:35.",
+    references: "HB 9:14;HB 9:28;HB 2:17;HB 7:35",
   },
   question45: {
     id: 45,
@@ -417,28 +417,28 @@ export const largerWestminsterCatechism = {
     answer:
       "Cristo exerce as funções de rei chamando do mundo um povo para si, dando-lhe oficiais, leis e disciplinas para visivelmente o governar; dando a graça salvadora aos seus eleitos; recompensando a sua obediência e corrigindo-os por causa dos seus pecados; preservando-os por causa dos seus pecados; preservando-os e sustentando-os em todas as tentações e sofrimentos; restringindo e vencendo todos os seus inimigos, e poderosamente dirigindo todas as coisas para a sua própria glória e para o bem do seu povo; e também castigando os que não conhecem a Deus nem obedecem ao Evangelho.",
     references:
-      "IS 55:5; GN 49:10; ICO 12:28; JO 15:14; MT 18:17-18; AT 5:31; AP 22:12, E 3:19; RM 8:37-39; ICO 15:25; RM 14:11, E 8:28; IITS 1:8; SL 2:9.",
+      "IS 55:5; GN 49:10; ICO 12:28; JO 15:14; MT 18:17-18; AT 5:31; AP 22:12;AP 3:19; RM 8:37-39; ICO 15:25; RM 14:11; RM 8:28; IITS 1:8; SL 2:9",
   },
   question46: {
     id: 46,
     question: "Qual foi o estado da humilhação de Cristo?",
     answer:
       "O estado da humilhação de Cristo foi aquela baixa condição, na qual, por amor de nós, despindo-se da sua glória, Ele tomou a forma de servo em sua concepção e nascimento, em sua vida, em sua morte e depois até à sua ressurreição.",
-    references: "FP 2:6-8; IICO 8:9.",
+    references: "FP 2:6-8; IICO 8:9",
   },
   question47: {
     id: 47,
     question: "Como se humilhou Cristo na sua concepção e nascimento?",
     answer:
       "Cristo humilhou-se na sua concepção e nascimento, em ser, desde toda a eternidade o Filho de Deus no seio do Pai, quem aprouve, no cumprimento do tempo, tornar-se Filho do homem, nascendo de uma mulher de humilde posição com diversas circunstâncias de humilhação fora do comum.",
-    references: "IJO 1:14, 18; LC 2:7.",
+    references: "IJO 1:14;IJO 1:18; LC 2:7",
   },
   question48: {
     id: 48,
     question: "Como se humilhou Cristo na sua vida?",
     answer:
       "Cristo humilhou-se na sua vida, sujeitando-se à lei, a qual perfeitamente cumpriu, e lutando com as indignidades do mundo, as tentações de Satanás e as enfermidades da carne, quer comuns à natureza do homem, quer as procedentes dessa baixa condição.",
-    references: "GL 4:4; MT 5:17; IS 53:2-3; HB 12:2-3; MT 4:1; HB 2:17-18.",
+    references: "GL 4:4; MT 5:17; IS 53:2-3; HB 12:2-3; MT 4:1; HB 2:17-18",
   },
   question49: {
     id: 49,
@@ -446,21 +446,21 @@ export const largerWestminsterCatechism = {
     answer:
       "Cristo humilhou-se na sua morte porque, tendo sido traído por Judas, abandonado pelos seus discípulos, escarnecido e rejeitado pelo mundo, condenado por Pilatos e atormentado pelos seus perseguidores, tendo também lutado com os terrores da morte e os poderes das trevas, tendo sentido e suportado o peso da ira de Deus, Ele deu a sua vida como oferta pelo pecado, sofrendo a penosa, vergonhosa e maldita morte da cruz.",
     references:
-      "MT 27:4, E 26:56; IS 53:3; MT, 27:26; LC, 22:44; MT 27:46; IS 53:10; MT 20:28; FP 2:8; GL 3:13.",
+      "MT 27:4;MT 26:56; IS 53:3; MT 27:26; LC 22:44; MT 27:46; IS 53:10; MT 20:28; FP 2:8; GL 3:13",
   },
   question50: {
     id: 50,
     question: "Em que consistiu a humilhação de Cristo depois da sua morte?",
     answer:
       "A humilhação de Cristo depois da sua morte consistiu em ser ele sepultado, em continuar no estado dos mortos e sob o poder da morte até ao terceiro dia; o que, aliás, tem sido exprimido nestas palavras: Ele desceu ao inferno (Hades).",
-    references: "ICO 15:3-4; MT 12:40.",
+    references: "ICO 15:3-4; MT 12:40",
   },
   question51: {
     id: 51,
     question: "Qual é o estado de exaltação de Cristo?",
     answer:
       "O estado de exaltação de Cristo compreende a sua ressurreição, ascensão, o estar sentado à destra do Pai, e a sua segunda vinda para julgar o mundo.",
-    references: "ICO 15:4; LC 24:51; EF 4:10, E 1:20; A 1:11.",
+    references: "ICO 15:4; LC 24:51; EF 4:10; EF 1:20; At 1:11",
   },
   question52: {
     id: 52,
@@ -468,7 +468,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Cristo foi exaltado na sua ressurreição em não ter visto a corrupção na morte (pela qual não era possível que Ele fosse retido), e o mesmo corpo em que sofrera, com as suas propriedades essenciais (sem a mortalidade e outras enfermidades comuns a esta vida), tendo realmente unido à sua alma, ressurgiu dentre os mortos ao terceiro dia, pelo seu próprio poder, e por essa ressurreição declarou-se Filho de Deus, haver satisfeito a justiça divina, ter vencido a morte e aquele que tinha o poder sobre ela, e ser o Senhor dos vivos e dos mortos. Tudo isto fez Ele na sua capacidade representativa, corno Cabeça da sua Igreja, para a justificação e vivificação dela na graça, apoio contra os inimigos, e para lhe assegurar sua ressurreição dos mortos no último dia.",
     references:
-      "AT 2:24; SL 16:10; LC 24:39; RM 6:9; AP 1:18; JO 2:19, E 10:18; RM 1:4 E 8:33-34; HB 2:14; RM 14:9; ICO 15:21-22; EF 1:22-23; RM 4:25; EF 2:5-6; ICO 15:20, 25-25; ITS 4:14.",
+      "AT 2:24; SL 16:10; LC 24:39; RM 6:9; AP 1:18; JO 2:19; JO 10:18; RM 1:4; RM 8:33-34; HB 2:14; RM 14:9; ICO 15:21-22; EF 1:22-23; RM 4:25; EF 2:5-6; ICO 15:20; ICO 15:25-25; ITS 4:14",
   },
   question53: {
     id: 53,
@@ -476,7 +476,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Cristo foi exaltado na sua ascensão em ter, depois da sua ressurreição, aparecido muitas vezes aos seus apóstolos e conversado com eles, falando-lhes das coisas pertencentes ao seu reino, impondo-lhes. o dever de pregarem o Evangelho a todos os povos, e em subir aos mais altos céus, no fim de quarenta dias, levando a nossa natureza e, como nosso Cabeça triunfante sobre os inimigos, para ali, à destra de Deus, receber dons para os homens, elevar os nossos afetos e aparelhar-nos um lugar onde Ele está e estará até à sua segunda vinda no fim do mundo.",
     references:
-      "AT 1:2-3; MT 28:19; HB 6:20: EF 4:8, 10; AT 1:9; SL 68:18; CL 3:1, 2; JO 14:2-3; AT 3:21.",
+      "AT 1:2-3; MT 28:19; HB 6:20; EF 4:8; EF 4:10; AT 1:9; SL 68:18; CL 3:1-2; JO 14:2-3; AT 3:21",
   },
   question54: {
     id: 54,
@@ -484,7 +484,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Cristo é exaltado em sentar-se à destra de Deus, em ser Ele, como Deus-homem, elevado ao mais alto favor de Deus o Pai, tendo toda a plenitude de gozo, glória e poder sobre todas as coisas no céu e na terra; em reunir e defender a sua Igreja e subjugar os seus inimigos; em fornecer aos seus ministros e ao seu povo dons e graças e em fazer intercessão por eles.",
     references:
-      "FP 2:9; AT 2:28; JO 17:5; EF 1:22; MT 28:18; EF 4:11-12; RM 8:34.",
+      "FP 2:9; AT 2:28; JO 17:5; EF 1:22; MT 28:18; EF 4:11-12; RM 8:34",
   },
   question55: {
     id: 55,
@@ -492,7 +492,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Cristo faz a sua intercessão apresentando-se em nossa natureza continuamente perante o Pai no céu, pelo mérito da sua obediência e sacrifício cumpridos na terra, declarando ser a Sua vontade que seja aplicado a todos os crentes respondendo a todas acusações contra eles; adquirindo-lhes paz de consciência, não obstante as faltas diárias, dando-lhes acesso com confiança ao trono da graça e aceitação das suas pessoas e serviços.",
     references:
-      "HB 9:24 E 1:3; JO 17:9, 20,24; RM E 5:1-2, IJO 2:1-2; HB, 4:16; EF 11:6; IPE 2:5.",
+      "HB 9:24;HB 1:3; JO 17:9; JO 17:20; JO 17:24; RM 8:33-34; RM 5:1-2, IJO 2:1-2; HB 4:16; EF 11:6; IPE 2:5",
   },
   question56: {
     id: 56,
@@ -500,14 +500,14 @@ export const largerWestminsterCatechism = {
       "Como há de ser Cristo exaltado em vir segunda vez para julgar o mundo?",
     answer:
       "Cristo há de ser exaltado na sua vinda para julgar o mundo, em que, tendo sido injustamente julgado e condenado pelos homens maus, virá segunda vez no último dia com grande poder e na plena manifestação da sua glória e da do seu Pai, com todos os seus santos e anjos, com brado, com voz de arcanjo e com a trombeta de Deus, para julgar o mundo em retidão.",
-    references: "AT 3:14-15; MT 24:30; LC 9:26, ITS 4:16; AT 17:31.",
+    references: "AT 3:14-15; MT 24:30; LC 9:26, ITS 4:16; AT 17:31",
   },
   question57: {
     id: 57,
     question: "Quais são os benefícios que Cristo adquiriu pela sua mediação?",
     answer:
       "Cristo, pela sua mediação, adquiriu a redenção, juntamente com todos os mais benefícios do pacto da graça.",
-    references: "HB 9:12; ICO 1:20.",
+    references: "HB 9:12; ICO 1:20",
   },
   question58: {
     id: 58,
@@ -515,14 +515,14 @@ export const largerWestminsterCatechism = {
       "Como nos tornamos participantes dos benefícios que Cristo adquiriu?",
     answer:
       "Tornamo-nos participantes dos benefícios que Cristo adquiriu, pela aplicação deles, a nós, que é especialmente a obra do Espírito Santo.",
-    references: "JO 1:12; TT 3:5-6; JO 16:14-15.",
+    references: "JO 1:12; TT 3:5-6; JO 16:14-15",
   },
   question59: {
     id: 59,
     question: "Quem são feitos participantes da redenção mediante Cristo?",
     answer:
       "A redenção é aplicada e eficazmente comunicada a todos aqueles para quem Cristo a adquiriu, os quais são nesta vida habilitados pelo Espírito Santo a crer em Cristo conforme o Evangelho.",
-    references: "JO 6:37, 39 E 10:15-16; EF 2:8; JO 3:5.",
+    references: "JO 6:37;JO 6:39;JO 10:15-16; EF 2:8; JO 3:5",
   },
   question60: {
     id: 60,
@@ -531,7 +531,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Aqueles que nunca ouviram o Evangelho e não conhecem a Jesus Cristo, nem nEle crêem, não poderão se salvar, por mais diligentes que sejam em conformar as suas vidas à luz da natureza, ou às leis da religião que professam; nem há salvação em nenhum outro, senão em Cristo, que é o único Salvador do seu corpo, a Igreja.",
     references:
-      "RM 10:14; IITS 1:8-9; EF 2:12: JO 3:18, E 8:24; ICO 1:21; RM 3:20, E 2:14-15; JO 4:22: AT 4:12; EF 5:23.",
+      "RM 10:14; IITS 1:8-9; EF 2:12; JO 3:18; JO 8:24; ICO 1:21; RM 3:20; RM 2:14-15; JO 4:22; AT 4:12; EF 5:23",
   },
   question61: {
     id: 61,
@@ -539,14 +539,14 @@ export const largerWestminsterCatechism = {
       "Serão salvos todos os que ouvem o Evangelho e pertencem à Igreja?",
     answer:
       "Nem todos os que ouvem o Evangelho e pertencem à Igreja visível serão salvos, mas unicamente aqueles que são membros verdadeiros da Igreja invisível.",
-    references: "RM 9:6; MT 7:21.",
+    references: "RM 9:6; MT 7:21",
   },
   question62: {
     id: 62,
     question: "Que é a Igreja visível?",
     answer:
       "A Igreja visível é uma sociedade composta de todos quantos, em todos os tempos e lugares do mundo, professam a verdadeira religião, juntamente com seus filhos.",
-    references: "ICO 1:2; GN 17:7; AT 2:39; ICO 7:14.",
+    references: "ICO 1:2; GN 17:7; AT 2:39; ICO 7:14",
   },
   question63: {
     id: 63,
@@ -554,14 +554,14 @@ export const largerWestminsterCatechism = {
     answer:
       "A Igreja visível tem o privilégio de estar sob o cuidado e governo especial de Deus; de ser protegida e preservada em todos os tempos, não obstante a oposição de todos os inimigos; e de gozar da comunhão dos santos, dos meios ordinários de salvação e das ofertas da graça por Cristo a todos os membros dela, no ministério do Evangelho, testificando que todo o que crer nEle será salvo, não excluindo a ninguém que queira vir a Ele.",
     references:
-      "IS 4:5-6; MT 16:18; AT 2:42; SL 147:19-20; EF 4:11-12; RM 8:9; JO 6:37.",
+      "IS 4:5-6; MT 16:18; AT 2:42; SL 147:19-20; EF 4:11-12; RM 8:9; JO 6:37",
   },
   question64: {
     id: 64,
     question: "Que é a Igreja invisível?",
     answer:
       "A Igreja invisível é o número completo dos eleitos, que têm sido e que hão de ser reunidos em um corpo sob Cristo, a cabeça.",
-    references: "EF 1:10; 22-23; JO 11:52 E 10:16.",
+    references: "EF 1:10;EF 1:22-23; JO 11:52; JO 10:16",
   },
   question65: {
     id: 65,
@@ -569,14 +569,14 @@ export const largerWestminsterCatechism = {
       "Quais são os benefícios especiais de que gozam por Cristo os membros da Igreja invisível?",
     answer:
       "Os membros da igreja invisível gozam por Cristo da união e comunhão com Ele em graça e gloria.",
-    references: "JO 17:21, 24; IJO 1:3.",
+    references: "JO 17:21;JO 17:24; IJO 1:3",
   },
   question66: {
     id: 66,
     question: "Qual é a união que os eleitos têm com Cristo?",
     answer:
       "A união que os eleitos têm com Cristo é a obra da graça de Deus, pela qual são eles espiritual e misticamente, ainda que real e inseparavelmente, unidos a Cristo, seu Cabeça e esposo o que se efetua na sua vocação eficaz.",
-    references: "EF 2:5; ICO 6:17; JO 10:28; EL 5:23; ICO 1:9; IPE 5:10.",
+    references: "EF 2:5; ICO 6:17; JO 10:28; EL 5:23; ICO 1:9; IPE 5:10",
   },
   question67: {
     id: 67,
@@ -584,7 +584,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Vocação eficaz é a obra do poder e graça onipotente de Deus, pela qual (do seu livre e especial amor para com os eleitos e sem que nada neles o leve a Isto), Ele, no tempo aceitável, os convida e atrai a Jesus Cristo pela sua palavra e pelo seu Espírito, iluminando os seus entendimentos de urna maneira salvadora, renovando e poderosamente determinando as suas vontades, de modo que eles, embora em si mortos no pecado, tornam-se por isso prontos e capazes de livremente responder à sua chamada e de aceitar e abraçar a graça nela oferecida e comunicada.",
     references:
-      "EF 1:18-20; IITM 1:8-9; TT 3:4-5; RM 9:11; IICO 5:20; E 6:2, JO 6:44; IITS 2:13-14; AT 26:18; EZ 11:19; JO 6:45; FP 2:13.",
+      "EF 1:18-20; IITM 1:8-9; TT 3:4-5; RM 9:11; IICO 5:20; IICO 6:2, JO 6:44; IITS 2:13-14; AT 26:18; EZ 11:19; JO 6:45; FP 2:13",
   },
   question68: {
     id: 68,
@@ -592,7 +592,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Todos os eleitos, e somente eles, são eficazmente chamados; ainda que outros o possam ser, e multas vezes são exteriormente chamados pelo ministério da palavra e tenham algumas operações comuns do Espírito, contudo, pela sua negligência e desprezo voluntário da graça que é oferecida, são justamente deixados na sua incredulidade e nunca vêm sinceramente a Jesus Cristo.",
     references:
-      "AT 13:48, E 2:47; MT 22:14, E 13:20-21; SL 81:11-12; JO 12:38-40.",
+      "AT 13:48;AT 2:47; MT 22:14; MT 13:20-21; SL 81:11-12; JO 12:38-40",
   },
   question69: {
     id: 69,
@@ -600,7 +600,7 @@ export const largerWestminsterCatechism = {
       "Que é a comunhão em graça que os membros da Igreja invisível têm com Cristo?",
     answer:
       "A comunhão em graça que os membros da Igreja invisível têm com Cristo é a participação da virtude da sua mediação, na justificação, adoção, santificação e tudo o que nesta vida manifesta a união com Ele .",
-    references: "RM 8:30; EF 1:5; ICO 1:30.",
+    references: "RM 8:30; EF 1:5; ICO 1:30",
   },
   question70: {
     id: 70,
@@ -608,7 +608,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Justificação é um ato da livre graça de Deus para com os pecadores, no qual Ele os perdoa, aceita e considera justas as suas pessoas diante dEle, não por qualquer coisa neles operada, nem por eles feita mas unicamente pela perfeita obediência e plena satisfação de Cristo, a eles imputadas por Deus e recebidas só pela fé.",
     references:
-      "RM 3:22-25, E 4:5; IICO 5:19, 21; EF 1:6-7; RM, 3:24, 25, 28, E 5:17-19, E 4:6-8, E 5:1; AT 10:43.",
+      "RM 3:22-25;RM 4:5; IICO 5:19; IICO 5:21; EF 1:6-7; RM 3:24-25; RM 3:28; RM 5:17-19; RM 4:6-8; RM 5:1; AT 10:43",
   },
   question71: {
     id: 71,
@@ -616,7 +616,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Ainda que Cristo, pela sua obediência e morte, prestasse uma verdadeira satisfação real e plena à justiça de Deus a favor dos que são justificados, contudo a sua justificação é de livre graça para eles desde que Deus aceita a satisfação de um fiador, a qual podia ter exigido deles; e proveu este fiador, Seu único Filho, imputando-lhes a justiça deste e não exigindo deles nada para a sua justificação senão a fé, a qual também é dom de Deus.",
     references:
-      "MT 20:28; RM 5:8-10, 19; ITM 2:5-6; IS 53:5-6; HB 7:22; RM 8:32; IICO 5:21; RM 3:25; EF 2:8, E 1:7.",
+      "MT 20:28; RM 5:8-10; RM 5:19; ITM 2:5-6; IS 53:5-6; HB 7:22; RM 8:32; IICO 5:21; RM 3:25; EF 2:8; EF 1:7",
   },
   question72: {
     id: 72,
@@ -624,14 +624,14 @@ export const largerWestminsterCatechism = {
     answer:
       "A fé justificadora é a que salva. É operada .pelo Espírito e pela Palavra de Deus no coração do pecador que, sendo por eles convencido do seu pecado e miséria e da sua incapacidade, e das demais criaturas, para o restaurar desse estado, não somente aceita a verdade da promessa do Evangelho, mas recebe e confia em Cristo e na sua justiça, que lhe são oferecidos no Evangelho, para o perdão de pecados e para que a sua pessoa seja aceita e reputada justa diante de Deus para a salvação.",
     references:
-      "HB 10:39; ICO, 12:3, 9; RM 10:14, 17; JO 16:8-9; AT 16:30; EF 1:13; EF 10:43; FP 3.9; AT 15:11.",
+      "HB 10:39; ICO 12:3; ICO 12:9; RM 10:14; RM 10:17; JO 16:8-9; AT 16:30; EF 1:13; EF 10:43; FP 3.9; AT 15:11",
   },
   question73: {
     id: 73,
     question: "Como justifica a fé o pecador diante de Deus?",
     answer:
       "A fé justifica o pecador diante de Deus, não por causa das outras graças que sempre a acompanham, nem por causa das boas obras que são os frutos dela, nem como se fosse a graça da fé, ou qualquer ato dela, que lhe é imputado para a justificação; mas unicamente porque a fé é o instrumento pelo qual o pecador recebe e aplica a si Cristo e a sua justiça.",
-    references: "REL. GL 3:11; RM 3:28, E 4:5; JO 1:12; GL2:16.",
+    references: "GL 3:11; RM 3:28; RM 4:5; JO 1:12; GL 2:16",
   },
   question74: {
     id: 74,
@@ -639,7 +639,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Adoção é um ato da livre graça de Deus, em seu único Filho Jesus Cristo e por amor dEle, pelo qual todos os que são justificados são recebidos no número dos filhos de Deus, trazem o seu nome, recebem o Espírito do Filho, estão sob o seu cuidado e dispensações paternais, são admitidos a todas as liberdades e privilégios dos filhos de Deus, feitos herdeiros de todas as promessas e co-herdeiros com Cristo na glória.",
     references:
-      "IJO 3:1; EF 1:5; GL 4:4-5: JO 1:12; IICO 6:18; AP 3:12; GL 4:6; SL 103:13; MT 6:32; RM 8:17.",
+      "IJO 3:1; EF 1:5; GL 4:4-5: JO 1:12; IICO 6:18; AP 3:12; GL 4:6; SL 103:13; MT 6:32; RM 8:17",
   },
   question75: {
     id: 75,
@@ -647,7 +647,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Santificação é a obra da graça de Deus, pela qual os que Deus escolheu, antes da fundação do mundo, para serem santos, são nesta vida, pela poderosa operação do seu Espírito, aplicando a morte e a ressurreição de Cristo, renovados no homem interior, segundo a imagem de Deus, tendo os germes do arrependimento que conduz à vida e de todas as outras graças salvadoras implantadas em seus corações, e tendo essas graças de tal forma excitadas, aumentadas e fortalecidas, que eles morrem, cada vez mais para o pecado e ressuscitam para novidade de vida.",
     references:
-      "EF 1:4; ICO 6:11; IITS 2:13; RM 6:4~6; FP 3:10; EF 4:23-24; AT 11:18; IJO 3:9; JD 20; EF 3:16-19; CL 1:10-11; RM 6:4-6.",
+      "EF 1:4; ICO 6:11; IITS 2:13; RM 6:4-6; FP 3:10; EF 4:23-24; AT 11:18; IJO 3:9; JD 20; EF 3:16-19; CL 1:10-11; RM 6:4-6",
   },
   question76: {
     id: 76,
@@ -655,7 +655,7 @@ export const largerWestminsterCatechism = {
     answer:
       "0 arrependimento que conduz à vida é uma graça salvadora, operada no coração do pecador pelo Espírito e pela Palavra de Deus, pela qual, reconhecendo e sentindo, não somente o perigo, mas também a torpeza e odiosidade dos seus pecados, e apreendendo a misericórdia de Deus em Cristo para com os arrependidos, o pecador tanto se entristece pelos seus pecados e os aborrece, que se volta de todos eles para Deus, tencionando e esforçando-se a andar constantemente com Deus em todos os caminhos da nova obediência.",
     references:
-      "LC 24:47; IITM 2:25; JO 16:8-9; AT 11:18, 20:21; EZ 18:30, 32; LC 15:17-18; EZ 36-31. E 16:61, 63; SL 130:34; JL 2:12-13; JR 31:18-19; IICO 7:11; AT 26:18; 1 REIS 8:47-48; EZ 14:6; SL 119:59, 128; RM 6:17-18; LC 19:8.",
+      "LC 24:47; IITM 2:25; JO 16:8-9; AT 11:18; AT 20:21; EZ 18:30; EZ 18:32; LC 15:17-18; EZ 36:31; EZ 16:61; EZ 16:63; SL 130:34; JL 2:12-13; JR 31:18-19; IICO 7:11; AT 26:18; IRS 8:47-48; EZ 14:6; SL 119:59; SL 119:128; RM 6:17-18; LC 19:8",
   },
   question77: {
     id: 77,
@@ -663,14 +663,14 @@ export const largerWestminsterCatechism = {
     answer:
       "Ainda que a santificação seja inseparavelmente unida com a justificação, contudo elas diferem nisto: na justificação Deus imputa a justiça de Cristo, e na santificação o seu Espírito infunde a graça e dá forças para a exercer. Na justificação o pecado é perdoado, na santificação ele é subjugado; aquela liberta a todos os crentes igualmente da ira vingadora de Deus, e isto perfeitamente nesta vida, de modo que eles nunca mais caem na condenação; esta não é igual em todos os crentes e nesta vida não é perfeita em crente algum, mas vai crescendo para a perfeição.",
     references:
-      "ICO 6:11, E 1:30; RM 4:6, 8; EZ 36:27; RM 6:6, 14, E 8:1, 33-34; HB 5:12-14; IJO 1:8, 10; IICO 7:1: FP 3:12-14.",
+      "ICO 6:11;ICO 1:30; RM 4:6; RM 4:8; EZ 36:27; RM 6:6; RM 6:14; RM 8:1; RM 8:33-34; HB 5:12-14; IJO 1:8; IJO 1:10; IICO 7:1; FP 3:12-14",
   },
   question78: {
     id: 78,
     question: "Como é que a santificação dos crentes é imperfeita?",
     answer:
       "A santificação dos crentes é imperfeita por causa dos restos do pecado que permanecem neles, e das perpétuas concupiscência da carne contra o espirito; por isso são eles, muitas vezes arrastados pelas tentações e caem em muitos pecados, são impedidos em todos os seus serviços espirituais, e as suas melhores obras são imperfeitas e manchadas diante de Deus.",
-    references: "RM 7:18, 23; GL 5:17; HB 12:1; IS 64:6.",
+    references: "RM 7:18;RM 7:23; GL 5:17; HB 12:1; IS 64:6",
   },
   question79: {
     id: 79,
@@ -679,7 +679,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os crentes verdadeiros, em razão do amor imutável de Deus e do seu decreto e pacto de lhes dar a perseverança, da união inseparável entre eles e Cristo, da contínua intercessão de Cristo por eles e do Espírito e semente de Deus permanecendo neles, nunca poderão total e finalmente cair do estado de graça, mas são conservados pelo poder de Deus, mediante a fé para a salvação.",
     references:
-      "JR 31:3; JO 13:1; IITM 2:19; BEB. 13:2021; IISM 23:5; ICO 1:8-9; HB 7:25; LC 22:32; IJO 3:9, E 2:27; JR 32:40; JO 10:28; IPE 1:5; FP 1:6.",
+      "JR 31:3; JO 13:1; IITM 2:19; HB 13:20-21; IISM 23:5; ICO 1:8-9; HB 7:25; LC 22:32; IJO 3:9; IJO 2:27; JR 32:40; JO 10:28; IPE 1:5; FP 1:6",
   },
   question80: {
     id: 80,
@@ -688,7 +688,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Aqueles que verdadeiramente crêem em Cristo, e se esforçam por andar perante Ele com toda a boa consciência, podem, sem uma revelação extraordinária, ter a certeza infalível de que estão no estado de graça, e de que neste estado perseverarão até a salvação, pela fé baseada na verdade das promessas de Deus e pelo Espírito que os habilita a discernir em si aquelas graças às quais são feitas as promessas da vida, testificando aos seus espíritos que eles são filhos de Deus.",
     references:
-      "IJO 2:3; ICO 2:12; IJO 4:13, 16 E 3:14,. 18-21, 24; HB 6:11-12; RM 8:16; IJO 5:13; IITM 1: 12.",
+      "IJO 2:3; ICO 2:12; IJO 4:13; IJO 4:16; IJO 3:14; IJO 3:18-21; IJO 3:24; HB 6:11-12; RM 8:16; IJO 5:13; IITM 1:12",
   },
   question81: {
     id: 81,
@@ -697,7 +697,7 @@ export const largerWestminsterCatechism = {
     answer:
       "A . certeza da graça e salvação, não sendo da essência da fé, crentes verdadeiros podem esperar muito tempo antes do consegui-la; e depois de gozar dela podem sentir enfraquecida e interrompida essa certeza, por muitas perturbações, Pecados, tentações e deserções; contudo nunca são deixados sem uma tal presença e apoio do Espírito de Deus, que os guarda de caírem em desespero absoluto.",
     references:
-      "IIPE 1:10; IJO 5:13; SL 77:7-9, E 22:1 E 31:22, E 73:13-15, 23; IJO 3:9; IS 54:7-11,",
+      "IIPE 1:10; IJO 5:13; SL 77:7-9; SL 22:1; SL 31:22; SL 73:13-15; SL 73:23; IJO 3:9; IS 54:7-11",
   },
   question82: {
     id: 82,
@@ -705,7 +705,7 @@ export const largerWestminsterCatechism = {
       "Em que tempo se realiza a comunhão em glória que os membros da Igreja invisível têm com Cristo?",
     answer:
       "A comunhão em glória que os membros da Igreja Invisível têm com Cristo realiza-se nesta vida e imediatamente depois da morte, e é finalmente aperfeiçoada na ressurreição e no dia do juízo.",
-    references: "IICO 3:18; CL 3:3; LC 23:43; IICO 5:8; ITS 4:17.",
+    references: "IICO 3:18; CL 3:3; LC 23:43; IICO 5:8; ITS 4:17",
   },
   question83: {
     id: 83,
@@ -714,14 +714,14 @@ export const largerWestminsterCatechism = {
     answer:
       "Aos membros da Igreja Invisível são comunicadas, nesta vida, as primícias da glória com Cristo visto serem membros dEle, a Cabeça, e, estando nEle têm, parte naquela glória que na sua plenitude lhe pertence; e como penhor dela sentem o amor de Deus, a paz de consciência, o gozo do Espírito Santo e a esperança da glória. Do mesmo modo, o sentimento ,da ira vingadora de Deus, o terror da consciência e uma terrível expectação do juízo, são para os ímpios o princípio dos tormentos, que eles hão de sofrer depois da morte.",
     references:
-      "EF 2:5-6; RM 5:5; IICO 1:22; RM 5:1-2 E 14:17; GN 4:13; MT 27:4; HB 10:27; MC 9:48.",
+      "EF 2:5-6; RM 5:5; IICO 1:22; RM 5:1-2; RM 14:17; GN 4:13; MT 27:4; HB 10:27; MC 9:48",
   },
   question84: {
     id: 84,
     question: "Morrerão todos os homens?",
     answer:
       "A morte, sendo imposta como o estipêndio do pecado, está decretada a todos que uma vez morram, pois todos são pecadores.",
-    references: "RM 6:23; HB 9:27; RM 5:12.",
+    references: "RM 6:23; HB 9:27; RM 5:12",
   },
   question85: {
     id: 85,
@@ -730,7 +730,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os justos no último dia serão libertados da própria morte, e no ato de morrer estarão isentos do aguilhão e maldição dela, de modo que, embora morram, contudo, vem isto do amor de Deus, Para os livrar perfeitamente do pecado e miséria e os tornar capazes de maior comunhão com Cristo na glória, na qual eles imediatamente entram.",
     references:
-      "ICO 15:26, 55-57; RM 14:8; SL 116:15; AP 14.:13; LC 16:25, E 23:45; FP 1:23.",
+      "ICO 15:26;ICO 15:55-57; RM 14:8; SL 116:15; AP 14:13; LC 16:25; LC 23:45; FP 1:23",
   },
   question86: {
     id: 86,
@@ -739,7 +739,7 @@ export const largerWestminsterCatechism = {
     answer:
       "A comunhão em glória com Cristo de que os membros da Igreja invisível gozam imediatamente depois da morte, consiste em serem aperfeiçoadas em santidade as suas almas e recebidas nos mais altos céus onde vêem a face de Deus em luz e glória, esperando a plena redenção de seus corpos, os quais até na morte continuam unidos a Cristo, e descansam nas suas sepulturas, como em seus leitos, até que no último dia sejam unidos novamente às suas almas. Quanto às almas dos ímpios, são imediatamente depois da sua morte lançadas no inferno onde permanecem em tormentos e trevas exteriores; e os seus corpos ficam guardados nas suas sepulturas, como em cárceres, até à ressurreição e juízo do grande dia.",
     references:
-      "AT 7:55, 59; AP 7:13;14, E 19:8; IICO5:8; FP 1:23: AT 3:21; EF 4:20; AP 7:15; ICO 13:12; RM 8:11, 23; ITS 4:6; 1 REIS 2:10; JO11:11; I TESS, 4:14; LC 16:23-24; JD 7.",
+      "AT 7:55;AT 7:59; AP 7:13-14; AP 19:8; IICO 5:8; FP 1:23: AT 3:21; EF 4:20; AP 7:15; ICO 13:12; RM 8:11; RM 8:23; ITS 4:6; IRS 2:10; JO 11:11; ITS 4:14; LC 16:23-24; JD 7",
   },
   question87: {
     id: 87,
@@ -747,21 +747,22 @@ export const largerWestminsterCatechism = {
     answer:
       "Devemos crer que no último dia haverá uma ressurreição geral dos mortos, dos justos e dos injustos; então os que se acharem vivos serão mudados em um momento, e os mesmos corpos dos mortos, que têm jazido na sepultura, estando então novamente unidos às suas almas para sempre, serão ressuscitados pelo poder de Cristo. Os corpos dos justos, pelo Espírito e em virtude da ressurreição de Cristo, como cabeça deles, serão ressuscitados em poder, espirituais e incorruptíveis, e feitos semelhantes ao corpo glorioso dEle; e os corpos dos ímpios serão por Ele ressuscitados para vergonha, como por um juiz ofendido.",
     references:
-      "AT 24:15; ICO 15:51-53: ITS 4:15-17; ICO 15:21-23, 42-44; FP 3:21; JO 5:28-29; DN 12:2.",
+      "AT 24:15; ICO 15:51-53; ITS 4:15-17; ICO 15:21-23; ICO 15:42-44; FP 3:21; JO 5:28-29; DN 12:2",
   },
   question88: {
     id: 88,
     question: "Que se seguirá imediatamente depois da ressurreição?",
     answer:
       "Imediatamente depois da ressurreição se seguirá o juízo geral e final dos anjos e dos homens, o dia e a hora do qual homem nenhum sabe, para que todos vigiem, orem e estejam sempre prontos para a vinda do Senhor.",
-    references: "MT 16:27; IIPE 2:4; IICO 5:10; MT 36, 42, 44.",
+    references: "MT 16:27; IIPE 2:4; IICO 5:10; MT 24:36; MT 24:42; MT 24:44",
   },
   question89: {
     id: 89,
     question: "Que sucederá aos ímpios no dia do juízo?",
     answer:
       "No dia do juízo os ímpios serão postos à mão esquerda de Cristo, e sob clara evidência e plena convicção das suas próprias consciências terão pronunciada contra si a terrível, porem justa, sentença de condenação; então serão excluídos da presença favorável de Deus e da gloriosa comunhão com Cristo, com e seus santos, e com todos os santos anjos e lançados no inferno, para serem punidos com tormentos indizíveis, do corpo e da alma, com o diabo e seus anjos para sempre.",
-    references: "MT 25:23, E 22:12; LC 19:22; MT 25:41-42, 46; IITS 1:8-9",
+    references:
+      "MT 25:23;MT 22:12; LC 19:22; MT 25:41-42; MT 25:46; IITS 1:8-9",
   },
   question90: {
     id: 90,
@@ -769,14 +770,14 @@ export const largerWestminsterCatechism = {
     answer:
       "No dia do juízo os justos, sendo arrebatados para encontrar a Cristo nas nuvens, serão postas à sua destra e ali, abertamente, reconhecidos e justificados, se unirão com Ele para julgar os réprobos, anjos e homens; e serão recebidos no céu, onde serão plenamente e para sempre libertados de todo o pecado e miséria, cheios de gozos inefáveis, feitos perfeitamente santos e felizes, no corpo e na alma, na companhia de inumeráveis santos e anjos, mas especialmente na imediata visão e fruição de Deus o Pai, de nosso Senhor Jesus Cristo e do Espírito Santo, por toda a eternidade. É esta a perfeita e plena comunhão de que os membros da Igreja invisível gozarão com Cristo em glória, na ressurreição e no dia do juízo.",
     references:
-      "I TESS, 4:17; MT 25:33, E 10:32; ICO 6:2-3; MT 25:34, 46; EF 5:27; SL 16:11; HB 12:22-23; IJO 3:2; ICO, 13:12; ITS 4:17-18.",
+      "ITS 4:17; MT 25:33; MT 10:32; ICO 6:2-3; MT 25:34; MT 25:46; EF 5:27; SL 16:11; HB 12:22-23; IJO 3:2; ICO 13:12; ITS 4:17-18",
   },
   question91: {
     id: 91,
     question: "Qual é o dever que Deus requer do homem?",
     answer:
       "O dever que Deus requer do homem é obediência à sua vontade revelada.",
-    references: "DT 29:29; MQ 6:8; ISM 15:22.",
+    references: "DT 29:29; MQ 6:8; ISM 15:22",
   },
   question92: {
     id: 92,
@@ -784,7 +785,7 @@ export const largerWestminsterCatechism = {
       "Que revelou Deus primeiramente ao homem como regra da sua obediência?",
     answer:
       "A regra de obediência revelada a Adão no estado de inocência, e a todo o gênero humano nele, além do mandamento especial de não comer do fruto da árvore da ciência do bem e do mal, foi a lei moral.",
-    references: "GN 1:27; RM 10:5, E 2:14:15; GN 2:17",
+    references: "GN 1:27; RM 10:5; RM 2:14-15; GN 2:17",
   },
   question93: {
     id: 93,
@@ -792,14 +793,14 @@ export const largerWestminsterCatechism = {
     answer:
       "A lei moral é a declaração da vontade de Deus, feita ao gênero humano, dirigindo e obrigando todas as pessoas à conformidade e obediência perfeita e perpétua a ela - nos apetites e disposições do homem inteiro, alma e corpo, e no cumprimento de todos aqueles deveres de santidade e retidão que se devem a Deus e ao homem, prometendo vida pela obediência e ameaçando com a morte a violação dela.",
     references:
-      "DT 5:1, 31, 33; LC 10:26-28; GL 3:10; ITS 5:28; LC 1:75; AT 24,:16; RM 10:15.",
+      "DT 5:1;DT 5:31;DT 5:33; LC 10:26-28; GL 3:10; ITS 5:28; LC 1:75; AT 24:16; RM 10:15",
   },
   question94: {
     id: 94,
     question: "É a lei moral de alguma utilidade ao homem depois da queda?",
     answer:
       "Embora nenhum homem, depois da queda, possa alcançar a retidão e a vida pela lei moral, todavia ela é de grande utilidade a todos os homens, tendo uma utilidade especial aos não regenerados e outra aos regenerados.",
-    references: "RM 8:3; GL 2:16; ITM 1:8.",
+    references: "RM 8:3; GL 2:16; ITM 1:8",
   },
   question95: {
     id: 95,
@@ -807,7 +808,7 @@ export const largerWestminsterCatechism = {
     answer:
       "A lei moral é de utilidade a todos os homens, para os instruir sobre a natureza e vontade de Deus e sobre os seus deveres para com Ele, obrigando-os, a andar conforme a essa vontade; para os convencer de que são incapazes de a guardar e do estado poluto e pecaminoso da sua natureza, corações e vidas; para os humilhar, fazendo-os sentir o seu pecado e miséria, e assim ajudando-os a ver melhor como precisam de Cristo e da perfeição da sua obediência.",
     references:
-      "LV 20:7-8; RM 7:12; TG 2:10; MQ 6:8; SL 19:11-12; RM 3:9, 20, 23 E 7:7, 9, 13; GL 3:21-22; RM 10:4.",
+      "LV 20:7-8; RM 7:12; TG 2:10; MQ 6:8; SL 19:11-12; RM 3:9; RM 3:20; RM 3:23; RM 7:7; RM 7:9; RM 7:13; GL 3:21-22; RM 10:4",
   },
   question96: {
     id: 96,
@@ -815,7 +816,7 @@ export const largerWestminsterCatechism = {
       "De que utilidade especial é a lei moral, aos homens não regenerados?",
     answer:
       "A lei moral é de utilidade aos homens não regenerados para despertar as suas consciências a fim de fugirem da ira vindoura e forçá-los a recorrer a Cristo; ou para deixá-los inescusáveis e sob a maldição do pecado, se continuarem nesse estado e caminho.",
-    references: "ITM 1:9-10; GL 3:10, 24; 1:20,",
+    references: "ITM 1:9-10; GL 3:10; GL 3:24; GL 1:20",
   },
   question97: {
     id: 97,
@@ -823,14 +824,14 @@ export const largerWestminsterCatechism = {
     answer:
       "Embora os que são regenerados e crentes em Cristo sejam libertados da lei moral, como pacto de obras, de modo que nem. são justificado, nem condenados por ela; contudo, além da utilidade geral desta lei comum a eles e a todos os homens é ela de utilidade especial para lhes mostrar quanto devem a Cristo por cumpri-la e sofrer a maldição dela, em lugar e para bem deles, e assim provocá-los a uma gratidão maior e a manifestar esta gratidão por maior cuidado da sua parte em conformarem-se a esta lei, como regra de sua obediência.",
     references:
-      "RM 6:14 E 7:4, 6; GL 4:4-5; RM 3:20 E .8:1, 34 E 7:24-25; GL 3:13-14; RM 8:3-4; IICO 5:21; CL 1:12-14; RM 7:22 E 12:2; TT 2:11-14.",
+      "RM 6:14;RM 7:4;RM 7:6; GL 4:4-5; RM 3:20; RM 8:1; RM 8:34; RM 7:24-25; GL 3:13-14; RM 8:3-4; IICO 5:21; CL 1:12-14; RM 7:22; RM 12:2; TT 2:11-14",
   },
   question98: {
     id: 98,
     question: "Onde se acha a lei moral resumidamente compreendida?",
     answer:
       "A lei moral acha-se resumidamente compreendida nos dez mandamentos, que foram dados pela voz de Deus no monte Sinal e por Ele escritos em duas tábuas de pedra, e estão registrados no capítulo vigésimo do Êxodo. Os quatro primeiros mandamentos contêm os nossos deveres para com Deus e os outros seis os nossos deveres para com o homem.",
-    references: "DT 10,4; MT 22:37-40.",
+    references: "DT 10:4; MT 22:37-40",
   },
   question99: {
     id: 99,
@@ -839,14 +840,14 @@ export const largerWestminsterCatechism = {
     answer:
       "Para a boa compreensão dos dez mandamentos as seguintes regras devem ser observadas: 1a. Que a lei é perfeita e obriga a todos à plena conformidade do homem inteiro à retidão dela e à inteira obediência para sempre; de modo que requer a sua perfeição em todos os deveres e proíbe o mínimo grau de todo o pecado. 2a. Que a lei é espiritual, e assim se estende tanto ao entendimento, à vontade, aos afetos e a, todas as outras potências da alma - como às palavras, às obras e ao procedimento. 3a. Que uma e a mesma coisa, em respeitos diversos, é exigida ou proibida em diversos mandamentos. 4a. Que onde um dever é prescrito, o pecado contrário é proibido; e onde um pecado é proibido, o dever contrário é prescrito; assim como onde uma Promessa está anexa, a ameaça contrária está inclusa; e onde uma ameaça está anexa a promessa contrária está inclusa. 5a. Que o que Deus proíbe não se há de fazer em tempo algum, e o que Ele manda é sempre um dever; mas nem todo o dever especial é para se cumprir em todos os tempos. 6a. Que, sob um pecado ou um dever, todos os da mesma classe são proibidos ou mandados, juntamente com todas as coisas, meios, ocasiões e aparências deles e provocações a eles. 7a. Que aquilo que nos é proibido ou mandado temos a obrigação, segundo o lugar que ocupamos, de procurar que seja evitado ou cumprido por outros segundo o dever das suas posições. 8a. Que, quanto ao que é mandado a outros, somos obrigados, segundo a nossa posição e vocação, a ajudá-los, e a cuidar em não participar com outros do que lhe é proibido.",
     references:
-      "SL 19:7, TG 2:10; MT 5:21-22. RM 7:14; DT 6:5; MT 22:37-39 E 12:36-37. CL 3:5; ITM 6:10; PV 1:19; AMÓS 8:5. IS 58:13; MT 15:4-6; EF 4:28; EX 20:12, PV 30:17; JR 18:7-8; EX 20:7. RM 3:8; DT 4:9; MIAT 12:7; MC 14:7. HB 10:24-25; ITS 5:22; GL 5:26; CL 3:21; JD 23. EX 20; LV 19:17; GN 18:19; DT 6:6:7; JS 24:15. IICO 1:24; ITM 5:221; EF 5:7.",
+      "SL 19:7, TG 2:10; MT 5:21-22; RM 7:14; DT 6:5; MT 22:37-39; MT 12:36-37; CL 3:5; ITM 6:10; PV 1:19; AM 8:5; IS 58:13; MT 15:4-6; EF 4:28; EX 20:12; PV 30:17; JR 18:7-8; EX 20:7; RM 3:8; DT 4:9; MT 12:7; MC 14:7. HB 10:24-25; ITS 5:22; GL 5:26; CL 3:21; JD 23; EX 20; LV 19:17; GN 18:19; DT 6:6-7; JS 24:15. IICO 1:24; ITM 5:221; EF 5:7",
   },
   question100: {
     id: 100,
     question: "Que pontos devemos considerar nos dez mandamentos?",
     answer:
       "Devemos considerar nos dez mandamentos - o prefácio, o conteúdo dos mesmos mandamentos e as divinas razões anexas a alguns deles para lhes dar maior força.",
-    references: "SEM REFERÊNCIAS",
+    references: "",
   },
   question101: {
     id: 101,
@@ -854,7 +855,7 @@ export const largerWestminsterCatechism = {
     answer:
       'O prefácio dos dez mandamentos é: "Eu sou o Senhor teu Deus, que te tirei da terra do Egito, da casa da servidão". Nestas palavras Deus manifesta a sua soberania como JEOVA (Senhor), o eterno, imutável e todo-poderoso Deus, existindo em si e por si, cumprindo todas as suas palavras e obras, manifestando que é um Deus em pacto, com todo o seu povo e com o Israel antigo; que assim como tirou a estes da servidão do Egito, assim nos libertou do cativeiro espiritual, e que, portanto, é nosso dever aceitar a Ele só por nosso Deus e guardar todos os seus mandamentos.',
     references:
-      "EX 20:2; IS 44:6; EX 3:14 E 6:13; AT 17:24, 28; GN 17:7; RM 3:29; LC 1:74-75 IPE 1:15-18.",
+      "EX 20:2; IS 44:6; EX 3:14; EX 6:13; AT 17:24; AT 17:28; GN 17:7; RM 3:29; LC 1:74-75; IPE 1:15-18",
   },
   question102: {
     id: 102,
@@ -862,7 +863,7 @@ export const largerWestminsterCatechism = {
       "Qual é o resumo dos quatro mandamentos que contêm o nosso dever para com Deus?",
     answer:
       "O resumo dos quatro mandamentos que contêm o nosso dever para com Deus é amar ao Senhor nosso Deus de todo o nosso coração, de toda a nossa alma, de todas as nossas forças e de todo o nosso entendimento.",
-    references: "LC 10:27.",
+    references: "LC 10:27",
   },
   question103: {
     id: 103,
@@ -876,7 +877,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os deveres exigidos no primeiro mandamento são - o conhecer e reconhecer Deus como único verdadeiro Deus e nosso Deus, e adorá-lo e glorificá-lo como tal; pensar e meditar nÊle, lembrar-nos dÊle, altamente apreciá-lo, honrá-lo, adorá-lo, escolhê-lo, amá-lo, desejá-lo e temê-lo; crêr nÊle, confiando, esperando, deleitando-nos e regozijando-nos nÊle; ter zêlo por Ele; invocá-lo, dando-Lhe todo louvor e agradecimentos, prestando-Lhe toda a obediência e submissão do homem todo; ter cuidado de o agradar em tudo, e tristeza quando Ele é ofendido em qualquer coisa; e andar humildemente com Ele.",
     references:
-      "ICR 28:9; DT 26:17; IS 43:10; SL 95:6-7; MT 4:10; SL 29:2; MT 3:16; SL 63:6; EC 12:1; SL 71:19; MT 1:6; IS 45:23; JS 24:22; DT 6:5; SL 73:25; IS 8:13; EX 14:31; IS 26:4; SL 130:7; E 37:4; E 12:11; RM 12:11; FP 4:6; JR 7:23; TG 4:7; IJO 3:22; SL 119:136; JR 31:18; MQ 6:8.",
+      "ICR 28:9; DT 26:17; IS 43:10; SL 95:6-7; MT 4:10; SL 29:2; MT 3:16; SL 63:6; EC 12:1; SL 71:19; MT 1:6; IS 45:23; JS 24:22; DT 6:5; SL 73:25; IS 8:13; EX 14:31; IS 26:4; SL 130:7; SL 37:4; SL 12:11; RM 12:11; FP 4:6; JR 7:23; TG 4:7; IJO 3:22; SL 119:136; JR 31:18; MQ 6:8",
   },
   question105: {
     id: 105,
@@ -884,7 +885,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os pecados proibidos no primeiro mandamento são - o ateísmo, negar ou não ter um Deus; a idolatria, ter ou adorar mais do que um Deus, ou qualquer outro juntamente com o verdadeiro Deus ou em lugar dÊle; o não tê-lo e não confessá-lo como Deus, e nosso Deus; a omissão ou negligência de qualquer coisa devida a Ele, exigida neste mandamento; a ignorância, o esquecimento, as más concepções, as falsas opiniões, os pensamentos indignos e ímpios quanto a Ele; o pesquisar audaz e curioso dos seus segredos; toda a impiedade, todo o ódio de Deus, egoísmo, espírito interesseiro e tôda a aplicação desordenada e imoderada do nosso entendimento, vontade ou afetos e outras coisas e o desvio destes de Deus, em tudo ou em parte; a vã credulidade, a incredulidade, a heresia, as crenças errôneas, a desconfiança, o desespêro; a resistência obstinada e a insensibilidade sob os juízos de Deus; a dureza de coração; a soberba; a presunção; a segurança carnal; o tentar a Deus; o uso de meios ilícitos, a confiança nos lícitos; os deleites e gozos carnais; um zêlo corrupto, cego e indiscreto; a tibieza e o amortecimento nas coisas de Deus; o alienar-nos e apostatar-nos de Deus; o orar ou prestar qualquer culto religioso a santos, anjos ou qualquer outra criatura; todos os pactos com o diabo; o consultar com ele e dar ouvidos às suas sugestões; o fazer dos homes senhores da nossa fé e consciência; o fazer pouco caso e desprezar a Deus e aos mandamentos; o resistir e entristecer o seu Espírito; o descontentamento e impaciência com as suas dispensações; acusá-lo estultamente dos males com que Ele nos aflige, e o atribuir o louvor de qualquer bem que somos, temos ou podemos fazer à fortuna, aos ídolos, a nós mesmos, ou a qualquer outra criatura.",
     references:
-      "SL 14:1; EF 2:12; JR 2:27-28; ITS 1:4; SL 81:11; IS 43:22-23; JR 4:22; OS 4:1-6; JR 2:32; AT17:23, 29; IS 40:18; SL 50:21; DT 29:29; TT 1:16; HB12:16; RM 1:30; IITM 3:2; FP 2:21; IJO 2:15-16; E 4:1; HB 3:12; GL 5:20; AT 26:9; SL 78:22; GN 4:13; JR 5:3; IS 43:25; RM 2:5; JR 13:15; SL 19:13; SF 1:12; MT 4:7; RM 3:8; JR 17:5; IITM 3:4; GL 4:17; AP 3:1 E 3:16; EZ 14:5; IS 1:4-5; OZE. 4:12; AP 19:10; CL 2:18; RM 1:25; LV 20:6; AT 5:3; II CO. 1:24; DT 32:15; PV 13:13; AT 7:51; EF 4:30; SL 73:2-3; JOH 1:22; LC 12:19; DN 5:23; DT 8:17; HB 1:16.",
+      "SL 14:1; EF 2:12; JR 2:27-28; ITS 1:4; SL 81:11; IS 43:22-23; JR 4:22; OS 4:1-6; JR 2:32; AT 17:23; AT 17:29; IS 40:18; SL 50:21; DT 29:29; TT 1:16; HB 12:16; RM 1:30; IITM 3:2; FP 2:21; IJO 2:15-16; IJO 4:1; HB 3:12; GL 5:20; AT 26:9; SL 78:22; GN 4:13; JR 5:3; IS 43:25; RM 2:5; JR 13:15; SL 19:13; SF 1:12; MT 4:7; RM 3:8; JR 17:5; IITM 3:4; GL 4:17; AP 3:1; AP 3:16; EZ 14:5; IS 1:4-5; Os 4:12; AP 19:10; CL 2:18; RM 1:25; LV 20:6; AT 5:3; IICO 1:24; DT 32:15; PV 13:13; AT 7:51; EF 4:30; SL 73:2-3; JOH 1:22; LC 12:19; DN 5:23; DT 8:17; HB 1:16",
   },
   question106: {
     id: 106,
@@ -899,7 +900,7 @@ export const largerWestminsterCatechism = {
     question: "Qual é o segundo mandamento?",
     answer:
       'O segundo mandamento é: "Não farás para tí imagem de escultura, nem figura alguma de tudo o que há em cima no céu, e do que há embaixo na terra; nem de coisas que haja debaixo da terra. Não as adorarás nem lhe dará culto, porque eu sou o Senhor teu Deus, o Deus forte e zeloso, que vinga a iniquidade dos pais nos filhos até a terceira e quarta geração daqueles que me aborrecem e que usa de misericórdia até mil gerações com a queles que me amam e que guardam os meus preceitos."',
-    references: "EX 20:4-6.",
+    references: "EX 20:4-6",
   },
   question108: {
     id: 108,
@@ -907,7 +908,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os deveres exigidos no segundo mandamento são - o receber, observar e guardar, puros e inalterados, todo o culto e todas as ordenaças religiosas que Deus instituiu na sua Palavra, especialmente a oração e ações de graças em nome de Cristo; a leitura, a prédica, e o ouvir da Palavra; a administração e a recepção dos sacramentos; o governo e a disciplina da igreja; o ministério e a sua manutenção; o jejum religioso, o jurar em nome de Deus e o fazer os votos a Ele; bem como o desaprovar, detestar e opor-nos a todo o culto falso, e, segundo a posição e vocação de um, o remover tal culto e todos os símbolos de idolatria.",
     references:
-      "DT 32:43; MT 28:20; ITM 6:13-14; FP 4:6; EF 5:20; DT 17:18-19; AT 15:21; IITM 4:2; AT 10:33; MT 28:19 E 16:18 E 18:15-17; I CO 12:28; EF 4:11-12; ITM 5-17-18; JL 2:12; I CO 7:5; DT 6:13; SL 76:11; AT 17:16-17; SL 16:4; DT 7:5; IS 30:22.",
+      "DT 32:43; MT 28:20; ITM 6:13-14; FP 4:6; EF 5:20; DT 17:18-19; AT 15:21; IITM 4:2; AT 10:33; MT 28:19; MT 16:18; MT 18:15-17; ICO 12:28; EF 4:11-12; ITM 5:17-18; JL 2:12; ICO 7:5; DT 6:13; SL 76:11; AT 17:16-17; SL 16:4; DT 7:5; IS 30:22",
   },
   question109: {
     id: 109,
@@ -915,7 +916,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os pecados proibinos no segundo mandamento são - o estabelecer, aconselhar, mandar, usar e aprovar de qualquer maneira qualquer culto religioso não instituído por Deus; o fazer qualquer imagem de Deus, de todas e qualquer das três pessoas, quer interiormente no espírito, quer exteriormente em qualquer forma de imagem ou semelhança de criatura alguma; toda a adoração dela, ou de Deus nela ou por meio dela; o fazer qualquer qualquer imagem de deuses imaginários e todo o culto ou serviço a eles pertecentes; todas as invensões superticiosas, corrompendo oculto de Deus, acrescentando ou tirando dele, quer sejam inventadas e adotadas por nós, quer recebidas por tradição de outros, embora sob o título de antiguidade, de costume, de devoção, de boa intenção, ou por qualquer outro pretexto; a simonia, o sacrilégio; toda a negligência, desprezo, impedimento e oposiçào ao culto e ordenanças que Deus instituiu.",
     references:
-      "NM 15:39; DT 13:6-8; OZE. 5:11; MQ 6:16; I REIS 11:33 E 12:23; DT 12:30-32 E 4:15-16; AT 17:29; RM 1:21-23,25; GL 4:8; EX 32:5,8; I REIS 18:26-28; AT 17:22; CL 2 :21-23; ML 1:7-8,14; DT 4:2; SL 104:39; MT 15:9; IPE 1:8; JR 44:17; IS 55:3-5; GL 1:13-14; ISM 13:12 E 15:21; AT 8:18-19; RM 2:22; ML 3:8 E 1:7,13; MT 22:5 E 23:13; AT 13:45.",
+      "NM 15:39; DT 13:6-8; OS 5:11; MQ 6:16; IRS 11:33; IRS 12:23; DT 12:30-32; DT 4:15-16; AT 17:29; RM 1:21-23; RM 1:25; GL 4:8; EX 32:5; EX 32:8; IrS 18:26-28; AT 17:22; CL 2:21-23; ML 1:7-8; ML 1:14; DT 4:2; SL 104:39; MT 15:9; IPE 1:8; JR 44:17; IS 55:3-5; GL 1:13-14; ISM 13:12; ISM 15:21; AT 8:18-19; RM 2:22; ML 3:8; ML 1:7; ML 1:13; MT 22:5; MT 23:13; AT 13:45",
   },
   question110: {
     id: 110,
@@ -924,7 +925,7 @@ export const largerWestminsterCatechism = {
     answer:
       'As razões anexas para o segundo mandamento, para lhe dar maior força, contidas nestas palavras: "Porque eu sou o Senhor teu Deus, o Deus forte e zelozo, que vinga a iniquidade dos pais nos filhos até a terceira e quarta geração daqueles que me aborrecem e que usa de misericórdia até mil gerações com a queles que me amam e que guardam os meus preceitos", são, além da soberania de Deus sobre nós e o seu direito de propriedade em nós, o seu zelo fervoroso pelo seu culto e indignação vingadora contra todo o culto falso, considerando-o uma apostasia religiosa, tendo por inimigos os violadores desse mandamento e ameaçando puni-los até diversas gerações e tendo por amigos os que guardam os seus mandamentos, prometendo-lhes a misericórdia até muitas gerações.',
     references:
-      "EX 20:5-6; SL 14:11; AP 15:3-4; EX 34:13-14; I CO. 10-20-22; OZE 2:2-4; DT 5:29.",
+      "EX 20:5-6; SL 14:11; AP 15:3-4; EX 34:13-14; ICO 10:20-22; OS 2:2-4; DT 5:29",
   },
   question111: {
     id: 111,
@@ -939,7 +940,7 @@ export const largerWestminsterCatechism = {
     answer:
       "No terceiro mandamento exige-se que o Nome de Deus, os seus títulos, atributos, ordenanças, a Palavra, os sacramentos, a oração, os juramentos, os votos, as sortes, suas obras e tudo quanto por meio do quê Deus se faz conhecido, sejam santa e reverentemente usados em nossos pensamentos, meditações, palavras e escritos, por uma afirmação santa de fé e um comportamento conveniente, para a glória de Deus e para o nosso próprio bem e o de nosso próximo.",
     references:
-      "DT28:58;MQ 4:5; JR 4:2;32:39. LEIA-SE TODO O SL 8.SL 29:2;76:11;102:18;105:2,5;107:21,22;138:2; MT 1:14;3:16;6:9;  I TM 2:8; AT 1:24,26; I CO 10:31;11:28,29; FP 1:27;CL 3:17; IPE 2:12;3:15; AP 15:3,4.",
+      "DT 28:58;MQ 4:5; JR 4:2; JR 32:39;SL 8;SL 29:2;SL 76:11;SL 102:18;SL 105:2;SL 105:5;SL 107:21;SL 107:22;SL 138:2; MT 1:14; MT 3:16; MT 6:9;  ITM 2:8; AT 1:24; AT 1:26; ICO 10:31; ICO 11:28; ICO 11:29; FP 1:27;CL 3:17; IPE 2:12; IPE 3:15; AP 15:3; AP 15:4",
   },
   question113: {
     id: 113,
@@ -947,21 +948,22 @@ export const largerWestminsterCatechism = {
     answer:
       "Os pecados proibidos no terceiro mandamento são: o não usar o nome de Deus como nos é requerido e o abuso no uso dele por uma menção ignorante, vã, irreverente, profana, supersticiosa ou ímpia, ou outro modo de usar os títulos, atributos, ordenanças, ou obras de Deus; a blasfêmia, o perjúrio, toda abominação, juramentos, votos e sortes ímpios; a violação dos nossos juramentos e votos, quando lícitos, e o cumprimento deles, se por coisas ilícitas; a murmuração e as rixas, as consultas curiosas, e a má aplicação dos decretos e providência de Deus; a má interpretação, a má aplicação ou qualquer perversão da Palavra, ou de qualquer parte dela; as zombarias profanas, questões curiosas e sem proveito, vãs contendas ou a defesa de doutrinas falsas; o abuso das criaturas ou de qualquer coisa compreendida sob o nome de Deus, para encantamentos ou concupiscências e práticas pecaminosas; a difamação, o escárnio, vituperação, ou qualquer oposição à verdade, à graça e aos caminhos de Deus; a defesa da religião por hipocrisia ou para fins sinistros; o envergonhar-se da religião ou o ser uma vergonha para ela, por meio de uma conduta inconveniente, imprudente, infrutífera e ofensiva, ou por apostasia.",
     references:
-      "ÊX 5:2; DT 18:10,11;23:16;29:29;ML 1:6,7,12;2:2;ET 3:7;9:24;EZ 13:22;17:19; LV 24:11;ZC 5:4;PV 30.9;ISM 16:5;17:43;25:22,32-34;II RS 19:22;21:9,10; JR 5:7;7:4;23:10; IS 5:4,12;SL 1:1;24:4;50:16;73:12-15;139:20.LEIA-SE MT 5:21-48. MT 6:1-3,5,16; 22:29;23:14;MC 6:26;8:38;AT 4:18;13:45,50;17:23;23:12;19:9,13;RM 2:23,24;3:5-7;9:14,19,20;12:14;13:13,14;I CO 6:5,6;GL 3:1-3;EF 5:4,15,17; CL 2.20-22; I TS 2:16; I TM 6:4,5,20;II TM 2:14;3:5;4:3,4;TT 3:9;IPE 4:4;IIPE 1:8,9; 3:3,16;HB 6:6;10:26-31;JD 4.",
+      "EX 5:2; DT 18:10-11; DT 23:16; DT 29:29;ML 1:6-7;ML 1:12;ML 2:2;ET 3:7;ET 9:24;EZ 13:22;EZ 17:19; LV 24:11;ZC 5:4;PV 30.9;ISM 16:5;ISM 17:43;ISM 25:22;ISM 25:32-34;IIRS 19:22;IIRS 21:9-10; JR 5:7; JR 7:4; JR 23:10; IS 5:4; IS 5:12;SL 1:1;SL 24:4;SL 50:16;SL 73:12-15;SL 139:20;MT 5:21-48; MT 6:1-3; MT 6:5; MT 6:16; MT 22:29; MT 23:14;MC 6:26;MC 8:38;AT 4:18;AT 13:45;AT 13:50;AT 17:23;AT 23:12;AT 19:9;AT 19:13;RM 2:23-24;RM 3:5-7;RM 9:14;RM 9:19-20;RM 12:14;RM 13:13-14;ICO 6:5-6;GL 3:1-3;EF 5:4;EF 5:15;EF 5:17; CL 2.20-22; ITS 2:16; ITM 6:4-5; ITM 6:20;IITM 2:14;IITM 3:5;IITM 4:3-4;TT 3:9;IPE 4:4;IIPE 1:8-9;IIPE 3:3;IIPE 3:16;HB 6:6;HB 10:26-31;JD 4",
   },
   question114: {
     id: 114,
     question: "Quais são as razões anexas ao terceiro mandamento?",
     answer:
       "As razões anexas ao terceiro mandamento, contido nestas palavras:”O Senhor teu Deus”, e, “porque o Senhor não terá por inocente aquele que tomar em vão o Seu nome”, são porque ele é o Senhor e nosso Deus, portanto o seu Nome não deve ser profanado nem por forma alguma abusado por nós; especialmente porque ele estará tão longe de absolver e poupar os transgressores deste mandamento, que não os deixará escapar de seu justo juízo, embora muitos escapem das censuras e punições dos homens.",
-    references: "EX 20:7; LV 19:12; DT 28:58,59; ISM 2:12,17,22;3:13.",
+    references:
+      "EX 20:7; LV 19:12; DT 28:58-59; ISM 2:12; ISM 2:17; ISM 2:22; ISM 3:13",
   },
   question115: {
     id: 115,
     question: "Qual é o quarto mandamento?",
     answer:
       "O quarto mandamento é: “Lembra-te de santificar o dia de sábado, Trabalharás seis dias e farás neles tudo o que tens para fazer. O sétimo dia, porém, é o sábado do Senhor teu Deus. Não farás nesse dia obra alguma, nem tu, nem o teu filho, nem a tua filha, nem o teu servo, nem a tua serva, nem o teu animal, nem o peregrino que vive das tuas portas para dentro. Porque o Senhor fez em seus dias o céu, a terra, o mar e tudo o que neles há, e descansou ao sétimo dia: por isso o Senhor abençoou o dia sétimo e o santificou.”",
-    references: "EX 20:8-11.",
+    references: "EX 20:8-11",
   },
   question116: {
     id: 116,
@@ -969,7 +971,7 @@ export const largerWestminsterCatechism = {
     answer:
       "No quarto mandamento exige-se que todos os homens santifiquem ou guardem santos para Deus todos os tempos estabelecidos, que Deus designou em sua Palavra, expressamente um dia inteiro em cada sete; que era o sétimo desde o princípio do mundo até à ressurreição de Cristo, e o primeiro dia da semana desde então, e há de assim continuar até ao fim do mundo; o qual é o sábado cristão, que no Novo Testamento se chama Dia do Senhor.",
     references:
-      "GN 2:3; IS 56:2,4,6,7; I CO 16:2; AT 20:7; JO 20:19-27; AP 1:10.",
+      "GN 2:3; IS 56:2; IS 56:4; IS 56:6-7; ICO 16:2; AT 20:7; JO 20:19-27; AP 1:10",
   },
   question117: {
     id: 117,
@@ -977,7 +979,7 @@ export const largerWestminsterCatechism = {
     answer:
       "O Sábado, ou Dia do Senhor (=Domingo), deve ser santificado por meio de um santo descanso por todo aquele dia, não somente de tudo quanto é sempre pecaminoso, mas até de todas as ocupações e recreios seculares que são lícitos em outros dias; e em fazê-lo o nosso deleite, passando todo o tempo (exceto aquela parte que se deve empregar em obras de necessidade e misericórdia) nos exercícios públicos e particulares do culto de Deus. Para este fim havemos de preparar os nossos corações, e, com toda previsão, diligência e moderação, dispor e convenientemente arranjar os nossos negócios seculares, para que sejamos mais livres e mais prontos para os deveres desse dia.",
     references:
-      "EX 16:25,26;20:8,10; LV 23:3; IS 58:13,14; NE 13.19; JR 17:21,22; MT 12:1-14; LC 4:16;23:54-56; AT 20:7.",
+      "EX 16:25-26;EX 20:8;EX 20:10; LV 23:3; IS 58:13-14; NE 13.19; JR 17:21-22; MT 12:1-14; LC 4:16; LC 23:54-56; AT 20:7",
   },
   question118: {
     id: 118,
@@ -985,7 +987,7 @@ export const largerWestminsterCatechism = {
       "Por que é o mandamento de guardar o sábado (=Dia do Senhor ou Domingo) mais especialmente dirigido aos chefes de família e a outros superiores?",
     answer:
       "O mandamento de guardar o sábado (=Dia do Senhor ou Domingo) é mais especialmente dirigido aos chefes de família e a outros superiores, porque estes são obrigados não somente a guardá-lo por si mesmos, mas também fazer que seja ele observado por todos os que estão sob o seu cuidado; e porque são, às vezes, propensos a embaraçá-los por meio de seus próprios trabalhos.",
-    references: "ÊX 23:12.",
+    references: "eX 23:12",
   },
   question119: {
     id: 119,
@@ -993,7 +995,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os pecados proibidos no quarto mandamento são: toda omissão dos deveres exigidos, toda realização descuidosa, negligente e sem proveito, e o ficar cansado deles; toda profanação desse dia por ociosidade e por fazer aquilo que é em si pecaminoso, e por todas as obras, palavras e pensamentos desnecessários acerca de nossas ocupações e recreios seculares.",
     references:
-      "EX 22:26; EZ 23:38;33:31,32; IS 58:13,14; JR 17:27; ML 1:13; AM 8:5.",
+      "EX 22:26; EZ 23:38; EZ 33:31-32; IS 58:13-14; JR 17:27; ML 1:13; AM 8:5",
   },
   question120: {
     id: 120,
@@ -1001,7 +1003,7 @@ export const largerWestminsterCatechism = {
       "Quais são as razões anexas ao quarto mandamento, para lhe dar maior força?",
     answer:
       "As razões anexas ao quarto mandamento, para lhe dar maior força, são tiradas da equidade dele, concedendo-nos Deus seis dias de cada sete para os nossos afazeres, e reservando apenas um para si, nestas palavras: “Seis dias trabalharás e farás tudo o que tens para fazer”; de Deus exigir uma propriedade especial nesse dia: “O sétimo dia é o sábado do Senhor teu Deus”; do exemplo de Deus, que “em seis dias fez o céu e a terra, o mar e tudo o que neles há, e descansou no dia sétimo”; e da bênção que Deus conferiu a esse dia, não somente  santificando-o para ser um dia santo para o seu serviço, mas também determinando-o para ser um meio de bênção para nós em santificá-lo; “portanto o Senhor abençoou o dia de sábado e o santificou.”",
-    references: "EX 20:9,10,11.",
+    references: "EX 20:9-11",
   },
   question121: {
     id: 121,
@@ -1010,7 +1012,7 @@ export const largerWestminsterCatechism = {
     answer:
       "A expressão “lembra-te” se acha colocada no princípio do quarto mandamento, em parte devido ao grande benefício que há em nos lembrarmos dele, sendo nós assim ajudados em nossa preparação para guardá-lo; e porque, em o guardar, somos ajudados a guardar melhor todos os mais mandamentos, e a manter uma grata recordação dos dois grandes benefícios da criação e da redenção, que contém em si a breve súmula da religião; e em parte porque somos propensos a esquecer-nos deste mandamento, visto haver menos luz da natureza para ele, e restringir nossa liberdade natural quanto a coisas permitidas em outros dias; porque este dia aparece somente uma vez em cada sete, e muitos negócios seculares intervêm e muitas vezes nos impedem de pensar nele, seja para nos prepararmos para ele, seja para o santificarmos; e porque Satanás, com os seus instrumentos, se esforça para apagar a glória e até a memória deste dia, para introduzir a irreligião e a impiedade.",
     references:
-      "GN 2:2,3; EX 16:23;20:8,12,20;34.21; NM 15:37,38,40; NE 13.19;13:15-23; JR 17:21-23; LM 1:7; SL 118:22,24; LC 23:54,56;  HB 4.9.",
+      "GN 2:2-3; EX 16:23; EX 20:8; EX 8:12; EX 8:20; EX 34:21; NM 15:37-38; NM 15:40; NE 13.19; NE 13:15-23; JR 17:21-23; LM 1:7; SL 118:22; SL 118:24; LC 23:54; LC 23:56;  HB 4.9",
   },
   question122: {
     id: 122,
@@ -1018,14 +1020,14 @@ export const largerWestminsterCatechism = {
       "Qual é o resumo dos seis mandamentos que encerram o nosso dever para com o homem?",
     answer:
       "O resumo dos seis mandamentos que encerram o nosso dever para com o homem, é amar o nosso próximo como a nós mesmos, e fazer aos outros aquilo que desejamos que eles nos façam.",
-    references: "MT 7:12;22:39.",
+    references: "MT 7:12;MT 22:39",
   },
   question123: {
     id: 123,
     question: "Qual é o quinto mandamento?",
     answer:
       "O quinto mandamento é: “Honrarás a teu pai e a tua mãe, para teres uma longa vida sobre a terra que o Senhor teu Deus te há de dar.”",
-    references: "EX 20.12.",
+    references: "EX 20.12",
   },
   question124: {
     id: 124,
@@ -1033,21 +1035,21 @@ export const largerWestminsterCatechism = {
     answer:
       "As palavras “pai” e “mãe”, no quinto mandamento, abrangem não somente os próprios pais, mas também todos os superiores em idade e dons, especialmente todos aqueles que, pela ordenação de Deus, estão colocados sobre nós em autoridade, quer na Família, quer na Igreja, quer no Estado.",
     references:
-      "GN 4:20,21;45:8; II RS 2:12;5:13; IS 49:23; PV 23:22,25; I TM 5:1,2;GL 4:19.",
+      "GN 4:20;GN 4:21;GN 45:8; IIRS 2:12; IIRS 5:13; IS 49:23; PV 23:22; PV 23:25; ITM 5:1-2;GL 4:19",
   },
   question125: {
     id: 125,
     question: "Por que são os superiores chamados “pai” e “mãe”?",
     answer:
       "Os superiores são chamados “pai” e “mãe” para lhes ensinar que, em todos os deveres para com os seus inferiores, devem eles, como verdadeiros pais, mostrar amor e ternura para com aqueles, conforme as suas diversas relações; e para levar os inferiores a cumprirem os seus deveres para com os seus superiores, pronta e alegremente, como se estes fossem seus pais.",
-    references: "EF 6:4; I TS 2.7,8,11,12; I CO 4:14-16.",
+    references: "EF 6:4; ITS 2:7-8; ITS 2:11-12; ICO 4:14-16",
   },
   question126: {
     id: 126,
     question: "Qual é o alcance geral do quinto mandamento?",
     answer:
       "O alcance geral do quinto mandamento é o cumprimento dos deveres que mutuamente temos uns para com os outros em nossas diversas relações como inferiores, superiores ou iguais.",
-    references: "EF 5:21; IPE 2:17; RM 12:10.",
+    references: "EF 5:21; IPE 2:17; RM 12:10",
   },
   question127: {
     id: 127,
@@ -1055,7 +1057,7 @@ export const largerWestminsterCatechism = {
     answer:
       "A honra que os inferiores devem ao superiores é toda a devida reverência sincera, em palavras e em procedimento; a oração e ações de graças por eles; a imitação de suas virtudes e graças; a pronta obediência aos seus mandamentos e conselhos legítimos; a devida submissão às suas correções; a fidelidade, a defesa, a manutenção de suas pessoas e autoridade, conforme os seus diversos graus e a natureza de suas posições; suportando as suas fraquezas e encobrindo-as com amor, para que sejam uma honra para eles e para o seu governo.",
     references:
-      "GN 9:23; ML 1:6; PV 31:23,38,39; LV 19:3,32; ISM 26:15,16; I RS 2:19;SL 127:3-5; MT 22:21; RM 16:6,7; EF 6:1,2; IPE 2:13,1,18-20;4;3:6;  I TM 2:1,2;5:17,18; FL 3:17;TT 2:9,10; HB 12:9;13:7.",
+      "GN 9:23; ML 1:6; PV 31:23; PV 31:38-39; LV 19:3; LV 19:32; ISM 26:15016; IRS 2:19;SL 127:3-5; MT 22:21; RM 16:6-7; EF 6:1-2; IPE 2:13-14; IPE 2:18-20; IPE 3:6; ITM 2:1-2; ITM 5:17-18; FL 3:17;TT 2:9-10; HB 12:9;HB 13:7",
   },
   question128: {
     id: 128,
@@ -1063,7 +1065,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os pecados dos inferiores contra os seus superiores são: toda negligência dos deveres exigidos para com eles; a inveja, o desprezo e a rebelião contra suas pessoas e posições, em seus conselhos, mandamentos e correções legítimos; a maldição, a zombaria e todo comportamento rebelde e escandaloso, que vem a ser uma vergonha e desonra para eles e para o seu governo.",
     references:
-      "ÊX 21:15; DT 21:18,20,21; PV 19:26;30:11,17; ISM 8:7;10:27; IISM 15:1-12; IS 2:25;3:5; SL 2:25;106:16; MT 15:5,6.",
+      "eX 21:15; DT 21:18; DT 21:20-21; PV 19:26; PV 30:11; PV 30:17; ISM 8:7; ISM 10:27; IISM 15:1-12; IS 2:25; IS 3:5; SL 2:25; SL 106:16; MT 15:5-6",
   },
   question129: {
     id: 129,
@@ -1071,7 +1073,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Exige-se dos superiores, conforme o poder que recebem de Deus e a relação em que se acham colocados, que amem os seus inferiores, que orem por eles e os abençoem; que os instruam, aconselhem e admoestem, aprovando, animando e recompensando os que fazem o bem, e reprovando, repreendendo e castigando os que fazem o mal; protegendo-os e provendo-lhes tudo o que é necessário para a alma e o corpo; e que, por um procedimento sério, prudente, santo e exemplar glorifiquem a Deus, honrem-se a si mesmos, e assim preservem a autoridade com que Deus os revestiu.",
     references:
-      "DT 6:6,7; CL 3:19; ISM 12:23; JÓ 1:5; PV 29:15; I RS 3:28;8:55,56; IS 1:17; EF 6:3,4; RM 13:3,4; IPE 2:14;3:7; TT 2:4,15; I TM 4:12;5:8.",
+      "DT 6:6-7; CL 3:19; ISM 12:23; JOH 1:5; PV 29:15; IRS 3:28; IRS 8:55-56; IS 1:17; EF 6:3-4; RM 13:3-4; IPE 2:14; IPE 3:7; TT 2:4; TT 2:15; ITM 4:12; ITM 5:8",
   },
   question130: {
     id: 130,
@@ -1079,14 +1081,14 @@ export const largerWestminsterCatechism = {
     answer:
       "Os pecados dos superiores, além da negligência dos deveres que lhe são exigidos, são a ambição incontrolável, a busca desordenada da própria glória, repouso, proveito ou prazer; a exigência de coisas ilícitas ou fora do alcance de os inferiores poderem realizar; aconselhando, encorajando ou favorecendo-os naquilo que é mau; dissuadindo, desanimando ou reprovando-os naquilo que é bom; corrigindo-os indevidamente; expondo-os descuidosamente ao dano, à tentação e ao perigo; provocando-os à ira; ou de alguma forma desonrando-se a si mesmos, ou diminuindo a sua autoridade por um comportamento injusto, indiscreto, rigoroso ou negligente.",
     references:
-      "GN 9:21; EX 34:2,4; LV 19:29; DT 17:17; I RS 12:13,14; IS 56:10,11;58:7; JR 5:30,31;6:13,14; DN 3:4,6; MT 14:8;23:2,4; MC 6.4; JO 5:4;7:18,46-48; AT 4:18; EF 6:4; IPE 2:19,20; FP 2:21;HB 12:10.",
+      "GN 9:21; EX 34:2; EX 34:4; LV 19:29; DT 17:17; IRS 12:13-14; IS 56:10-11; IS 58:7; JR 5:30-31; JR 6:13-14; DN 3:4; DN 3:6; MT 14:8; MT 23:2; MT 23:4; MC 6.4; JO 5:4; JO 7:18; JO 7:46-48; AT 4:18; EF 6:4; IPE 2:19-20; FP 2:21;HB 12:10",
   },
   question131: {
     id: 131,
     question: "Quais são os deveres dos iguais?",
     answer:
       "Os deveres dos iguais são o considerar a dignidade e o merecimento uns dos outros, tendo cada um aos outros por superiores; e o alegrar-se com os dons e a promoção uns dos outros como sendo de si mesmos.",
-    references: "RM 12:10;15-16; FP 2:3,4; IPE 2:17.",
+    references: "RM 12:10;RM 12:15-16; FP 2:3-4; IPE 2:17",
   },
   question132: {
     id: 132,
@@ -1094,7 +1096,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os pecados dos iguais, além da negligência dos deveres exigidos, são a depreciação do merecimento, a inveja dos dons, a tristeza causada pela promoção ou prosperidade dos outros, e a usurpação da preeminência que uns têm sobre outros.",
     references:
-      "NM 12:2; PV 13:21; IS 65:5; MT 20.15;25-27; LC 15:28,29;22:24-26; RM 13:8; II TM 3:3; AT 7:9; GL 5:26; IJO 3:12; IIIJO 9.",
+      "NM 12:2; PV 14:21; IS 65:5; MT 20:15; MT 20:25-27; LC 15:28-29; LC 22:24-26; RM 13:8; IITM 3:3; AT 7:9; GL 5:26",
   },
   question133: {
     id: 133,
@@ -1102,13 +1104,13 @@ export const largerWestminsterCatechism = {
       "Qual é a razão anexa ao quinto mandamento para lhe dar maior força?",
     answer:
       "A razão anexa ao quinto mandamento, para lhe dar maior força, contida nestas palavras: “para que se prolonguem os teus dias na terra que o Senhor teu Deus te dá”, é uma promessa de longa vida e prosperidade, tanto quanto sirva para a glória de Deus e para o bem de todos quantos guardem este mandamento.",
-    references: "EX 20.12; DT 5:16; I RS 8:25; EF 6:2,3.",
+    references: "EX 20:12; EF 6:2-3",
   },
   question134: {
     id: 134,
     question: "Qual é o sexto mandamento?",
     answer: "O sexto mandamento é: “Não matarás.”",
-    references: "ÊX 20.13.",
+    references: "eX 20.13",
   },
   question135: {
     id: 135,
