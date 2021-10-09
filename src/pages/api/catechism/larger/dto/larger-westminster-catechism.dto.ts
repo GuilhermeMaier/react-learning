@@ -1118,7 +1118,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os deveres exigidos no sexto mandamento são todo empenho cuidadoso e todos os esforços legítimos para a preservação de nossa vida e a de outros, resistindo a todos os pensamentos e propósitos, subjugando todas as paixões, e evitando todas as ocasiões, tentações e práticas que tendem a tirar injustamente a vida de alguém; por meio de justa defesa dela contra a violência; por paciência em suportar a mão de Deus; sossego mental, alegria de espírito e uso sóbrio da comida, bebida, remédios, sono, trabalho e recreios; por pensamentos caridosos, amor, compaixão, mansidão, benignidade, bondade, comportamento e palavras pacíficos, brandos e corteses; a longanimidade e prontidão para se reconciliar, suportando pacientemente e perdoando as injúrias, dando bem por mal, confortando e socorrendo os aflitos, e protegendo e defendendo o inocente.",
     references:
-      "GN 37:21,22; DT 22:8; ISM 14:45;19:4,5;24:12;25:32,33;26:9-11; I RS 21:9,10,19; JR 26.15,16; SL 37:8,11;82:4;127:2; PV 1:10,11,15;10:12;17:22;22:24,25;23:20,29,30;24:11,12;25:16;31:8,9; IS 38:21;58:7; ZC 7:9; MT 4:6,7;5:22,24;9:12;10:23;25:35,36; MC 6:31; LC 10:33,34; 21:19; RM 12:18,20,21;13:10; I CO 4:12,13;13:4,5; EF 4:26;5:29; I TM 4:8;5:23; IPE 2:20;3:3,4,8,9; I TS 5:14; IITS 3:10,12; CL 3:12,13; HB 12:5; TG 3:17.",
+      "GN 37:21-22; DT 22:8; ISM 14:45; ISM 19:4-5; ISM 24:12; ISM 25:32-33; ISM 26:9-11; IRS 21:9-10; IRS 21:19; JR 26.15-16; SL 37:8; SL 37:11;; SL 82:4; SL 127:2; PV 1:10-11; PV 1:15; PV 10:12; PV 17:22; PV 22:24-25; PV 23:20; PV 23:29-30; PV 24:11-12; PV 25:16; PV 31:8-9; IS 38:21; IS 58:7; ZC 7:9; MT 4:6-7; MT 5:22; MT 5:24; MT 9:12; MT 10:23; MT 25:35-36; MC 6:31; LC 10:33-34; LC 21:19; RM 12:18; RM 12:20-21; RM 13:10; ICO 4:12-13; ICO 13:4-5; EF 4:26; EF 5:29; ITM 4:8; ITM 5:23; IPE 2:20; IPE 3:3-4; IPE 3:8-9; ITS 5:14; IITS 3:10; IITS 3:12; CL 3:12-13; HB 12:5; TG 3:17",
   },
   question136: {
     id: 136,
@@ -1126,13 +1126,13 @@ export const largerWestminsterCatechism = {
     answer:
       "Os pecados proibidos no sexto mandamento são: o tirar a nossa vida ou a de outrem, exceto no caso de justiça pública, guerra legítima, ou defesa necessária; a negligência ou retirada dos meios lícitos ou necessários para a preservação da vida; a ira pecaminosa, o ódio, a inveja, o desejo de vingança; todas as paixões excessivas e cuidados demasiados; o uso imoderado de comida, bebida, trabalho e recreios; as palavras provocadoras; a opressão, a contenda, os espancamentos, os ferimentos e tudo o que tende à destruição da vida de alguém.",
     references:
-      "GN 9:6; EX 1:14;20:9,10;21:18-36;22:2; NM 35:16,31,33; DT 20.1-20; IS 3:15; PV 10:12;12:18;14:30;15:1;28:17; MT 5:22;6:31,34;25:42,43; LC 21:34; AT 16:28; RM 12:19; GL 5:;15; EF 4:31; HB 11.32-34; IPE 4:3,4; IJO 3:15; TG 2:5,16;4:1.",
+      "GN 9:6; EX 1:14; EX 20:9-10; EX 21:18-36; EX 22:2; NM 35:16; NM 35:31; NM 35:33; DT 20.1-20; IS 3:15; PV 10:12; PV 12:18; PV 14:30; PV 15:1; PV 28:17; MT 5:22; MT 6:31; MT 6:34; MT 25:42-43; LC 21:34; AT 16:28; RM 12:19; GL 5:15; EF 4:31; HB 11.32-34; IPE 4:30-4; IJO 3:15; TG 2:5; TG 2:16; TG 4:1",
   },
   question137: {
     id: 137,
     question: "Qual é o sétimo mandamento?",
     answer: "O sétimo mandamento é: “Não adulterarás.”",
-    references: "EX 20.14.",
+    references: "EX 20.14",
   },
   question138: {
     id: 138,
@@ -1140,7 +1140,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os deveres exigidos no sétimo mandamento são: castidade no corpo, mente, afeições, palavras e comportamento; e a preservação dela em nós mesmos e nos outros; a vigilância sobre os olhos e todos os sentidos; a temperança, a conservação da sociedade de pessoas castas, a modéstia no vestuário, o casamento daqueles que não têm o dom da continência, o amor conjugal e a coabitação; o trabalho diligente em nossas vocações; o evitar todas as ocasiões de impurezas e resistir às suas tentações.",
     references:
-      "JR 5:7; PV 2:16,20;5:8,18,19;23:31,33;31:27; MT 5:28;  I TS 4:4,5; EF 4:29; CL 4:6; IPE 3:2,7; I CO 5:9;7:2,5,9; I TM 2:9;5:13,14; TT 2:4,5;",
+      "JR 5:7; PV 2:16; PV 2:20; PV 5:8; PV 5:18-19; PV 23:31; PV 23:33; PV 31:27; MT 5:28;  ITS 4:4-5; EF 4:29; CL 4:6; IPE 3:2; IPE 3:7; ICO 5:9; ICO 7:2; ICO 7:5; ICO 7:9; ITM 2:9; ITM 5:13-14; TT 2:4-5",
   },
   question139: {
     id: 139,
@@ -1148,13 +1148,13 @@ export const largerWestminsterCatechism = {
     answer:
       "Os pecados proibidos no sétimo mandamento, além da negligência dos deveres exigidos, são: adultério, fornicação, rapto, incesto, sodomia e todas as concupiscências desnaturais; todas as imaginações, pensamentos, propósitos e afetos impuros; todas as comunicações corruptas ou torpes, ou o ouvir as mesmas; os olhares lascivos, o comportamento impudente ou leviano; o vestuário imoderado; a proibição de casamentos lícitos e a permissão de casamentos ilícitos; o permitir, tolerar ou ter bordéis e a freqüentação deles; os votos embaraçadores de celibato; a demora indevida de casamento; o ter mais que uma mulher ou mais que um marido ao mesmo tempo; o divórcio ou o abandono injusto; a ociosidade, a glutonaria, a bebedice, a sociedade impura; cânticos, livros, gravuras, danças, espetáculos lascivos e todas as demais provocações à impureza, ou atos de impureza, quer em nós mesmos, quer nos outros.",
     references:
-      "LV 18:1-21;19:29;20:15,16; JR 5:7; PV 4:23,27;5:7,8; IISM 13:14; II RS 23:7; ML 2:16; EZ 16:49; GL 5:19; EF 5:5,11; MT 5:32;19:5,10-12;MC 6:18,22; I CO 5:1,13;7:2,12,13; RM 1:26,27;13:13,14;I TM 4:3;5:14,15; IPE 4:3; IIPE 2:17,18; HB 13:4.",
+      "LV 18:1-21;LV 19:29;LV 20:15-16; JR 5:7; PV 4:23; PV 4:27; PV 5:7-8; IISM 13:14; IIRS 23:7; ML 2:16; EZ 16:49; GL 5:19; EF 5:5; EF 5:11; MT 5:32; MT 19:5; MT 19:10-12;MC 6:18;MC 6:22; ICO 5:1; ICO 5:13; ICO 7:2; ICO 7:12-13; RM 1:26; RM 1:27; RM 13:13-14;ITM 4:3;ITM 5:14-15; IPE 4:3; IIPE 2:17-18; HB 13:4",
   },
   question140: {
     id: 140,
     question: "Qual é o oitavo mandamento?",
     answer: "O oitavo mandamento é: “Não furtarás.”",
-    references: "EX 20:15.",
+    references: "EX 20:15",
   },
   question141: {
     id: 141,
@@ -1162,7 +1162,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os deveres exigidos no oitavo mandamento são: a verdade, a fidelidade e a justiça nos contratos e no comércio entre os homens, dando a cada um o que lhe é devido, a restituição de bens ilicitamente tirados de seus legítimos donos; a doação e a concessão de empréstimo, livremente, conforme as nossas forças e as necessidades de outrem; a moderação de nossos juízos, vontades e afetos, em relação às riquezas deste mundo; o cuidado e empenho providentes em adquirir, guardar, usar e distribuir aquelas coisas que são necessárias e convenientes para o sustento de nossa natureza, e que condizem com a nossa condição; o meio lícito de vida e a diligência no mesmo; a frugalidade; o impedimento de demandas forenses desnecessárias e fianças, ou outros compromissos semelhantes; e o esforço por todos os modos justos e lícitos para adquirir, preservar e adiantar a riqueza e o estado exterior, tanto de outros como o nosso próprio.",
     references:
-      "ÊX23:4,5;LV6:4,5;25:25;DT15:7,8,10;22:1-4;SL 15:2,4; PV 6:1-5;10:4;11:15;12:27;21:20;27:23,24; MQ 6:8; ZC 8:16; LC 6:30,38; JO 6:12; RM 12:5-8,11;13:7; I CO 6:7; GL 6:10; EF 4:28; FP 2:4; I TM 5:8;6:8,9,17,18.",
+      "eX 23:4-5;LV 6:4-5;lv 25:25;DT 15:7-8; dt 15:10; dt 22:1-4;SL 15:2;SL 15:4; PV 6:1-5; PV 10:4; PV 11:15; PV 12:27; PV 21:20; PV 27:23-24; MQ 6:8; ZC 8:16; LC 6:30; LC 6:38; JO 6:12; RM 12:5-8; RM 12:11; RM 13:7; ICO 6:7; GL 6:10; EF 4:28; FP 2:4; ITM 5:8; ITM 6:8-9; ITM 6:17-18",
   },
   question142: {
     id: 142,
@@ -1170,14 +1170,14 @@ export const largerWestminsterCatechism = {
     answer:
       "Os pecados proibidos no oitavo mandamento, além da negligência dos deveres exigidos, são: o furto, o roubo, o tráfico de seres humanos e a recepção de qualquer coisa furtada; as transações fraudulentas e os pesos e medidas falsos; a remoção de marcos de propriedade, a injustiça e a infidelidade em contratos entre os homens ou em questões de confiabilidade; a opressão, a extorsão, a usura, o suborno, as vexatórias demandas forenses, o cerco injusto de propriedades e a desapropriação; a acumulação de gêneros para encarecer o preço; os meios ilícitos de vida, e todos os outros modos injustos e pecaminosos de tirar ou de reter de nosso próximo aquilo que lhe pertence, ou de nos enriquecer a nós mesmos; a cobiça, a estima e o amor desordenado aos bens mundanos, a desconfiança, a preocupação excessiva e o empenho em obtê-los, guardá-los e usar deles; a inveja diante da prosperidade de outrem; assim como a ociosidade, a prodigalidade, o jogo dissipador e todos os outros modos pelos quais indevidamente prejudicamos o nosso próprio estado exterior; e o ato de defraudar a nós mesmos do devido uso e conforto da posição em que Deus nos colocou.",
     references:
-      "ÊX21:16;LV25:17;DT12:7;16:14;19:14;IS5:8;33:15;SL37:21;50:18;62:10;73:3;PV1:19;3:30;11:1,26;18:9;20:10;21:6,17;23:5,20,21;29:19;29:24;EZ 22:12,29;AM 8:5;MQ 2:2;MT 6:25,34;23:25;LC 12:15;16:11,12;AT 19:19;I CO 6:7;IJO 2:15,16;3:17; TG 2:15,16;5:4,9; EF 4:28; I TM 1:10;I TS 4:6; IITS 3:11.",
+      "eX 21:16;LV 25:17;DT 12:7;dt 16:14; dt 19:14; IS 5:8; is 33:15; SL 37:21;dl 50:18;sl 62:10;sl 73:3;PV 1:19;pv 3:30;pv 11:1;pv 11:26; pv 18:9;pv 20:10; pv 21:6; pv 21:17;pv 23:5; pv 23:20-21;pv 29:19;pv 29:24;EZ 22:12;EZ 22:29;AM 8:5;MQ 2:2;MT 6:25;MT 6:34;MT 23:25;LC 12:15;lc 16:11-12;AT 19:19;ICO 6:7;IJO 2:15-16;ijo 3:17; TG 2:15-16;tg 5:4;tg 5:9; EF 4:28; ITM 1:10;ITS 4:6; IITS 3:11",
   },
   question143: {
     id: 143,
     question: "Qual é o nono mandamento?",
     answer:
       "O nono mandamento é: “Não dirás falso testemunho contra o teu próximo.”",
-    references: "EX 20:16.",
+    references: "EX 20:16",
   },
   question144: {
     id: 144,
@@ -1185,7 +1185,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os deveres exigidos no nono mandamento são: conservar e promover a verdade entre os homens e a boa reputação de nosso próximo, assim como a nossa; evidenciar e manter a verdade, e de coração, sincera, livre, clara e plenamente falar a verdade, somente a verdade, em questões de julgamento e justiça e em todas as mais coisas, quaisquer que sejam; considerar caridosamente os nossos semelhantes; amar, desejar e ter regozijo pela sua boa reputação;entristecer-nos pelas suas fraquezas e encobri-las, e mostrar franco reconhecimento dos seus dons e graças; defender sua inocência; receber prontamente boas informações a seu respeito e rejeitar as que são maldizentes, lisonjeadoras e caluniadoras; prezar e cuidar de nossa boa reputação e defendê-la quando for necessário; cumprir as promessas lícitas; empenhar e praticar tudo o que é verdadeiro, honesto, amável e de boa fama.",
     references:
-      "LV 19:15;EF 4:25; PV 14:5;17:9;22:1;25:23;26:24,25;31:9; SL 15:2-4;82:3;101:5;119:158; IICR 19:9; JR 9:3;42:4; JO 8:49;AT 20:20,27; RM 1:8;I CO 1:4,5;13:4-7;II CO 1:17,18;11:18,23;12:21; FP 4:8; CL 3:9; II TM 1:4,5; IPE 1:8; IIIJO 3,4,12; HB 6:9.",
+      "LV 19:15;EF 4:25; PV 14:5; PV 17:9; PV 22:1; PV 25:23; PV 26:24-25; PV 31:9; SL 15:2-4; SL 82:3; SL 101:5; SL 119:158; IICR 19:9; JR 9:3; JR 42:4; JO 8:49;AT 20:20;AT 20:27; RM 1:8;ICO 1:4;;ICO 1:5;ICO 13:4-7;IICO 1:17-18;IICO 11:18;IICO 11:23;IICO 12:21; FP 4:8; CL 3:9; IITM 1:4-5; IPE 1:8; IIIJO 4; IIIJO 12; HB 6:9",
   },
   question145: {
     id: 145,
@@ -1193,21 +1193,21 @@ export const largerWestminsterCatechism = {
     answer:
       "Os pecados proibidos no nono mandamento são: tudo quanto prejudica a verdade e a boa reputação de nosso próximo, bem assim a nossa, especialmente em julgamento público, o testemunho falso, subornar testemunhas falsas, aparecer e pleitear cientemente a favor de uma causa má; resistir e calcar à força a verdade, dar sentença injusta, chamar o mau, bom e o bom, mau; recompensar os maus segundo a obra dos justos e os justos segundo a obra dos maus; falsificar firmas, suprimir a verdade e silenciar indevidamente em uma causa justa; manter-nos tranqüilos quando a iniqüidade reclama a repreensão de nossa parte, ou denunciar outrem, falar a verdade inoportunamente, ou com malícia, para um fim errôneo; pervertê-la em sentido falso, ou proferi-la duvidosa e equivocadamente, para prejuízo da verdade ou da justiça; falar inverdades, mentir, caluniar, maldizer, depreciar, tagarelar, cochichar, escarnecer, vilipendiar, censurar temerária e asperamente ou com parcialidade, interpretar de maneira má as intenções, palavras e atos de outrem; adular e vangloriar; elogiar ou depreciar demasiadamente a nós mesmos ou a outros, em pensamento ou palavra; negar os dons e as graças de Deus; agravar as faltas menores; encobrir, desculpar e atenuar os pecados quando chamados a uma confissão franca; descobrir desnecessariamente as fraquezas de outrem e levantar boatos falsos; receber e acreditar em rumores maus e tapar os ouvidos a uma defesa justa; suspeitar mau; invejar ou sentir tristeza pelo crédito merecido de alguém; esforçar-se ou desejar o prejuízo de alguém; regozijar-se na desgraça ou na infâmia de alguém; a inveja ou tristeza pelo crédito merecido de outros; prejudicar; o desprezo escarnecedor; a admiração excessiva de outrem; a quebra de promessas legítimas; a negligência daquelas coisas que são de boa fama; praticar ou não evitar aquelas coisas que trazem má fama, ou não impedir, em outras pessoas, tais coisas, até onde pudermos.",
     references:
-      "GN 3:5,12,13;4:9;9:22;21:9;26:7,9; EX 23:1; LV 5:1;19:11,15-17; ISM 2:24;22:9,10; IISM 12:13,14;IRS 21:8;IS 5:23;28:22;29:20,21;58:1;59:4,13;JR 9:3;20:10;48:27;SL12:2,3;15:3;22:9,10; 35:15,16;50:20;52:1-4;56:5;69:10;PV 6:16-19;16:28;17:15;19:5;25:9;28:13;29:11,12;DN 6:3,4;ED 4:12,13;MT 7:1,3;21:15;26:60,61;27:28,29;LC 3:14;18:11;JO 2:19;7:24;AT 5:3; 6:13;7:57;12:22;FP 3:18,19;CL 3:9; RM 1:29-31;2:1;3:8; I CO 3:21;6:10;13:4,5; GL 4:29;5:26; II TM 3:2,3;6:4; IIPE 2:2; TG 2:13;4:11; TT 3:2; JD 16.",
+      "GN 3:5;GN 3:12-13;GN 4:9;GN 9:22;GN 21:9;GN 26:7;GN 26:9; EX 23:1; LV 5:1;lv 19:11;lv 19:15-17; ISM 2:24;ism 22:9-10; IISM 12:13-14;IRS 21:8;IS 5:23;is 28:22;is 29:20-21;is 58:1;is 59:4; is 59:13;JR 9:3;jr 20:10;jr 48:27;SL 12:2-3;sl 15:3;sl 22:9-10; sl 35:15-16;sl 50:20;sl 52:1-4; sl 56:5;sl 69:10;PV 6:16-19;pv 16:28; pv 17:15;pv 19:5;pv 25:9; pv 28:13;pv 29:11-12;DN 6:3-4;ED 4:12-13;MT 7:1;MT 7:3;mt 21:15;mt 26:60-61;mt 27:28-29;LC 3:14;lc 18:11;JO 2:19;jo 7:24;AT 5:3; at 6:13;at 7:57;at 12:22;FP 3:18-19;CL 3:9; RM 1:29-31;rm 2:1;rm 3:8; ICO 3:21;ico 6:10;ico 13:4-5; GL 4:29; gl 5:26; IITM 3:2-3;iitm 6:4;IIPE 2:2; TG 2:13;tg 4:11; TT 3:2; JD 16",
   },
   question146: {
     id: 146,
     question: "Qual é o décimo mandamento?",
     answer:
       "O décimo mandamento é: “Não cobiçarás a casa do teu próximo, não desejarás a sua mulher, nem o seu servo, nem a sua serva, nem o seu boi, nem o seu jumento, nem coisa alguma que lhe pertença.”",
-    references: "EX 20.17.",
+    references: "EX 20.17",
   },
   question147: {
     id: 147,
     question: "Quais são os deveres exigidos no décimo mandamento?",
     answer:
       "Os deveres exigidos no décimo mandamento são: um pleno contentamento com a nossa condição e uma disposição caridosa da alma para com o nosso próximo, de modo que todos os nossos desejos e afetos relativos a ele se inclinem para todo o seu bem e promovam o mesmo.",
-    references: "HB 13:5; I TM 1:5;6:6; FP 2:4; RM 12:15.",
+    references: "HB 13:5; ITM 1:5;itm 6:6; FP 2:4; RM 12:15",
   },
   question148: {
     id: 148,
@@ -1215,7 +1215,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os pecados proibidos no décimo mandamento são: o descontentamento com o nosso estado; a inveja e a tristeza pelo bem de nosso próximo, juntamente com todos os desejos e afetos desordenados para com qualquer coisa que lhe pertença.",
     references:
-      "DT 5:21; SL 112:9,10; NE 2:10; I CO 10:10; GL 5:26; TG 3:14,16; RM 7:7;13:9;CL 3:5.",
+      "DT 5:21; SL 112:9-10; NE 2:10; ICO 10:10; GL 5:26; TG 3:14; tg 3:16; RM 7:7; rm 13:9;CL 3:5",
   },
   question149: {
     id: 149,
@@ -1224,7 +1224,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Nenhum homem, por si mesmo, ou por qualquer graça que receba nesta vida, é capaz de guardar perfeitamente os mandamentos de Deus; mas diariamente os viola por pensamentos, palavras e obras.",
     references:
-      "GN 6:5;8:21; I RS 8:46; SL 17:15;19:12; TG 1:14;3:2,8; JO 15:5; IJO 1:8;2:6.",
+      "GN 6:5;gn 8:21; IRS 8:46; SL 17:15;sl 19:12; TG 1:14; tg 3:2; tg 3:8; JO 15:5; IJO 1:8;ijo 2:6",
   },
   question150: {
     id: 150,
@@ -1232,7 +1232,7 @@ export const largerWestminsterCatechism = {
       "São todas as transgressões da lei de Deus igualmente odiosas em si mesmas à vista de Deus?",
     answer:
       "Todas as transgressões da lei de Deus não são igualmente odiosas; mas alguns pecados em si mesmo, e em razão de diversas circunstâncias agravantes, são mais odiosos à vista de Deus do que outros.",
-    references: "ED 9:14; SL 78:17,32,56; HB 2:2,3.",
+    references: "ED 9:14; SL 78:17; SL 78:32; SL 78:56; HB 2:2-3",
   },
   question151: {
     id: 151,
@@ -1240,7 +1240,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Todo pecado, até o menor, sendo contra a soberania, bondade e santidade de Deus, e contra a sua justa lei, merece a sua ira e maldição, nesta vida e na vindoura, e não pode ser expiado, senão pelo sangue de Cristo.",
     references:
-      "LV 11:45. LEIA-SE DT 28:15-68. DT 32:6; PV 13:21; ML 1:14; HC 1:13; MT 25:41; RM 6:21,23; TG 2:10,11; IPE 1:15,1618,19; IJO 1:7;3:4; RM 7:12; GL 3:10; EF 5:6; HB 9:22.",
+      "LV 11:45; DT 28:15-68; DT 32:6; PV 13:21; ML 1:14; HC 1:13; MT 25:41; RM 6:21; rm 6:23; TG 2:10-11; IPE 1:15-16; ipe 1:18-19; IJO 1:7;ijo 3:4; RM 7:12; GL 3:10; EF 5:6; HB 9:22",
   },
   question152: {
     id: 152,
@@ -1249,7 +1249,7 @@ export const largerWestminsterCatechism = {
     answer:
       "1º  Em razão dos ofensores, se forem pessoas de idade mais madura, de maior experiência ou graça; se forem eminentes pela vida cristã, dons, posição, ofícios; se forem guias para outros e pessoas cujo exemplo será, provavelmente, seguido por outros. 2º Em razão das pessoas ofendidas, se as ofensas forem diretamente contra Deus, seus atributos e culto, contra Cristo e sua graça; contra o Espírito Santo, seu testemunho e operações; contra superiores, pessoas eminentes e aqueles a quem estamos especialmente relacionados e a quem devemos favores; contra os santos, especialmente contra os irmãos fracos; contra as suas almas ou as de quaisquer outros, e contra o bem geral de todos ou de muitos. 3º Pela natureza e qualidade da ofensa, se for contra a letra expressa da lei, se violar muitos mandamentos, se contiver em si  muitos pecados; se for concebida, não só no coração, mas manifestar-se em palavras e ações, escandalizar a outrem e não admitir reparo algum; se for contra os meios, misericórdias, juízos, luz da natureza, convicção da consciência, admoestação pública ou particular, censuras da igreja, punições civis; se for contra as nossas orações, propósitos, promessas, votos, pactos, obrigações a Deus ou aos homens; se for feita deliberada, voluntária, presunçosa, impudente, jactanciosa, maliciosa, freqüente e obstinadamente, com displicência, persistência, reincidência, depois do arrependimento. 4º Pelas circunstâncias de tempo e de lugar, se for no dia do Senhor ou em outros tempos de culto divino, imediatamente antes, depois destes ou de outros auxílios para prevenção ou remédio contra tais quedas; se em público ou em  presença de outros que são capazes de ser provocados ou contaminados por essas transgressões.",
     references:
-      "JR 2:8;5:4,5; I RS 11:9; IISM 12:7,9,14; EZ 8:11,12; LC 12:47; JO 3:10; I CO 5:1;  TG 4:17; RM 2:21,22,24; GL 2:14; IIPE 2:2. NM 12:8;ISM 2:25; ML 1:14; SL 41:9;55:12-14;PV 30:17;ZC 2:8; MT 12:31,32;21:38,39;23:34-38; JO 3:18,36; AT 5:4; RM 2:4;14:13,15,21; I CO 8:11,12;10:21,22; EF 4:30;I TS 2:15,16; IJO 5:10; HB 6:4-6;10:29;12:25; JD 8. NM14:22,23;15:20;LV26:25;DT32:6;ED9:13,14;IS1:2,3;3:9;57:17;JR5:13;6:15,16;9:3,5;31:32;42:5,6,20-22; EZ 17:18;20:12,13;35:5,6; DN 5:22; MQ 2:1,2; AM 4:8-11; SL 36:4;52:1;78:34,36,37; PV 2:14,17;6:32,35;20:25;29:1;ZC 7:11,12;MT 11:21-24;16:26;18:7,17;JO 15:22;  CL 3:5; I TM 6:10;TT 3:10; IIPE 2:20,21; RM 1:20,21,31;2:23,24;13:1-5; IIIJO 10; HB 6:4,6. IS 3:9;22:12-14;58:3,4; II RS 5:26; ISM 2:22-24; JR 7:9,10,11; EZ 23:38; IICR 36:15,16; NE 9:13-16; PV 7:14,15; I CO 11:20,21.",
+      "JR 2:8;jr 5:4-5; IRS 11:9; IISM 12:7; IISM 12:9; IISM 12:14; EZ 8:11-12; LC 12:47; JO 3:10; ICO 5:1;  TG 4:17; RM 2:21-22; rm 2:24; GL 2:14; IIPE 2:2; NM 12:8;ISM 2:25; ML 1:14; SL 41:9;sl 55:12-14;PV 30:17;ZC 2:8; MT 12:31-32;mt 21:38-39;mt 23:34-38; JO 3:18; jo 3:36; AT 5:4; RM 2:4;rm 14:13;rm 14:15;rm 14:21; ICO 8:11-12;ico 10:21-22; EF 4:30;ITS 2:15-16; IJO 5:10; HB 6:4-6;hb 10:29;hb 12:25; JD 8; NM 14:22-23;nm 15:20;LV 26:25;DT 32:6;ED 9:13-14;IS 1:2-3;is 3:9;is 57:17;JR 5:13;jr 6:15-16;jr 9:3;jr 9:5;jr 31:32;jr 42:5-6;jr 42:20-22; EZ 17:18;ez 20:12-13;ez 35:5-6; DN 5:22; MQ 2:1-2; AM 4:8-11; SL 36:4;sl 52:1;sl 78:34; sl 78:36-37; PV 2:14; pv 2:17;pv 6:32; pv 6:35;pv 20:25;pv 29:1;ZC 7:11-12;MT 11:21-24;mt 16:26;mt 18:7; mt 18:17;JO 15:22;  CL 3:5; ITM 6:10;TT 3:10; IIPE 2:20-21; RM 1:20-21; rm 1:31;rm 2:23-24;rm 13:1-5; IIIJO 10; HB 6:4, hb 6:6. IS 3:9;is 22:12-14;is 58:3,4; IIRS 5:26; ISM 2:22-24; JR 7:9-11; EZ 23:38; IICR 36:15-16; NE 9:13-16; PV 7:14-15; ICO 11:20-21",
   },
   question153: {
     id: 153,
@@ -1257,8 +1257,7 @@ export const largerWestminsterCatechism = {
       "Que exige Deus de nós para que possamos escapar à sua ira e maldição, em que incorremos pela transgressão da lei?",
     answer:
       "Para escaparmos à ira e maldição de Deus, em que incorremos pela transgressão da lei, ele exige de nós o arrependimento para com Deus, a fé em nosso Senhor Jesus Cristo e o uso diligente de todos os meios exteriores pelos quais Cristo nos comunica os benefícios de sua mediação.",
-    references:
-      "AT 20:21; MC 1:15; JO  3:18. VEJAM-SE OS TEXTOS CITADOS SOB A QUESTÃO 154.",
+    references: "AT 20:21; MC 1:15; JO 3:18",
   },
   question154: {
     id: 154,
@@ -1267,7 +1266,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os meios exteriores e ordinários, pelos quais Cristo comunica à sua Igreja os benefícios de sua mediação, são todas as suas ordenanças, especialmente a Palavra, os Sacramentos e a Oração; todas essas ordenanças se tornam eficazes aos eleitos em sua salvação.",
     references:
-      "MT 28:19-20; AT 2:42,46; I TM 4:16; I CO 1:21; EF 5:19,20;6:17,18.",
+      "MT 28:19-20; AT 2:42; at 2:46; ITM 4:16; ICO 1:21; EF 5:19-20;ef 6:17-18",
   },
   question155: {
     id: 155,
@@ -1275,7 +1274,7 @@ export const largerWestminsterCatechism = {
     answer:
       "O Espírito de Deus torna a leitura, e especialmente a pregação da Palavra, um meio eficaz para iluminar, convencer e humilhar os pecadores; para lhes tirar toda confiança em si mesmos e os atrair a Cristo; para os conformar à sua imagem e os sujeitar à sua vontade; para os fortalecer contra as tentações e corrupções; para os edificar na graça e estabelecer os seus corações em santidade e conforto mediante a fé para a salvação.",
     references:
-      "JR 23:28,29;SL 19:11. LEIA-SE AT 8:27-38. AT 2:37,41;17:11,12;20:32;26:18; MT 4:7,10; RM 6:17;10:14,17;16:25; I CO 3:4-11;SL 19:11;II CO 3:4-11,18;10:4,5;CL 1:27,28;EF 4:11,12;6:16,17;II TM 3:15-17;I TS 3:2,13; HB 4:12.",
+      "JR 23:28-29;SL 19:11; AT 8:27-38; AT 2:37; at 2:41;at 17:11-12;at 20:32;at 26:18; MT 4:7; mt 4:10; RM 6:17;rm 10:14; rm 10:17;rm 16:25; ICO 3:4-11;SL 19:11;IICO 3:4-11; iico 3:18;iico 10:4-5;CL 1:27-28;EF 4:11-12;ef 6:16-17;IITM 3:15-17;ITS 3:2; its 3:13; HB 4:12",
   },
   question156: {
     id: 156,
@@ -1283,7 +1282,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Embora não seja permitido a todos lerem a Palavra publicamente à congregação, contudo os homens de todas as condições têm obrigação de lê-la em particular para si mesmos e com as suas famílias; e para este fim as Santas Escrituras devem ser traduzidas das línguas originais para as línguas vulgares.",
     references:
-      "DT 6:6,7;17:18,19; IS 34:16; JO 5:39; SL 78.5,6; I CO 14:18,19.",
+      "DT 6:6-7;dt 17:18-19; IS 34:16; JO 5:39; SL 78.5-6; ICO 14:18-19",
   },
   question157: {
     id: 157,
@@ -1291,14 +1290,15 @@ export const largerWestminsterCatechism = {
     answer:
       "As Santas Escrituras devem ser lidas com um alto e reverente respeito; com firme persuasão de serem elas a própria Palavra de Deus e de que somente Ele pode habilitar-nos a entendê-las; com desejo de conhecer, crer e obedecer à vontade de Deus nelas revelada; com diligência e atenção ao seu conteúdo e propósito; com meditação, aplicação, abnegação e oração.",
     references:
-      "DT 11:13,14; SL 1:2;119:18,97; IICR 34:21; NE 8:5; IS 66:2; PV 3:5; MT 13:23; MC 4:20; LC 22:44-48;24:45; AT 2:38,39;8:30,34;17:11; I TS 2:13; IIPE 1:16-21;2:2; GL 1:15,16;TG 1:21,22.",
+      "DT 11:13-14; SL 1:2;sl 119:18; sl 119:97; IICR 34:21; NE 8:5; IS 66:2; PV 3:5; MT 13:23; MC 4:20; LC 22:44-48;lc 24:45; AT 2:38-39;at 8:30;at 8:34;at 17:11; ITS 2:13; IIPE 1:16-21; iipe 2:2; GL 1:15-16;TG 1:21-22",
   },
   question158: {
     id: 158,
     question: "Por quem a Palavra de Deus deve ser pregada?",
     answer:
       "A Palavra de Deus deve ser pregada somente por aqueles que têm dons suficientes, e são devidamente aprovados e chamados para o ministério.",
-    references: "ML 2:7; RM 10:15; I CO 12:28,29;  I TM 3:2,6;4:14; II TM 2:2.",
+    references:
+      "ML 2:7; RM 10:15; ICO 12:28-29;  ITM 3:2; itm 3:6;itm 4:14; IITM 2:2",
   },
   question159: {
     id: 159,
@@ -1307,7 +1307,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Aqueles que são chamados a trabalhar no ministério da Palavra devem pregar a sã doutrina, diligentemente, em tempo e fora de tempo, claramente, não em palavras persuasivas de humana sabedoria, mas em demonstração do Espírito e de poder; fielmente, tornando conhecido todo o conselho de Deus; sabiamente, adaptando-se às necessidades e às capacidades dos ouvintes; zelosamente, com amor fervoroso para com Deus e para com as almas de seu povo; sinceramente, tendo por alvo a glória de Deus e procurando converter, edificar e salvar as almas.",
     references:
-      "JR 23:28; LC 12:42; JO 7:18; AT 18:25;20:27;26:16-18; I TM 4:16; II TM 2:10,15;4:2,5; I CO 2:4,17;3:2;4:1,2;9:19-22;14:9;II CO 4:2;5:13,14;12:15,19; CL 1:28; EF 4:12; I TS 2:4-7;3:12; FP 1:15-17; TT 2:1,7,8; HB 5:12-14.",
+      "JR 23:28; LC 12:42; JO 7:18; AT 18:25;at 20:27;at 26:16-18; ITM 4:16; IITM 2:10; IITM 2:15;iitm 4:2; iitm 4:5; ICO 2:4; ICO 2:17; ICO 3:2;ico 4:1-2;ico 9:19-22;ico 14:9;IICO 4:2;iico 5:13-14;iico 12:15; iico 12:19; CL 1:28; EF 4:12; ITS 2:4-7;its 3:12; FP 1:15-17; TT 2:1; TT 2:7-8; HB 5:12-14",
   },
   question160: {
     id: 160,
@@ -1315,14 +1315,14 @@ export const largerWestminsterCatechism = {
     answer:
       "Exige-se dos que ouvem a Palavra pregada que atendam a ela com diligência, preparação e oração; que comparem com as Escrituras aquilo que ouvem; que recebam a verdade com fé, amor, mansidão e prontidão de espírito, como a Palavra de Deus; que meditem nela e conversem a seu respeito uns com os outros; que a escondam nos seus corações e produzam os devidos frutos em suas vidas.",
     references:
-      "DT 6:6,7;SL 84:1,2,4;119:11,18; LC 8:18; IPE 2:1,2; EF 6:17,18; AT 17:11; HB 2:1;4:12; TG 1:21.",
+      "DT 6:6-7;SL 84:1;SL 84:2;SL 84:4;sl 119:11; sl 119:18; LC 8:18; IPE 2:1-2; EF 6:17-18; AT 17:11; HB 2:1;hb 4:12; TG 1:21",
   },
   question161: {
     id: 161,
     question: "Como os sacramentos se tornam meios eficazes da salvação?",
     answer:
       "Os sacramentos tornam-se meios eficazes da salvação, não porque tenham qualquer poder em si, nem qualquer virtude derivada da piedade ou da intenção de quem os administra, mas unicamente pela operação do Espírito Santo e pela bênção de Cristo que os instituiu.",
-    references: "AT 8:13,23; I CO 3:7;6:11; IPE 3:21.",
+    references: "AT 8:13; at 8:23; ICO 3:7;ico 6:11; IPE 3:21",
   },
   question162: {
     id: 162,
@@ -1330,7 +1330,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Um sacramento é uma santa ordenança instituída por Cristo em sua Igreja, para significar, selar e conferir àqueles que estão no pacto da graça os benefícios da mediação de Cristo; para os fortalecer e lhes aumentar a fé e todas as mais graças, e os obrigar à obediência; para testemunhar e nutrir o seu amor e comunhão uns para com os outros, e para distingui-los dos que estão fora.",
     references:
-      "MT 28:20;26:26,27; AT 2:38;22:16; RM 4:11;6:4;9:8; I CO 10:16,17,21;11:24-2612:13; EF 4:3-5; GL 3:27,29;4:15;5:6.",
+      "MT 28:20;mt 26:26-27; AT 2:38;at 22:16; RM 4:11;rm 6:4;rm 9:8; ICO 10:16-17; ICO 10:21;ico 11:24-26; ico 12:13; EF 4:3-5; GL 3:27; gl 3:29;gl 4:15;gl 5:6",
   },
   question163: {
     id: 163,
@@ -1345,7 +1345,7 @@ export const largerWestminsterCatechism = {
     question: "Quantos sacramentos instituiu Cristo sob o Novo Testamento?",
     answer:
       "Sob o Novo Testamento, Cristo instituiu em sua Igreja somente dois sacramentos: o Batismo e a Ceia do Senhor.",
-    references: "MT 26:26,27;28:19; I CO 11:23-26.",
+    references: "MT 26:26-27;mt 28:19; ICO 11:23-26",
   },
   question165: {
     id: 165,
@@ -1353,7 +1353,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Batismo é um sacramento no Novo Testamento no qual Cristo ordenou a lavagem com água em nome do Pai, do Filho e do Espírito Santo, para ser um sinal e selo de nos unir a si mesmo, da remissão de pecados pelo seu sangue e da regeneração pelo seu Espírito; da adoção e ressurreição para a vida eterna; e por ele os batizandos são solenemente admitidos à Igreja visível e entram em um comprometimento público, professando pertencer inteira e unicamente ao Senhor.",
     references:
-      "MT 28:19; MC 1:4; JO 3:5; I CO 15:29; RM 6:3,4;GL 3:27; GL 3:26,27; AT 2:41;22:16; TT 3:5; AP 1:5.",
+      "MT 28:19; MC 1:4; JO 3:5; ICO 15:29; RM 6:3-4;GL 3:27; GL 3:26-27; AT 2:41;at 22:16; TT 3:5; AP 1:5",
   },
   question166: {
     id: 166,
@@ -1361,7 +1361,7 @@ export const largerWestminsterCatechism = {
     answer:
       "O Batismo não deve ser administrado aos que estão fora da Igreja visível, e assim estranhos aos pactos da promessa, enquanto não professarem a sua fé em Cristo e obediência a Ele; porém as crianças, cujos pais, ou um só deles, professarem fé em Cristo e obediência a ele, estão, quanto a isto, dentro do pacto e devem se batizadas.",
     references:
-      "GN 17:7-9; LC 18:16;  AT 2:38,39,41; I CO 7:14; RM 11:16; CL 1:11,12; GL 3:17,18,29.",
+      "GN 17:7-9; LC 18:16;  AT 2:38-39; at 2:41; ICO 7:14; RM 11:16; CL 1:11-12; GL 3:17-18; gl 3:29",
   },
   question167: {
     id: 167,
@@ -1369,14 +1369,14 @@ export const largerWestminsterCatechism = {
     answer:
       "O dever necessário, mas muito negligenciado, de tirar proveito de nosso Batismo deve ser cumprido por nós durante toda a nossa vida, especialmente no tempo de tentação, quando assistimos à administração desse sacramento a outros, por meio de séria e grata consideração de sua natureza e dos fins para os quais Cristo o instituiu, dos privilégios e benefícios conferidos e selados por ele e do voto solene que nele fizemos por meio de humilhação devida à nossa corrupção pecaminosa, às nossas faltas, e ao andarmos contrários à graça do Batismo e aos nossos votos; por crescermos até à certeza do perdão de pecados e de todas as mais bênçãos a nós seladas por esse sacramento; por fortalecer-nos pela morte e ressurreição de Cristo, em cujo nome fomos batizados para mortificação do pecado e a vivificação da graça e por esforçar-nos a viver pela fé, a ter a nossa conversação em santidade e retidão como convém àqueles que deram os seus nomes a Cristo, e a andar em amor fraternal, como batizados pelo mesmo Espírito em um só corpo.",
     references:
-      "SL 22:10,11; RM 4:11,12;6:2-5,22; I CO 1:11,13;12:13,25,26; IPE 3:21; GL 3:26,27.",
+      "SL 22:10-11; RM 4:11-12;rm 6:2-5; rm 6:22; ICO 1:11; ico 1:13;ico 12:13; ico 12:25-26; IPE 3:21; GL 3:26-27",
   },
   question168: {
     id: 168,
     question: "O que é a Ceia do Senhor?",
     answer:
       "A Ceia do Senhor é um sacramento do Novo Testamento no qual, dando-se e recebendo-se pão e vinho, conforme a instituição de Jesus Cristo, é anunciada a sua morte; e os que dignamente participam dele, alimentam-se do corpo e do sangue de Cristo para sua nutrição espiritual e crescimento na graça; têm a sua união e comunhão com ele confirmadas; testemunham e renovam a sua gratidão e consagração a Deus e o seu mútuo amor uns para com os outros, como membros do mesmo corpo místico.",
-    references: "MT 26:26,27; I CO 10:16-21;11:23-27.",
+    references: "MT 26:26-27; ICO 10:16-21;ico 11:23-27",
   },
   question169: {
     id: 169,
@@ -1384,7 +1384,7 @@ export const largerWestminsterCatechism = {
       "Como ordenou Cristo que o pão e o vinho fossem dados e recebidos no sacramento da Ceia do Senhor?",
     answer:
       "Cristo ordenou que os ministros da Palavra, na administração deste sacramento da Ceia do Senhor, separassem o pão e o vinho do uso comum pela palavra da instituição, ações de graça e oração; que  tomassem e partissem o pão e dessem, tanto este como o vinho, aos comungantes, os quais, pela mesma instituição, devem tomar e comer o pão e beber o vinho, em grata recordação de que o corpo de Cristo foi partido e dado, e o seu sangue derramado em favor deles.",
-    references: "MC 14:22-24.",
+    references: "MC 14:22-24",
   },
   question170: {
     id: 170,
@@ -1392,7 +1392,7 @@ export const largerWestminsterCatechism = {
       "Como se alimentam do corpo e do sangue de Cristo os que dignamente participam da Ceia do Senhor?",
     answer:
       "Desde que o corpo e o sangue de Cristo não estão, nem corporal, nem carnalmente, presentes no, com ou sob o pão e o vinho na Ceia do Senhor, mas, sim, espiritualmente à fé do comungante, não menos verdadeira e realmente do que estão os mesmos elementos aos seus sentidos exteriores, assim os que dignamente participam do sacramento da Ceia do Senhor se alimentam do corpo e do sangue de Cristo, não de uma maneira corporal e carnal, mas espiritual, contudo verdadeira e realmente, visto que pela fé recebem e aplicam a si mesmos o Cristo crucificado e todos os benefícios de sua morte. As especificações enumeradas nas respostas às questões 170 a 175 são deduzidas na natureza da Ceia do Senhor como estabelecida no N.T. Os textos são dados para mostrar que estas especificações estão de acordo com o tema geral das Escrituras.",
-    references: "JO 6:51,53; AT 3:21; I CO 10.16; GL 3:1; HB 11:1.",
+    references: "JO 6:51; jo 6:53; AT 3:21; ICO 10.16; GL 3:1; HB 11:1",
   },
   question171: {
     id: 171,
@@ -1401,7 +1401,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os que recebem o sacramento da Ceia do Senhor devem preparar-se para o receber, examinando-se a si mesmos, se estão em Cristo, a respeito de seus pecados e necessidades, da verdade e medida de seu conhecimento, fé, arrependimento e amor para com Deus e para com os irmãos; da caridade para com todos os homens, perdoando aos que lhes têm feito mal; de seus desejos de ter Cristo e de sua nova obediência, renovando o exercício destas graças pela meditação séria e pela oração fervorosa.",
     references:
-      "ÊX 12:15; IICR 30:18,19;IS 55:1; SL 26:6; MT 5:23,24;26:26; LC 1:53; JO 7:37; I CO 5:7,8;10:17;11:18-20,24,28,29,31; II CO 13:5 ; HB 10:21,22,24.",
+      "eX 12:15; IICR 30:18-19;IS 55:1; SL 26:6; MT 5:23-24;mt 26:26; LC 1:53; JO 7:37; ICO 5:7-8;ico 10:17;ico 11:18-20;ico 11:24;ico 11:28-29;ico 11:31; IICO 13:5; HB 10:21-22; HB 10:24",
   },
   question172: {
     id: 172,
@@ -1410,7 +1410,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Uma pessoa que duvida de que esteja em Cristo, ou de que esteja convenientemente preparada para participar do sacramento da Ceia do Senhor, pode ter um verdadeiro interesse em Cristo, embora não tenha ainda a certeza disto; mas aos olhos de Deus o tem, se está devidamente tocada pelo receio da falta desse interesse, e sem fingimento deseja ser achada em Cristo e apartar-se da iniqüidade. Neste caso, desde que as promessas são feitas, e este sacramento é ordenado para o alívio dos cristãos fracos e que estão em dúvida, deve lamentar a sua incredulidade e esforçar-se para ter as suas dúvidas dissipadas; e, assim fazendo, pode e deve chegar-se à Ceia do Senhor para ficar mais fortalecida.",
     references:
-      "IS 40:11,29,31;50:10;54:7,8,10; SL 31:22;42:11; MT 5:3,4;11:28;26:28; MC 9:24; AT 9:6;16:30;RM 7:24,25; I CO 11:28 ;II TM 2:19.",
+      "IS 40:11;IS 40:29;IS 40:31;is 50:10;is 54:7-8; is 54:10; SL 31:22;sl 42:11; MT 5:3-4;mt 11:28;mt 26:28; MC 9:24; AT 9:6;at 16:30;RM 7:24-25; ICO 11:28;IITM 2:19",
   },
   question173: {
     id: 173,
@@ -1418,7 +1418,7 @@ export const largerWestminsterCatechism = {
       "Alguém que professa a fé, e deseja participar da Ceia do Senhor, pode ser excluído dela?",
     answer:
       "Os que forem achados ignorantes ou escandalosos, não obstante a sua profissão de fé e o desejo de participar da Ceia do Senhor, podem e devem ser excluídos desse sacramento, pelo poder que Cristo legou à sua Igreja, até que recebam instrução e manifestem mudança.",
-    references: "I CO 5:3-5,11;11:29 ;II CO 2:5-8.",
+    references: "ICO 5:3-5ICO 5:11;ico 11:29;IICO 2:5-8",
   },
   question174: {
     id: 174,
@@ -1427,7 +1427,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Exige-se dos que recebem o sacramento da Ceia do Senhor que, durante a sua celebração, esperem em Deus, nessa ordenança, com toda a santa reverência e atenção; que diligentemente observem os elementos e os atos sacramentais; que atentamente discriminem o corpo do Senhor, e, cheios de amor, meditem na sua morte e sofrimentos, e assim se despertem para um vigoroso exercício das suas graças, julgando-se a si mesmos e entristecendo-se pelo pecado; tendo fome e sede ardentes de Cristo, alimentando-se nele pela fé, recebendo da sua plenitude, confiando nos seus méritos, regozijando-se no seu amor, sendo gratos pela sua graça e renovando o pacto que fizeram com Deus e o amor a todos os santos.",
     references:
-      "IICR 30:21; ZC 12:10; SL 22:26;63:1; JR 50:5;  LC 22:19; JO 1:16;6:35; AT 2:42; I CO 10:17;11:29,31; GL 2:20;3:1; FP 3:9; CL 1:19; IPE 1:8.",
+      "IICR 30:21; ZC 12:10; SL 22:26;sl 63:1; JR 50:5;  LC 22:19; JO 1:16;jo 6:35; AT 2:42; ICO 10:17;ico 11:29; ico 11:31; GL 2:20;gl 3:1; FP 3:9; CL 1:19; IPE 1:8",
   },
   question175: {
     id: 175,
@@ -1436,7 +1436,7 @@ export const largerWestminsterCatechism = {
     answer:
       "O dever dos crentes, depois de receberem o sacramento da Ceia do Senhor, é o de seriamente considerar como se portaram nele, e com que proveito; se foram vivificados e confortados; devem bendizer a Deus por isto, pedir a continuação do mesmo, vigiar contra a reincidência, cumprir seus votos e  animar-se a atender sempre a esta ordenança; se não acharem, porém, nenhum benefício, deverão refletir novamente, e com mais cuidado, na sua preparação para este sacramento e no comportamento que tiverem na ocasião, podendo, em uma e outra coisa, aprovar-se diante de Deus e de suas próprias consciências, esperando com o tempo o fruto de sua participação; se perceberem, porém, que nessas coisas foram remissos, deverão humilhar-se, e para o futuro participar desta ordenança com mais cuidado e diligência.",
     references:
-      "ICR 15:12-14; IS 8:17; SL 27:4;50:14;77:6;123:1,2;139:23,24; OS 14:2; AT 2:42,46,47; I CO 10:12;11:17,25,26,30,31; II CO 2:14;7:11; RM 11:20.",
+      "ICR 15:12-14; IS 8:17; SL 27:4;sl 50:14;sl 77:6;sl 123:1-2;sl 139:23-24; OS 14:2; AT 2:42; AT 2:46-47; ICO 10:12;ico 11:17; ico 11:25-26; ico 11:30-31; IICO 2:14;iico 7:11; RM 11:20",
   },
   question176: {
     id: 176,
@@ -1444,7 +1444,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Os sacramentos do Batismo e da Ceia do Senhor concordam em ser Deus o autor de ambos; em ser Cristo e os seus benefícios a parte espiritual de ambos; em ambos serem selos do mesmo pacto, em não deverem ser administrados senão pelos ministros do Evangelho, e em deverem ser continuados na igreja de Cristo até a sua segunda vinda.",
     references:
-      "MT 26:27,28;28:19,20; MC 28:19; RM 4:11;6:3,4; I CO 10:16;11:23,26; CL 2:11.",
+      "MT 26:27-28;mt 28:19-20; MC 28:19; RM 4:11;rm 6:3-4; ICO 10:16;ico 11:23; ico 11:26; CL 2:11",
   },
   question177: {
     id: 177,
@@ -1452,14 +1452,14 @@ export const largerWestminsterCatechism = {
     answer:
       "Os sacramentos do Batismo e da Ceia do Senhor diferem em dever o Batismo ser administrado uma vez só, com água, para ser sinal e selo da nossa união com Cristo, e administrado também às crianças; enquanto que a Ceia do Senhor deve ser celebrada freqüentemente, com os elementos de pão e vinho, para representar e mostrar Cristo como o alimento espiritual para a alma, e para confirmar a nossa permanência e crescimento nele, e isso apenas para aqueles que têm idade e condições de se examinarem a si mesmos.",
     references:
-      "MT 3:11; JO 6:51-53; AT 2:38,39;  I CO 7:14;10:16;11:26,28; GL 3:27; CL 2:19.",
+      "MT 3:11; JO 6:51-53; AT 2:38-39;  ICO 7:14;ico 10:16;ico 11:26; ico 11:28; GL 3:27; CL 2:19",
   },
   question178: {
     id: 178,
     question: "Que é oração?",
     answer:
       "Oração é um oferecimento de nossos desejos a Deus, em nome de Cristo e com o auxílio de seu Espírito, e com a confissão de nossos pecados e um grato reconhecimento de suas misericórdias.",
-    references: "SL 32:5,6;62:8; DN 9:4; JO 16:23,24; RM 8:26; FP 4:6.",
+    references: "SL 32:5-6;sl 62:8; DN 9:4; JO 16:23-24; RM 8:26; FP 4:6",
   },
   question179: {
     id: 179,
@@ -1467,7 +1467,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Sendo Deus o único que pode esquadrinhar o coração, ouvir os pedidos, perdoar os pecados e cumprir os desejos de todos, o único em que se deve crer e a quem se deve prestar culto religioso, a oração, que é uma parte especial do culto, deve ser oferecida por todos a ele só, e a nenhum outro.",
     references:
-      "IISM 22:32; I RS 8:39; IS 42:8; JR 3:23; SL 65:2;145:16,19; MQ 7:18; MT 4:10; LC 4:8; JO 14:1;  AT 1:24; RM 8:27; I CO 1:2.",
+      "IISM 22:32; IRS 8:39; IS 42:8; JR 3:23; SL 65:2;sl 145:16; sl 145:19; MQ 7:18; MT 4:10; LC 4:8; JO 14:1;  AT 1:24; RM 8:27; ICO 1:2",
   },
   question180: {
     id: 180,
@@ -1475,7 +1475,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Orar em nome de Cristo é, em obediência ao seu mandamento e em confiança nas suas promessas, pedir a misericórdia por amor dele, não por mera menção de seu nome; porém derivando o nosso ânimo para orar, a nossa coragem, força e esperança de sermos aceitos em oração, de Cristo e sua mediação.",
     references:
-      "DN 9:17; MT 7:21; LC 6:46; JO 14:13,14; IJO 5:13-15; HB 4:14-16.",
+      "DN 9:17; MT 7:21; LC 6:46; JO 14:13-14; IJO 5:13-15; HB 4:14-16",
   },
   question181: {
     id: 181,
@@ -1483,14 +1483,14 @@ export const largerWestminsterCatechism = {
     answer:
       "O homem, em razão de seu pecado, ficou tão afastado de Deus que a ele não se pode chegar sem ter um mediador; e não havendo ninguém, no céu ou na terra, constituído e preparado para esta gloriosa obra, senão Cristo unicamente, o nome dele é o único por meio do qual devemos orar.",
     references:
-      "JO 6:27; IJO 14:6; EF 3:12; I TM 2:5; CL 3:17;HB 7:25-27;13:15.",
+      "JO 6:27; IJO 14:6; EF 3:12; ITM 2:5; CL 3:17;HB 7:25-27;hb 13:15",
   },
   question182: {
     id: 182,
     question: "Como o Espírito nos ajuda a orar?",
     answer:
       "Não sabendo nós o que havemos de pedir, como convém, o Espírito nos assiste em nossa fraqueza, habilitando-nos a saber por quem, pelo quê, e como devemos orar; operando e despertando em nossos corações (embora não em todas as pessoas, nem em todos os tempos, na mesma medida) aquelas apreensões, afetos e graças que são necessários para o bom cumprimento desse dever.",
-    references: "SL 10:17;80:18;ZC 12:10; RM 8:26.",
+    references: "SL 10:17;sl 80:18;ZC 12:10; RM 8:26",
   },
   question183: {
     id: 183,
@@ -1498,7 +1498,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Devemos orar por toda a Igreja de Cristo na terra, pelos magistrados e outras autoridades, por nós mesmos, pelos nossos irmãos e até mesmo pelos nossos inimigos, e pelos homens de todas as classes, pelos vivos e pelos que ainda hão de nascer; porém, não devemos orar pelos mortos, nem por aqueles que se sabe terem cometido o pecado para a morte.",
     references:
-      "GN 32:11; IISM 7:29; SL 28:9; MT 5:44; JO 17:20; EF 6:18;SL 28:9; I TM 2:1,2; IITS 1:11;3:1; CL 4:3; TG 5:16; IJO 5:16.",
+      "GN 32:11; IISM 7:29; SL 28:9; MT 5:44; JO 17:20; EF 6:18;SL 28:9; ITM 2:1-2; IITS 1:11;iits 3:1; CL 4:3; TG 5:16; IJO 5:16",
   },
   question184: {
     id: 184,
@@ -1506,7 +1506,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Devemos orar por tudo quanto realça a glória de Deus e o bem-estar da Igreja, o nosso próprio bem ou o de outrem; nada, porém, que seja ilícito.",
     references:
-      "SL 51:18;122:6;125:4; MT 6:9;7:11;  I TS 5:23; IITS 3:16; IJO 5:14; TG 4:3.",
+      "SL 51:18;sl 122:6;sl 125:4; MT 6:9;mt 7:11;  ITS 5:23; IITS 3:16; IJO 5:14; TG 4:3",
   },
   question185: {
     id: 185,
@@ -1514,28 +1514,27 @@ export const largerWestminsterCatechism = {
     answer:
       "Devemos orar com solene apreensão da majestade de Deus e profunda convicção de nossa própria indignidade, necessidades e pecados; com corações penitentes, gratos e francos; com entendimento, fé, sinceridade, fervor, amor e perseverança, esperando nele com humilde submissão à sua vontade.",
     references:
-      "GN 18:27; SL 17:1;33:8;5L:17;81:10;86:1;95:6;130:3;144:3;145:18;MQ 7:7; LC 15:17-19;18:13; MT 5:23,24;26:39; JO 4:24; EF 3:20,216:18; I CO 14:15;TG 1:6;5:16; I TM 1:2,8; HB 10:22.",
+      "GN 18:27; SL 17:1;sl 33:8;sl 51:17;sl 81:10;sl 86:1;sl 95:6;sl 130:3;sl 144:3;sl 145:18;MQ 7:7; LC 15:17-19;lc 18:13; MT 5:23-24;mt 26:39; JO 4:24; EF 3:20-21; ef 6:18; ICO 14:15;TG 1:6;tg 5:16; ITM 1:2; itm 1:8; HB 10:22",
   },
   question186: {
     id: 186,
     question: "Que regra Deus nos deu para nos dirigir na prática da oração?",
     answer:
       "Toda a Palavra de Deus é útil para nos dirigir na prática da oração; mas a regra especial é aquela forma de oração que nosso Salvador Jesus Cristo ensinou aos seus discípulos, geralmente chamada “Oração do Senhor”.",
-    references: "II TM 3:16,17; IJO 5:14; MT 6:9-13; LC 11:2-4.",
+    references: "IITM 3:16-17; IJO 5:14; MT 6:9-13; LC 11:2-4",
   },
   question187: {
     id: 187,
     question: "Como a Oração do Senhor deve ser usada?",
     answer:
       "A Oração do Senhor não é somente para direcionamento, como modelo segundo o qual devemos orar; mas também pode ser usada como uma oração, contanto que seja feita com entendimento, fé, reverência e outras graças necessárias para o correto cumprimento do dever da oração.",
-    references: "MT 6:9; LC 11:2.",
+    references: "MT 6:9; LC 11:2",
   },
   question188: {
     id: 188,
     question: "De quantas partes consiste a Oração do Senhor?",
     answer:
       "A Oração do Senhor consiste de três partes: prefácio, petições e conclusão.",
-    references: "SEM REFERÊNCIAS",
   },
   question189: {
     id: 189,
@@ -1543,7 +1542,7 @@ export const largerWestminsterCatechism = {
     answer:
       "O prefácio da Oração do Senhor, que é: “Pai nosso que estás nos céus”, nos ensina, quando orarmos, a nos aproximarmos de Deus com confiança na sua bondade paternal e no nosso interesse nele; com reverência e todas as outras disposições de filhos, afetos celestes e a devia apreensão do seu soberano poder, majestade e graciosa condescendência; bem assim o orar com outros e por eles.",
     references:
-      "SL 95:6,7;104:1;113:4-6;123:1; LM 3:41; IS 63:15; ZC 8:21;6:9; LC 11:13; AT 12:5 ; RM 8:15.",
+      "SL 95:6-7;sl 104:1;sl 113:4-6;sl 123:1; LM 3:41; IS 63:15; ZC 8:21;zc 6:9; LC 11:13; AT 12:5; RM 8:15",
   },
   question190: {
     id: 190,
@@ -1551,7 +1550,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Na primeira petição, que é: “Santificado seja o teu nome” – reconhecendo a inteira incapacidade e indisposição que há em nós e em todos os homens, de honrar a Deus como é devido -, pedimos que ele, pela sua graça, nos habilite e nos incline, a nós e aos demais, a conhecê-lo, confessá-lo e altamente estimar, a ele e a seus títulos, atributos, ordenanças, palavras, obras e tudo aquilo por meio do qual ele se dá a conhecer; a glorificá-lo em pensamentos, palavras e obras; que ele impeça e remova o ateísmo, a ignorância, a idolatria, a profanação e tudo quanto o desonre; que pela sua soberana providência dirija e disponha tudo para a sua própria glória.",
     references:
-      "II RS 19:16; IS 64:1,2; JR 14:21.  LEIAM-SE OS SL 8 E 14 INTEIROS. SL 19:14;51:15;67:1-4;72:19;74:18,22;83:18;86:10,15;97:7;107:32;145:6-8; MT 6:9; II CO 2:14;3:5.; IITS 3:1; EF 1:17,18;3:20,21; FP 1:11;",
+      "IIRS 19:16; IS 64:1-2; JR 14:21; sl 8; sl 14; SL 19:14;sl 51:15;sl 67:1-4;sl 72:19;sl 74:18; sl 74:22;sl 83:18;sl 86:10; sl 86:15;sl 97:7;sl 107:32;sl 145:6-8; MT 6:9; IICO 2:14;iico 3:5; IITS 3:1; EF 1:17-18;ef 3:20-21; FP 1:11",
   },
   question191: {
     id: 191,
@@ -1559,7 +1558,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Na segunda petição, que é: “Venha o teu reino”- reconhecendo que nós e todos os homens estamos, por natureza, sob o domínio do pecado e de Satanás -, pedimos que o domínio do mal seja destruído, o Evangelho seja propagado por todo o mundo, os judeus chamados, e a plenitude dos gentios seja consumada; que a igreja seja provida de todos os oficiais e ordenanças do Evangelho, purificada da corrupção, aprovada e mantida pelo magistrado civil; que as ordenanças de Cristo sejam administradas com pureza, feitas eficazes para a conversão daqueles que estão ainda nos seus pecados, e para a confirmação, conforto e edificação dos que estão já convertidos; que Cristo reine nos nossos corações, aqui, e apresse o tempo da sua segunda vinda e de reinarmos nós com ele para sempre; que lhe apraza exercer o reino de seu poder em todo o mundo, do modo que melhor contribua para estes fins.",
     references:
-      "IS 64:1,2; SL 67(TODO);68:1; ML 1:11;  MT 6:10;9:38; RM 10:1;11:25; II CO 4:2; EF 2:2,3;3:14,17;5:26,27; AT 26:18; IITS 2:16,17;3:1; AP 12:9;22:20.",
+      "IS 64:1-2; SL 67; sl 68:1; ML 1:11;  MT 6:10;mt 9:38; RM 10:1;rm 11:25; IICO 4:2; EF 2:2-3;ef 3:14; ef 3:17;ef 5:26-27; AT 26:18; IITS 2:16-17;iits 3:1; AP 12:9;ap 22:20",
   },
   question192: {
     id: 192,
@@ -1567,7 +1566,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Na terceira petição, que é: “Seja feita a tua vontade, assim na terra como no céu”- reconhecendo que, por natureza, nós e todos os homens somos, não só inteiramente incapazes e indispostos a conhecer e fazer a vontade de Deus, mas propensos a rebelar-nos contra sua palavra, a desanimar-nos e a murmurar contra sua providência, e inteiramente inclinados a fazer a vontade da carne e do diabo -, pedimos que Deus, pelo seu Espírito, tire de nós e dos demais toda a cegueira, fraqueza, indisposição e perversidade do coração, e pela sua graça nos faça capazes e prontos para conhecer, fazer e submeter-nos à sua vontade em tudo, com humildade, alegria, fidelidade, diligência, zelo, sinceridade e constância, como os anjos fazem no céu.",
     references:
-      "DN 7:10; ISM 3:18; EZ 11:19; IS 38:3;  JR 31.18; SL 73:3;103:20-22;119:4,35,112;123:2; MQ 6:8; MT6:10;20:11;26:20-1;AT21:14;ICO2:24;RM2:7;7:24,25;8:7;12:11;TT3:3;EF 1:17,18;2:2,3;3:16;6:6; II CO 1:12.",
+      "DN 7:10; ISM 3:18; EZ 11:19; IS 38:3;  JR 31.18; SL 73:3;sl 103:20-22;sl 119:4; sl 119:35; sl 119:112;sl 123:2; MQ 6:8; MT 6:10;mt 20:11;mt 26:20-1;AT 21:14;ICO 2:24;RM 2:7;rm 7:24-25;rm 8:7;rm 12:11;TT 3:3;EF 1:17-18;ef 2:2-3;ef 3:16;ef 6:6; IICO 1:12",
   },
   question193: {
     id: 193,
@@ -1575,7 +1574,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Na quarta petição, que é: “O pão nosso de cada dia nos dá hoje”- reconhecendo que, em Adão e pelo nosso próprio pecado, perdemos o nosso direito a todas as bênçãos exteriores desta vida, e que merecemos ser, por Deus, totalmente privados delas, tendo elas se transformado em maldição para nós, no seu uso; que nem elas podem de si mesmas nos sustentar, nem nós podemos merecê-las nem pela nossa diligência consegui-las, mas que somos propensos a desejar, obter e usar delas ilicitamente -, pedimos, por nós mesmos e por outros, que tanto eles como nós, dependendo da providência de Deus, de dia em dia, no uso de meios lícitos possamos, do seu livre dom e conforme parecer bem à sua sabedoria paternal, gozar de uma porção suficiente desses favores e tê-los continuados e abençoados para nós em nosso santo e confortável uso e contentamento; e que sejamos guardados de tudo quanto é contrário ao nosso sustento e conforto temporais.",
     references:
-      "GN 3:17;32:10; DT 8:3,18;28:15-68. LM 3:22; SL 90:17;144:12-15;  PV 10:22;30:8,9; JR 6:13; OS 12:7; MT 6:11;  TG 4:3,13-15; I TM 4:4-5;6:6-8.",
+      "GN 3:17;gn 32:10; DT 8:3; dt 8:18; dt 28:15-68; LM 3:22; SL 90:17;sl 144:12-15;  PV 10:22;pv 30:8-9; JR 6:13; OS 12:7; MT 6:11;  TG 4:3; tg 4:13-15; ITM 4:4-5;itm 6:6-8",
   },
   question194: {
     id: 194,
@@ -1583,7 +1582,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Na quinta petição, que é: “Perdoa-nos as nossas dívidas, assim como nós também perdoamos aos nossos devedores”- reconhecendo que nós e todos os demais somos culpados do pecado original e atual, e por isso nos tornamos devedores à justiça de Deus; que nem nós nem outra criatura qualquer pode fazer a mínima satisfação por essa dívida -, pedimos, por nós mesmos e por outros, que Deus, da sua livre graça e pela obediência e satisfação de Cristo adquiridas e aplicadas pela fé, nos absolva da culpa e da punição do pecado, que nos aceite no seu Amado, continuem o seu favor e graça em nós, perdoe as nossas faltas diárias e nos encha de paz e gozo, dando-nos diariamente mais e mais certeza de perdão; que tenhamos mais coragem de pedir e sejamos mais animados a esperar, uma vez que já temos este testemunho em nós, que de coração já perdoamos aos outros as suas ofensas.",
     references:
-      "SL 51:7-12;130:3;143:2; MQ 6:6,7; OS 14:1; MT 6:12,14,15;18:24,35; LC 11:4; RM 3:9,19,24,25;5:1,2,19;15:13; AT 13:39; EF 1:6; IIPE 1:2.",
+      "SL 51:7-12;sl 130:3;sl 143:2; MQ 6:6-7; OS 14:1; MT 6:12; MT 6:14-15;mt 18:24; MT 18:35; LC 11:4; RM 3:9; RM 3:19; RM 3:24-25;rm 5:1-2; rm 5:19;rm 15:13; AT 13:39; EF 1:6; IIPE 1:2",
   },
   question195: {
     id: 195,
@@ -1591,7 +1590,7 @@ export const largerWestminsterCatechism = {
     answer:
       "Na sexta petição, que é: “Não nos deixes cair em tentação, mas livra-nos do mal” - reconhecendo que o mui sábio, justo e gracioso Deus, por diversos fins, santos e justos, pode dispor as coisas de maneira que sejamos assaltados, frustrados e feitos por algum tempo cativos pelas tentações; que Satanás, o mundo e a carne estão prontos e são poderosos para nos desviar e enlaçar, que nós, depois do perdão de nossos pecados, devido à nossa corrupção, fraqueza e falta de vigilância, estamos, não somente sujeitos a ser tentados e dispostos a nos expor às tentações, mas também, de nós mesmos, incapazes e indispostos para lhes resistir, sair ou tirar proveito delas: e que somos dignos de ser deixados sob o seu poder -, pedimos que Deus de tal forma reja o mundo e tudo o que nele há, subjugue a carne, restrinja a Satanás, disponha tudo, conceda e abençoe todos os meios de graça e nos desperte à vigilância no seu uso; que nós e todo o seu povo sejamos guardados, pela sua providência, de sermos tentados ao pecado; ou que, quando tentados, sejamos poderosamente sustentados pelo Espírito, e habilitados a ficar  firmes na hora da tentação; ou, quando, fracassados, sejamos levantados novamente, recuperados da queda, e que façamos dela uso e proveito santos; que a nossa santificação e salvação sejam aperfeiçoadas, Satanás calcado aos nossos pés e nós inteiramente libertados o pecado, da tentação e de todo o mal, para sempre.",
     references:
-      "IICR 32:31; JÓ 2:2,6; PV 7:22; SL 19:13;51:10,12;81:11,12;119:133; MT 6:13;26:41; MC 4:19; LC 21:34; IPE 1:6,7;5:8,10; TG 1:14; GL 5:17; RM 7:18,19;8:28;16:20; I TM 6:9; JO 17:15; HB 2:18;13:20,21; I CO 10:13; II CO 12:8; EF 3:14-16;4:11,12; I TS 3:13;5:23.",
+      "IICR 32:31; JOH 2:2; JOH 2:6; PV 7:22; SL 19:13;sl 51:10; sl 51:12;sl 81:11-12;sl 119:133; MT 6:13;mt 26:41; MC 4:19; LC 21:34; IPE 1:6-7;ipe 5:8; ipe 5:10; TG 1:14; GL 5:17; RM 7:18-19;rm 8:28;rm 16:20; ITM 6:9; JO 17:15; HB 2:18;hb 13:20-21; ICO 10:13; IICO 12:8; EF 3:14-16;ev 4:11-12; ITS 3:13; its 5:23",
   },
   question196: {
     id: 196,
@@ -1599,6 +1598,6 @@ export const largerWestminsterCatechism = {
     answer:
       "A conclusão da Oração do Senhor, que é: “Porque teu é o reino e o poder e a glória para sempre. Amém”, nos ensina a reforçar as nossas petições com argumentos que devem ser derivados, não de qualquer mérito que haja em nós ou em qualquer outra criatura, mas de Deus; e ajuntar louvores às nossas orações, atribuindo a Deus, unicamente, a soberania eterna, onipotência e gloriosa excelência; em virtude do quê, como ele pode e quer socorrer-nos, assim nós, pela fé, estamos animados a instar com ele a que atenda aos nossos pedidos, e a confiar tranqüilamente que assim o fará. E para testemunhar os nossos desejos e certeza de sermos ouvidos, dizemos: Amem.",
     references:
-      "ICR 29:10-13; JÓ 23:3,4; JR 14:20,21; DN 9:4,7-9; MT 6:13; FP 4:6; EF 3:12,20,21; LC 11:13; HB 10:19-22; IJO 5:14; RM 8:32; I CO 14:16; AP 22:20,21.",
+      "ICR 29:10-13; JOH 23:3-4; JR 14:20-21; DN 9:4; dn 9:7-9; MT 6:13; FP 4:6; EF 3:12; ef 3:20-21; LC 11:13; HB 10:19-22; IJO 5:14; RM 8:32; ICO 14:16; AP 22:20-21",
   },
 };
