@@ -17,7 +17,6 @@ async function AddLargerWestminsterCatechism(
         console.log(catechismQuestion);
         await sendLargerCatechismTodatabase(catechismQuestion);
       }
-      // await addBook(question);
     }
     response.status(200).json(true);
     return true;
