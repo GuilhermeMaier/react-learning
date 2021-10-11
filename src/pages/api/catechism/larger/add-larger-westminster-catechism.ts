@@ -1,6 +1,6 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
-import sendLargerCatechismTodatabase from "../../bible/conversor-to-db/database";
-import { catechism } from "../dto/common-catechism.dto";
+import sendLargerCatechismTodatabase from "../../catechism/larger/database";
+import { catechismQuestion } from "../dto/common-catechism.dto";
 import { largerWestminsterCatechism } from "./dto/larger-westminster-catechism.dto";
 
 async function AddLargerWestminsterCatechism(
@@ -12,7 +12,8 @@ async function AddLargerWestminsterCatechism(
       largerWestminsterCatechism
     );
     for (const question of largerWestminsterCatechismData) {
-      const catechismQuestion: catechism = largerWestminsterCatechism[question];
+      const catechismQuestion: catechismQuestion =
+        largerWestminsterCatechism[question];
       if (typeof catechismQuestion.references == "object") {
         console.log(catechismQuestion);
         await sendLargerCatechismTodatabase(catechismQuestion);

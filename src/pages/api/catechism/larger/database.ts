@@ -1,8 +1,8 @@
 import connectDatabase from "../../common/connect";
-import { catechism } from "../dto/common-catechism.dto";
+import { catechismQuestion } from "../dto/common-catechism.dto";
 
 async function sendLargerCatechismTodatabase(
-  catechismQuestion: catechism
+  catechismQuestion: catechismQuestion
 ): Promise<boolean> {
   const db = await connectDatabase(process.env.MONGODB_URI);
   const collection = db.collection("larger-westminster-catechism");

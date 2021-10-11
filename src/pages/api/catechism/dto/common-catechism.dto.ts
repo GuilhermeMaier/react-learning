@@ -5,7 +5,7 @@ export class catechismReference {
   verseIdEnd: number;
 }
 
-export class catechism {
+export class catechismQuestion {
   id: number;
   question: string;
   answer: string;
