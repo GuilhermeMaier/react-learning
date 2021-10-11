@@ -1,23 +1,20 @@
 import connectDatabase from "../../common/connect";
+import { catechism } from "../dto/common-catechism.dto";
 
-async function addLarger(DBBook: DBVerse[]): Promise<boolean> {
+async function sendLargerCatechismTodatabase(
+  catechismQuestion: catechism
+): Promise<boolean> {
   const db = await connectDatabase(process.env.MONGODB_URI);
-  const collection = db.collection("bible");
+  const collection = db.collection("larger-westminster-catechism");
   try {
-    for (const currentVerse of DBBook) {
-      const currentDocument = await collection.findOneAndUpdate(
-        {
-          chapterId: currentVerse.chapterId,
-          verseId: currentVerse.verseId,
-          name: currentVerse.name,
-        },
-        {
-          $set: { verseDescription: currentVerse.verseDescription },
-        }
-      );
-      if (currentDocument.value === null) {
-        await collection.insertOne(currentVerse);
-      }
+    const { id, question, answer, references } = catechismQuestion;
+    const findQuery = { id, question, answer };
+    const updateQuery = { references };
+    const currentDocument = await collection.findOneAndUpdate(findQuery, {
+      $set: updateQuery,
+    });
+    if (currentDocument.value === null) {
+      await collection.insertOne(catechismQuestion);
     }
     return true;
   } catch (error) {
@@ -25,4 +22,4 @@ async function addLarger(DBBook: DBVerse[]): Promise<boolean> {
   }
 }
 
-export default addLarger;
+export default sendLargerCatechismTodatabase;
