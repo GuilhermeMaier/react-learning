@@ -14,9 +14,7 @@ async function AddLargerWestminsterCatechism(
     for (const question of largerWestminsterCatechismData) {
       const catechismQuestion: catechismQuestion =
         largerWestminsterCatechism[question];
-      if (typeof catechismQuestion.references == "object") {
-        await sendLargerCatechismTodatabase(catechismQuestion);
-      }
+      await sendLargerCatechismTodatabase(catechismQuestion);
     }
     response.status(200).json(true);
     return true;

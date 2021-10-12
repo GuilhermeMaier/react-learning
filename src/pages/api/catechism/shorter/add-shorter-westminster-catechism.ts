@@ -14,9 +14,7 @@ async function AddShorterWestminsterCatechism(
     for (const question of shorterWestminsterCatechismData) {
       const catechismQuestion: catechismQuestion =
         shorterWestminsterCatechism[question];
-      if (typeof catechismQuestion.references == "object") {
-        await sendShorterCatechismTodatabase(catechismQuestion);
-      }
+      await sendShorterCatechismTodatabase(catechismQuestion);
     }
     response.status(200).json(true);
     return true;

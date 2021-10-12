@@ -10,7 +10,6 @@ async function sendLargerCatechismTodatabase(
     const { id, question, answer, references } = catechismQuestion;
     const findQuery = { id, question, answer };
     const updateQuery = { references };
-    let counter = 0;
     const currentDocument = await collection.findOneAndUpdate(findQuery, {
       $set: updateQuery,
     });
