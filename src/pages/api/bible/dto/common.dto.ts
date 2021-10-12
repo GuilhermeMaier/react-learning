@@ -220,6 +220,20 @@ export class DBVerse {
   verseDescription: string;
 }
 
+export class DBRequestBody {
+  abbrev: string;
+  chapterId: number;
+  verseIdStart: number;
+  verseIdEnd?: number;
+}
+
+export class BibleRequestBody {
+  book: string;
+  chapterId: number;
+  verseIdStart: number;
+  verseIdEnd?: number;
+}
+
 export class BibleReturn {
   data: DBVerse[];
 }
