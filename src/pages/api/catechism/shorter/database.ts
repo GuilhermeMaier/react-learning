@@ -1,11 +1,11 @@
 import connectDatabase from "../../common/connect";
 import { catechismQuestion } from "../dto/common-catechism.dto";
 
-async function sendLargerCatechismTodatabase(
+async function sendShorterCatechismTodatabase(
   catechismQuestion: catechismQuestion
 ): Promise<boolean> {
   const db = await connectDatabase(process.env.MONGODB_URI);
-  const collection = db.collection("larger-westminster-catechism");
+  const collection = db.collection("shorter-westminster-catechism");
   try {
     const { id, question, answer, references } = catechismQuestion;
     const findQuery = { id, question, answer };
@@ -22,4 +22,4 @@ async function sendLargerCatechismTodatabase(
   }
 }
 
-export default sendLargerCatechismTodatabase;
+export default sendShorterCatechismTodatabase;

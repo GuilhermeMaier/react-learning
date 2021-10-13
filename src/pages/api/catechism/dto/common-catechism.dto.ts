@@ -5,7 +5,7 @@ export class catechismReference {
   verseIdEnd: number;
 }
 
-export class catechism {
+export class catechismQuestion {
   id: number;
   question: string;
   answer: string;
@@ -30,4 +30,4 @@ export class catechism {
 // })
 // references
 
-// \w+ \d+\:\d+(\-\d+)?;
+// \w+ \d+[\:|\.]\d+(\-\d+)?[;]?
