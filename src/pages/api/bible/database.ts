@@ -6,18 +6,16 @@ async function getVerses(DBRequestBody: DBRequestBody) {
   const db = await connectDatabase(process.env.MONGODB_URI);
   const collection = db.collection("bible");
   try {
-    const f = {
-      abbrev: DBRequestBody.abbrev,
-      chapterId: DBRequestBody.chapterId,
+    const { abbrev, chapterId, verseIdStart, verseIdEnd } = DBRequestBody;
+    const query = {
+      abbrev,
+      chapterId,
       verseId: {
-        $gt: DBRequestBody.verseIdStart,
-        $lt: DBRequestBody.verseIdEnd,
+        $gte: verseIdStart,
       },
     };
-    console.log(f);
-    const currentDocument = await collection.find(f);
-
-    return currentDocument;
+    if (verseIdEnd) query.verseId["$lte"] = verseIdEnd;
+    return await collection.find(query).toArray();
   } catch (error) {
     throw new Error(error);
   }
