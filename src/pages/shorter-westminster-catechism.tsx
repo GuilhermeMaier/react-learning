@@ -4,7 +4,7 @@ import moment from "moment";
 import axios from "axios";
 import { locationViaCepResponse } from "./api/location/dto/location.dto";
 
-function Time({ staticDate }) {
+function ShorterWestminsterCatechism({ staticDate }) {
   const [dynamicDate, setDynamicDate] = useState<string>(staticDate);
   const [location, setLocation] = useState<locationViaCepResponse>();
 
@@ -60,4 +60,4 @@ export function getStaticProps() {
   };
 }
 
-export default Time;
+export default ShorterWestminsterCatechism;

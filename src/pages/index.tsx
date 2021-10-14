@@ -6,15 +6,15 @@ function Home() {
   const router = useRouter();
   return (
     <div>
-      <h1 onClick={() => router.push("/time")}>Home</h1>
-      <Link href="/about">
-        <a>Sobre</a>
-      </Link>
-      <Link href="/time">
-        <a>Tempo</a>
-      </Link>
+      <h1 onClick={() => router.push("/time")}>Símbolos de Fé</h1>
       <Link href="/bible">
         <a>Bíblia</a>
+      </Link>
+      <Link href="/larger-westminster-catechism">
+        <a>Catecismo Maior de Westminster</a>
+      </Link>
+      <Link href="/shorter-westminster-catechism">
+        <a>Breve Catecismo de Westminster</a>
       </Link>
       <Contador />
     </div>

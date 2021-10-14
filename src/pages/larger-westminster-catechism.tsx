@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-function About() {
+function LargerWestminsterCatechism() {
   return (
     <div>
       <h1>Sobre</h1>
@@ -12,4 +12,4 @@ function About() {
   );
 }
 
-export default About;
+export default LargerWestminsterCatechism;
