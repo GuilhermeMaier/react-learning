@@ -223,7 +223,7 @@ export class DBVerse {
 export class DBRequestBody {
   abbrev: string;
   chapterId: number;
-  verseIdStart: number;
+  verseIdStart?: number;
   verseIdEnd?: number;
 }
 

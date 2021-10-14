@@ -10,11 +10,16 @@ async function getVerses(DBRequestBody: DBRequestBody) {
     const query = {
       abbrev,
       chapterId,
-      verseId: {
-        $gte: verseIdStart,
-      },
     };
-    if (verseIdEnd) query.verseId["$lte"] = verseIdEnd;
+    if (verseIdStart && !verseIdEnd) {
+      query["verseId"] = {};
+      query.verseId["$eq"] = verseIdStart;
+    }
+    if (verseIdStart && verseIdEnd) {
+      query["verseId"] = {};
+      query.verseId["$gte"] = verseIdStart;
+      query.verseId["$lte"] = verseIdEnd;
+    }
     return await collection.find(query).toArray();
   } catch (error) {
     throw new Error(error);
