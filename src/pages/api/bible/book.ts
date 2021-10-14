@@ -1,13 +1,10 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
 import getVerses from "./database";
-import { bible } from "./dto/bible.dto";
 import {
   BibleAbbrvKVM,
   BibleRequestBody,
   BIBLE_BOOK_NAME,
-  DBVerse,
-  JsonBook,
-  DBRequestBody,
+  DBBibleRequestBody,
 } from "./dto/common.dto";
 
 async function BibleBook(request: VercelRequest, response: VercelResponse) {
@@ -17,7 +14,7 @@ async function BibleBook(request: VercelRequest, response: VercelResponse) {
     BIBLE_BOOK_NAME[requestBody.book]
   ).toLowerCase();
   const { chapterId, verseIdStart, verseIdEnd } = requestBody;
-  const DBRequestBody: DBRequestBody = {
+  const DBRequestBody: DBBibleRequestBody = {
     abbrev,
     chapterId,
     verseIdStart,

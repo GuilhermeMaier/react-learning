@@ -220,7 +220,7 @@ export class DBVerse {
   verseDescription: string;
 }
 
-export class DBRequestBody {
+export class DBBibleRequestBody {
   abbrev: string;
   chapterId: number;
   verseIdStart?: number;

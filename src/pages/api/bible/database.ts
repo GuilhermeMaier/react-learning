@@ -1,7 +1,7 @@
 import connectDatabase from "../common/connect";
-import { DBRequestBody, DBVerse } from "./dto/common.dto";
+import { DBBibleRequestBody, DBVerse } from "./dto/common.dto";
 
-async function getVerses(DBRequestBody: DBRequestBody) {
+async function getVerses(DBRequestBody: DBBibleRequestBody) {
   //: Promise<DBVerse[]>
   const db = await connectDatabase(process.env.MONGODB_URI);
   const collection = db.collection("bible");
