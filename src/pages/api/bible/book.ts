@@ -23,10 +23,6 @@ async function BibleBook(request: VercelRequest, response: VercelResponse) {
   const DBResponse = await getVerses(DBRequestBody);
   response.status(200).json(DBResponse);
   return DBResponse;
-  // const DBBook: DBVerse[] = convertJsonToDB(JsonBook);
-  // const DBResponse = await addBook(DBBook);
-  // response.status(200).json(DBResponse);
-  // return DBResponse;
 }
 
 export default BibleBook;

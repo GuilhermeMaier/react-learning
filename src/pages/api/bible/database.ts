@@ -13,12 +13,11 @@ async function getVerses(DBRequestBody: DBBibleRequestBody) {
     };
     if (verseIdStart && !verseIdEnd) {
       query["verseId"] = {};
-      query.verseId["$eq"] = verseIdStart;
-    }
-    if (verseIdStart && verseIdEnd) {
+      query["verseId"]["$eq"] = verseIdStart;
+    } else if (verseIdStart && verseIdEnd) {
       query["verseId"] = {};
-      query.verseId["$gte"] = verseIdStart;
-      query.verseId["$lte"] = verseIdEnd;
+      query["verseId"]["$gte"] = verseIdStart;
+      query["verseId"]["$lte"] = verseIdEnd;
     }
     return await collection.find(query).toArray();
   } catch (error) {
