@@ -2,7 +2,7 @@ import React from "react";
 import ROUTES from "../../common/routes.dto.ts";
 import { MdBook, MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
-export const MenuContent = [
+const MenuContent = [
   {
     title: "Bíblia",
     path: ROUTES.BIBLE,
@@ -41,3 +41,5 @@ export const MenuContent = [
     ],
   },
 ];
+
+export default MenuContent;

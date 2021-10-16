@@ -17,3 +17,5 @@ export const NavIcon = styled(Link)`
   justify-content: flex-start;
   align-items: center;
 `;
+
+export default Nav;
