@@ -1,0 +1,100 @@
+* {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  outline: 0;
+  font-variant-numeric: lining-nums;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.2px;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+::-webkit-scrollbar-thumb {
+  height: 6px;
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  -webkit-border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05),
+    inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+p,
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+label,
+input,
+textarea,
+option,
+select,
+div {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+table th,
+table td {
+  display: table-cell;
+}
+
+a {
+  text-decoration: none;
+  color: #121212;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: #fafafa;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+hr {
+  background: #f1f1f1;
+  height: 1px;
+  border: 0;
+  margin: 0;
+}
+
+@keyframes spinAnimation {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.spin {
+  animation: spinAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}

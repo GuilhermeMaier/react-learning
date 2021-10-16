@@ -1,19 +1,11 @@
 import React, { useState } from "react";
-import { MdWorkspaces } from "react-icons/md";
-import { StaticRouter } from "react-router-dom";
+import GlobalStyle from "../common/styles/global";
 import CustomMenu from "../components/custom-menu";
-import { Nav, NavIcon } from "./styles";
 
 function Home() {
   return (
     <>
-      <StaticRouter>
-        <Nav>
-          <NavIcon to="">
-            <MdWorkspaces />
-          </NavIcon>
-        </Nav>
-      </StaticRouter>
+      <GlobalStyle />
       <CustomMenu />
       {/* <div>
         <h1>Símbolos de Fé</h1>
