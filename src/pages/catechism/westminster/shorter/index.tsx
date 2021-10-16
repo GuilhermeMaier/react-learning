@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import Link from "next/dist/client/link";
 import moment from "moment";
 import axios from "axios";
-import { locationViaCepResponse } from "./api/location/dto/location.dto";
+import { locationViaCepResponse } from "../../../api/location/dto/location.dto";
+import ROUTES from "../../../../common/routes.dto.ts";
 
 function ShorterWestminsterCatechism({ staticDate }) {
   const [dynamicDate, setDynamicDate] = useState<string>(staticDate);
@@ -41,7 +42,7 @@ function ShorterWestminsterCatechism({ staticDate }) {
   return (
     <div>
       <h1>Tempo</h1>
-      <Link href="/">
+      <Link href={ROUTES.HOME}>
         <a>Index</a>
       </Link>
       <div>{dynamicDate} (dinâmico)</div>
