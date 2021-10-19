@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import ROUTES from "../../../../common/routes.dto.ts";
+import ROUTES from "../../../../common/routes/routes.dto.ts";
 
 function LargerWestminsterCatechism() {
   return (

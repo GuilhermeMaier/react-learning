@@ -3,7 +3,7 @@ import Link from "next/dist/client/link";
 import moment from "moment";
 import axios from "axios";
 import { locationViaCepResponse } from "../../../api/location/dto/location.dto";
-import ROUTES from "../../../../common/routes.dto.ts";
+import ROUTES from "../../../../common/routes/routes.dto.ts";
 
 function ShorterWestminsterCatechism({ staticDate }) {
   const [dynamicDate, setDynamicDate] = useState<string>(staticDate);
