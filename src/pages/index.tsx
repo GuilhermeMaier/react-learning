@@ -7,11 +7,19 @@ import Home from "./home";
 import { App, MainContainer } from "./index.styles";
 
 function Application() {
+  const sidebarBackgroundImage = "images/celtic.jpg";
+  const sidebarHeader = "Símbolos de Fé";
+  const menuItems = ["Home", "Bible"];
+
   return (
     <>
       <GlobalStyle />
       <App>
-        <Sidebar />
+        <Sidebar
+          backgroundImage={sidebarBackgroundImage}
+          sidebarHeader={sidebarHeader}
+          sidebarMenuItems={menuItems}
+        />
         <MainContainer>
           <Home />
         </MainContainer>
