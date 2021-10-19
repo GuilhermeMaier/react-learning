@@ -10,3 +10,5 @@ export const App = styled.div`
 export const MainContainer = styled.div`
   width: 80%;
 `;
+
+export default App;
