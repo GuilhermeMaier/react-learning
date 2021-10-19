@@ -14,7 +14,7 @@ function Application() {
   return (
     <>
       <GlobalStyle />
-      <App>
+      <App id="App">
         <Sidebar
           backgroundImage={sidebarBackgroundImage}
           sidebarHeader={sidebarHeader}
