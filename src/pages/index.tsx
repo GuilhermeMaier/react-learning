@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import ROUTES from "../common/routes.dto.ts";
+import "./global.scss";
 
 function Home() {
   return (
