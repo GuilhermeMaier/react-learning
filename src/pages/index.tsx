@@ -1,4 +1,5 @@
 import React from "react";
+import GlobalStyle from "../common/styles/global.styles";
 import App, { MainContainer, SidebarContainer } from "./index.styles";
 
 function Application() {
@@ -9,6 +10,7 @@ function Application() {
   return (
     <>
       <App>
+        <GlobalStyle />
         <SidebarContainer />
         <MainContainer />
       </App>
