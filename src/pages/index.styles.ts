@@ -7,8 +7,16 @@ export const App = styled.div`
   display: flex;
 `;
 
+export const SidebarContainer = styled.div`
+  width: 20%;
+  max-width: 280px;
+  min-width: 80px;
+  background: red;
+`;
+
 export const MainContainer = styled.div`
   width: 80%;
+  color: blue;
 `;
 
 export default App;
