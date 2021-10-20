@@ -1,6 +1,4 @@
-import Link from "next/link";
-import React, { useState } from "react";
-import ROUTES from "../common/routes/routes.dto.ts";
+import React from "react";
 import GlobalStyle from "../common/styles/global";
 import Sidebar from "../components/sidebar";
 import Home from "./home";
@@ -14,7 +12,7 @@ function Application() {
   return (
     <>
       <GlobalStyle />
-      <App>
+      <App id="App">
         <Sidebar
           backgroundImage={sidebarBackgroundImage}
           sidebarHeader={sidebarHeader}
