@@ -7,8 +7,8 @@ export const SidebarContainer = styled.div<SidebarContainerProps>`
   width: 20%;
   background-image: linear-gradient(
       230deg,
-      rgba(3, 177, 77, 0.9) 0%,
-      rgba(4, 98, 29, 0.9) 74%
+      rgba(99, 212, 113, 0.9) 0%,
+      rgba(35, 51, 41, 0.9) 74%
     ),
     url(${(props) => props.backgroundImage});
   background-size: cover;
@@ -34,5 +34,10 @@ export const SidebarMenuItem = styled.div`
   text-align: center;
   font-weight: 600;
   margin-bottom: 10px;
-  color: rgba(19, 15, 64);
+  display: flex;
+`;
+
+export const SidebarMenuItemText = styled.p``;
+export const SidebarMenuItemIcon = styled.i`
+  padding-right: 5px;
 `;

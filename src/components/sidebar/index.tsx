@@ -4,13 +4,22 @@ import {
   SidebarContainer,
   SidebarHeader,
   SidebarMenuItem,
+  SidebarMenuItemIcon,
   SidebarMenuItemsContainer,
+  SidebarMenuItemText,
 } from "./sidebar.styles";
 
 const Sidebar = (props: SidebarProps) => {
   const { backgroundImage, sidebarHeader, sidebarMenuItems } = props;
   const menuItemsJSX = sidebarMenuItems.map((item, index) => {
-    return <SidebarMenuItem key={index}>{item}</SidebarMenuItem>;
+    return (
+      <SidebarMenuItem key={index}>
+        <SidebarMenuItemIcon>
+          {React.createElement(item.icon)}
+        </SidebarMenuItemIcon>
+        <SidebarMenuItemText>{item.name}</SidebarMenuItemText>
+      </SidebarMenuItem>
+    );
   });
   return (
     <SidebarContainer backgroundImage={backgroundImage}>
