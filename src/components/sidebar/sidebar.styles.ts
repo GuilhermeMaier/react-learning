@@ -15,6 +15,7 @@ export const SidebarContainer = styled.div<SidebarContainerProps>`
   background-repeat: no-repeat;
   background-position-x: center;
   color: white;
+  height: 100vh;
 `;
 
 export const SidebarHeader = styled.h3`
