@@ -1,5 +1,6 @@
 import React from "react";
 import GlobalStyle from "../common/styles/global.styles";
+import Sidebar from "../components/sidebar";
 import App, { MainContainer, SidebarContainer } from "./index.styles";
 
 function Application() {
@@ -11,7 +12,11 @@ function Application() {
     <>
       <App>
         <GlobalStyle />
-        <SidebarContainer />
+        <Sidebar
+          backgroundImage={sidebarBackgroundImage}
+          sidebarHeader={sidebarHeader}
+          sidebarMenuItems={menuItems}
+        />
         <MainContainer />
       </App>
     </>
