@@ -16,9 +16,17 @@ const Sidebar = (props: SidebarProps) => {
     sidebarMenuItems[0].name
   );
 
+  const handleMenuItemClick = (name) => {
+    setSelectedMenuItem(name);
+  };
+
   const menuItemsJSX = sidebarMenuItems.map((item, index) => {
     return (
-      <SidebarMenuItem key={index} selected={selectedMenuItem === item.name}>
+      <SidebarMenuItem
+        key={index}
+        selected={selectedMenuItem === item.name}
+        onClick={() => handleMenuItemClick(item.name)}
+      >
         <SidebarMenuItemIcon>
           {React.createElement(item.icon)}
         </SidebarMenuItemIcon>

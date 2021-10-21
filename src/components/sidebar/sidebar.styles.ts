@@ -32,6 +32,11 @@ export const SidebarMenuItem = styled.div<SidebarMenuItemProps>`
   font-weight: 600;
   margin-bottom: 10px;
 
+  &:hover {
+    opacity: 0.8;
+    transition: 0.5s ease all;
+  }
+
   &:after {
     content: "";
     border: ${(props) =>
@@ -44,17 +49,6 @@ export const SidebarMenuItem = styled.div<SidebarMenuItemProps>`
         ? "drop-shadow(3px -4px 5px white)"
         : "drop-shadow(0px 0px 0px white)"};
   }
-
-  /* &:after {
-    content: "";
-    border: ${(props) =>
-    props.selected ? "1.4px solid white" : "1px solid #8db597"};
-    background: ${(props) => (props.selected ? "white" : "#8db597")};
-    display: block;
-    margin: 8px 0;
-    filter: ${(props) =>
-    props.selected ? "drop-shadow(3px -4px 5px white" : ""};
-  } */
 `;
 
 export const SidebarMenuItemText = styled.p`
