@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { SidebarContainerProps } from "./dto/sidebar.dto";
+import { SidebarContainerProps, SidebarMenuItemProps } from "./dto/sidebar.dto";
 
 export const SidebarContainer = styled.div<SidebarContainerProps>`
   min-width: 80px;
@@ -26,7 +26,7 @@ export const SidebarHeader = styled.h3`
 
 export const SidebarMenuItemsContainer = styled.div``;
 
-export const SidebarMenuItem = styled.div`
+export const SidebarMenuItem = styled.div<SidebarMenuItemProps>`
   padding: 0px 20px;
   text-align: left;
   font-weight: 600;
@@ -34,11 +34,27 @@ export const SidebarMenuItem = styled.div`
 
   &:after {
     content: "";
-    border: 1px solid #8db597;
-    background: #8db597;
+    border: ${(props) =>
+      props.selected ? "1.4px solid white" : "1px solid #8db597"};
+    background: ${(props) => (props.selected ? "white" : "#8db597")};
     display: block;
     margin: 8px 0;
+    filter: ${(props) =>
+      props.selected
+        ? "drop-shadow(3px -4px 5px white)"
+        : "drop-shadow(0px 0px 0px white)"};
   }
+
+  /* &:after {
+    content: "";
+    border: ${(props) =>
+    props.selected ? "1.4px solid white" : "1px solid #8db597"};
+    background: ${(props) => (props.selected ? "white" : "#8db597")};
+    display: block;
+    margin: 8px 0;
+    filter: ${(props) =>
+    props.selected ? "drop-shadow(3px -4px 5px white" : ""};
+  } */
 `;
 
 export const SidebarMenuItemText = styled.p`

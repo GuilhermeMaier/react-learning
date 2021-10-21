@@ -2,7 +2,7 @@ import React from "react";
 import ROUTES from "../common/routes/routes.dto";
 import GlobalStyle from "../common/styles/global.styles";
 import Sidebar from "../components/sidebar";
-import { SidebarMenuItems } from "../components/sidebar/dto/sidebar.dto";
+import { SidebarMenuItem } from "../components/sidebar/dto/sidebar.dto";
 import App, { MainContainer } from "./index.styles";
 import { MdAccountBalance, MdAccountTree, MdAnchor } from "react-icons/md";
 
@@ -21,7 +21,7 @@ function Application() {
   //     ],
   //   },
   // ];
-  const menuItems: SidebarMenuItems[] = [
+  const menuItems: SidebarMenuItem[] = [
     { name: "Home", path: ROUTES.HOME, icon: MdAccountBalance },
     { name: "Bíblia", path: ROUTES.BIBLE, icon: MdAccountTree },
     {
