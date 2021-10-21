@@ -5,6 +5,7 @@ import Sidebar from "../components/sidebar";
 import { SidebarMenuItem } from "../components/sidebar/dto/sidebar.dto";
 import App, { MainContainer } from "./index.styles";
 import { MdAccountBalance, MdAccountTree, MdAnchor } from "react-icons/md";
+import { NextSeo } from "next-seo";
 
 function Application() {
   const sidebarBackgroundImage = "images/celtic.jpg";
@@ -38,6 +39,7 @@ function Application() {
     <>
       <App>
         <GlobalStyle />
+        <NextSeo title="Símbolos de Fé" />
         <Sidebar
           backgroundImage={sidebarBackgroundImage}
           sidebarHeader={sidebarHeader}
