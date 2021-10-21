@@ -27,3 +27,6 @@ export class SidebarMenuItemProps {
   key: number;
   selected: boolean;
 }
+export class SidebarTogglerProps {
+  isOpen: boolean;
+}

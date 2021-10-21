@@ -1,5 +1,9 @@
 import styled from "styled-components";
-import { SidebarContainerProps, SidebarMenuItemProps } from "./dto/sidebar.dto";
+import {
+  SidebarContainerProps,
+  SidebarMenuItemProps,
+  SidebarTogglerProps,
+} from "./dto/sidebar.dto";
 
 export const SidebarContainer = styled.div<SidebarContainerProps>`
   min-width: 80px;
@@ -35,6 +39,7 @@ export const SidebarMenuItem = styled.div<SidebarMenuItemProps>`
   &:hover {
     opacity: 0.8;
     transition: 0.5s ease all;
+    cursor: pointer;
   }
 
   &:after {
@@ -60,4 +65,27 @@ export const SidebarMenuItemIcon = styled.i`
   padding-right: 10px;
   bottom: -3px;
   position: relative;
+`;
+
+export const SidebarTogglerContainer = styled.div`
+  position: absolute;
+  min-width: 80px;
+  max-width: 280px;
+  width: 20%;
+  bottom: 2.5%;
+`;
+
+export const SidebarToggler = styled.div<SidebarTogglerProps>`
+  display: table;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  font-size: 22.5px;
+
+  &:hover {
+    opacity: 0.8;
+    transition: 0.2s ease all;
+    cursor: pointer;
+    transform: scale(1.1) rotate(180deg);
+  }
 `;
