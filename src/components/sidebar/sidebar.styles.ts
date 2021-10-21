@@ -24,21 +24,30 @@ export const SidebarHeader = styled.h3`
   margin-bottom: 10px;
 `;
 
-export const SidebarMenuItemsContainer = styled.div`
-  padding: 20px 10px;
-  text-align: center;
-  margin-bottom: 10px;
-`;
+export const SidebarMenuItemsContainer = styled.div``;
 
 export const SidebarMenuItem = styled.div`
-  padding: 6px 20px;
-  text-align: center;
+  padding: 0px 20px;
+  text-align: left;
   font-weight: 600;
   margin-bottom: 10px;
-  display: flex;
+
+  &:after {
+    content: "";
+    border: 1px solid #8db597;
+    background: #8db597;
+    display: block;
+    margin: 8px 0;
+  }
 `;
 
-export const SidebarMenuItemText = styled.p``;
+export const SidebarMenuItemText = styled.p`
+  display: inline;
+`;
+
 export const SidebarMenuItemIcon = styled.i`
-  padding-right: 5px;
+  font-size: 20px;
+  padding-right: 10px;
+  bottom: -3px;
+  position: relative;
 `;
