@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { SidebarProps } from "./dto/sidebar.dto";
 import {
   SidebarContainer,
@@ -11,9 +11,22 @@ import {
 
 const Sidebar = (props: SidebarProps) => {
   const { backgroundImage, sidebarHeader, sidebarMenuItems } = props;
+
+  const [selectedMenuItem, setSelectedMenuItem] = useState(
+    sidebarMenuItems[0].name
+  );
+
+  const handleMenuItemClick = (name) => {
+    setSelectedMenuItem(name);
+  };
+
   const menuItemsJSX = sidebarMenuItems.map((item, index) => {
     return (
-      <SidebarMenuItem key={index}>
+      <SidebarMenuItem
+        key={index}
+        selected={selectedMenuItem === item.name}
+        onClick={() => handleMenuItemClick(item.name)}
+      >
         <SidebarMenuItemIcon>
           {React.createElement(item.icon)}
         </SidebarMenuItemIcon>
@@ -21,6 +34,7 @@ const Sidebar = (props: SidebarProps) => {
       </SidebarMenuItem>
     );
   });
+
   return (
     <SidebarContainer backgroundImage={backgroundImage}>
       <SidebarHeader>{sidebarHeader}</SidebarHeader>

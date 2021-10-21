@@ -3,10 +3,10 @@ import { IconType } from "react-icons";
 export class SidebarProps {
   backgroundImage: string = "";
   sidebarHeader: string = "";
-  sidebarMenuItems?: SidebarMenuItems[] = [];
+  sidebarMenuItems?: SidebarMenuItem[] = [];
 }
 
-export class SidebarMenuItems {
+export class SidebarMenuItem {
   name: string;
   path?: string;
   icon: IconType;
@@ -21,4 +21,9 @@ export class SidebarSubmenuItems {
 
 export class SidebarContainerProps {
   backgroundImage: string = "";
+}
+
+export class SidebarMenuItemProps {
+  key: number;
+  selected: boolean;
 }
