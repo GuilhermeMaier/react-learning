@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import { MdSwitchRight } from "react-icons/md";
 import { SidebarProps } from "./dto/sidebar.dto";
 import {
@@ -46,7 +47,7 @@ const Sidebar = (props: SidebarProps) => {
   return (
     <SidebarContainer backgroundImage={backgroundImage} isOpen={isSidebarOpen}>
       <SidebarHeader isOpen={isSidebarOpen}>
-        <img src={"images/celtic-cross.svg"} />
+        <Image src={"/images/celtic-cross.svg"} height={60} width={60} />
         <SidebarHeaderText>{sidebarHeader}</SidebarHeaderText>
       </SidebarHeader>
       <SidebarMenuItemsContainer>{menuItemsJSX}</SidebarMenuItemsContainer>

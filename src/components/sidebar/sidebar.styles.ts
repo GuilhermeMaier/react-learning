@@ -26,10 +26,14 @@ export const SidebarHeader = styled.div<SidebarTogglerProps>`
   > h3 {
     display: ${(props) => (props.isOpen ? "block" : "none")};
   }
-  > img {
-    display: ${(props) => (props.isOpen ? "none" : "table")};
-    margin: 0 auto;
-    width: 50px;
+
+  > div {
+    width: ${(props) => (props.isOpen ? "" : "100%!important")};
+  }
+  img {
+    display: ${(props) =>
+      props.isOpen ? "none!important" : "table!important"};
+    margin: 0 auto !important;
   }
 `;
 
