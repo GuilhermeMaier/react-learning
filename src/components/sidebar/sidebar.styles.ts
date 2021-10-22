@@ -8,7 +8,7 @@ import {
 export const SidebarContainer = styled.div<SidebarContainerProps>`
   min-width: 80px;
   max-width: 280px;
-  width: 20%;
+  width: ${(props) => (props.isOpen ? "20%" : "5%")};
   background-image: linear-gradient(
       230deg,
       rgba(99, 212, 113, 0.9) 0%,
@@ -22,7 +22,18 @@ export const SidebarContainer = styled.div<SidebarContainerProps>`
   height: 100vh;
 `;
 
-export const SidebarHeader = styled.h3`
+export const SidebarHeader = styled.div<SidebarTogglerProps>`
+  > h3 {
+    display: ${(props) => (props.isOpen ? "block" : "none")};
+  }
+  > img {
+    display: ${(props) => (props.isOpen ? "none" : "table")};
+    margin: 0 auto;
+    width: 50px;
+  }
+`;
+
+export const SidebarHeaderText = styled.h3`
   padding: 20px 10px;
   text-align: center;
   margin-bottom: 10px;
@@ -32,7 +43,7 @@ export const SidebarMenuItemsContainer = styled.div``;
 
 export const SidebarMenuItem = styled.div<SidebarMenuItemProps>`
   padding: 0px 20px;
-  text-align: left;
+  text-align: ${(props) => (props.isOpen ? "left" : "center")};
   font-weight: 600;
   margin-bottom: 10px;
 
@@ -56,31 +67,32 @@ export const SidebarMenuItem = styled.div<SidebarMenuItemProps>`
   }
 `;
 
-export const SidebarMenuItemText = styled.p`
-  display: inline;
+export const SidebarMenuItemText = styled.p<SidebarTogglerProps>`
+  display: ${(props) => (props.isOpen ? "inline" : "none")};
 `;
 
-export const SidebarMenuItemIcon = styled.i`
+export const SidebarMenuItemIcon = styled.i<SidebarTogglerProps>`
   font-size: 20px;
-  padding-right: 10px;
+  padding-right: ${(props) => (props.isOpen ? "10px" : "0")};
   bottom: -3px;
   position: relative;
 `;
 
-export const SidebarTogglerContainer = styled.div`
+export const SidebarTogglerContainer = styled.div<SidebarTogglerProps>`
   position: absolute;
   min-width: 80px;
   max-width: 280px;
-  width: 20%;
+  width: ${(props) => (props.isOpen ? "20%" : "5%")};
   bottom: 2.5%;
 `;
 
 export const SidebarToggler = styled.div<SidebarTogglerProps>`
-  display: table;
-  position: absolute;
-  right: 10%;
+  display: ${(props) => (props.isOpen ? "flex" : "table")};
+  position: ${(props) => (props.isOpen ? "absolute" : "relative")};
+  right: ${(props) => (props.isOpen ? "10%" : "unset")};
   bottom: 0;
   font-size: 22.5px;
+  margin: ${(props) => (props.isOpen ? "" : "0 auto")};
 
   &:hover {
     opacity: 0.8;

@@ -21,11 +21,13 @@ export class SidebarSubmenuItems {
 
 export class SidebarContainerProps {
   backgroundImage: string = "";
+  isOpen: boolean;
 }
 
 export class SidebarMenuItemProps {
   key: number;
   selected: boolean;
+  isOpen: boolean;
 }
 export class SidebarTogglerProps {
   isOpen: boolean;

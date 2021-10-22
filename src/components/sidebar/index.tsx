@@ -4,6 +4,7 @@ import { SidebarProps } from "./dto/sidebar.dto";
 import {
   SidebarContainer,
   SidebarHeader,
+  SidebarHeaderText,
   SidebarMenuItem,
   SidebarMenuItemIcon,
   SidebarMenuItemsContainer,
@@ -29,21 +30,27 @@ const Sidebar = (props: SidebarProps) => {
       <SidebarMenuItem
         key={index}
         selected={selectedMenuItem === item.name}
+        isOpen={isSidebarOpen}
         onClick={() => handleMenuItemClick(item.name)}
       >
-        <SidebarMenuItemIcon>
+        <SidebarMenuItemIcon isOpen={isSidebarOpen}>
           {React.createElement(item.icon)}
         </SidebarMenuItemIcon>
-        <SidebarMenuItemText>{item.name}</SidebarMenuItemText>
+        <SidebarMenuItemText isOpen={isSidebarOpen}>
+          {item.name}
+        </SidebarMenuItemText>
       </SidebarMenuItem>
     );
   });
 
   return (
-    <SidebarContainer backgroundImage={backgroundImage}>
-      <SidebarHeader>{sidebarHeader}</SidebarHeader>
+    <SidebarContainer backgroundImage={backgroundImage} isOpen={isSidebarOpen}>
+      <SidebarHeader isOpen={isSidebarOpen}>
+        <img src={"images/celtic-cross.svg"} />
+        <SidebarHeaderText>{sidebarHeader}</SidebarHeaderText>
+      </SidebarHeader>
       <SidebarMenuItemsContainer>{menuItemsJSX}</SidebarMenuItemsContainer>
-      <SidebarTogglerContainer>
+      <SidebarTogglerContainer isOpen={isSidebarOpen}>
         <SidebarToggler
           isOpen={isSidebarOpen}
           onClick={() => {
