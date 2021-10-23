@@ -20,7 +20,6 @@ export const SidebarContainer = styled.div<SidebarContainerProps>`
   background-position-x: center;
   color: white;
   height: 100vh;
-  transition: all 0.5s ease;
 `;
 
 export const SidebarHeader = styled.div<SidebarTogglerProps>`
