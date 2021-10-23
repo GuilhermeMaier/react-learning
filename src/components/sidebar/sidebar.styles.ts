@@ -20,6 +20,7 @@ export const SidebarContainer = styled.div<SidebarContainerProps>`
   background-position-x: center;
   color: white;
   height: 100vh;
+  transition: all 0.5s ease;
 `;
 
 export const SidebarHeader = styled.div<SidebarTogglerProps>`
@@ -91,12 +92,13 @@ export const SidebarTogglerContainer = styled.div<SidebarTogglerProps>`
 `;
 
 export const SidebarToggler = styled.div<SidebarTogglerProps>`
-  display: ${(props) => (props.isOpen ? "flex" : "table")};
+  display: flex;
   position: ${(props) => (props.isOpen ? "absolute" : "relative")};
   right: ${(props) => (props.isOpen ? "10%" : "unset")};
   bottom: 0;
   font-size: 22.5px;
-  margin: ${(props) => (props.isOpen ? "" : "0 auto")};
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     opacity: 0.8;
