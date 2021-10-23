@@ -20,6 +20,7 @@ export const SidebarContainer = styled.div<SidebarContainerProps>`
   background-position-x: center;
   color: white;
   height: 100vh;
+  transition: all 0.5s ease;
 `;
 
 export const SidebarHeader = styled.div<SidebarTogglerProps>`
@@ -88,6 +89,7 @@ export const SidebarTogglerContainer = styled.div<SidebarTogglerProps>`
   max-width: 280px;
   width: ${(props) => (props.isOpen ? "20%" : "5%")};
   bottom: 2.5%;
+  transition: all 0.5s ease;
 `;
 
 export const SidebarToggler = styled.div<SidebarTogglerProps>`
