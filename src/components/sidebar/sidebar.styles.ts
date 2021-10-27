@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import defaultTheme from "../../common/styles/colors";
 import {
   SidebarContainerProps,
   SidebarMenuItemProps,
@@ -11,37 +12,23 @@ export const SidebarContainer = styled.div<SidebarContainerProps>`
   width: ${(props) => (props.isOpen ? "20%" : "5%")};
   background-image: linear-gradient(
       230deg,
-      rgba(99, 212, 113, 0.9) 0%,
-      rgba(35, 51, 41, 0.9) 74%
+      ${defaultTheme.secondary.rgbOpaque95} 0%,
+      ${defaultTheme.secondary.rgbOpaque98} 74%
     ),
     url(${(props) => props.backgroundImage});
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-  color: white;
+  color: ${defaultTheme.fourth.hex};
   height: 100vh;
   transition: all 0.5s ease;
 `;
 
 export const SidebarHeader = styled.div<SidebarTogglerProps>`
-  > h3 {
-    display: ${(props) => (props.isOpen ? "block" : "none")};
-  }
-
   > div {
-    width: ${(props) => (props.isOpen ? "" : "100%!important")};
+    width: 100%;
+    margin: 10px 0 !important;
   }
-  img {
-    display: ${(props) =>
-      props.isOpen ? "none!important" : "table!important"};
-    margin: 0 auto !important;
-  }
-`;
-
-export const SidebarHeaderText = styled.h3`
-  padding: 20px 10px;
-  text-align: center;
-  margin-bottom: 10px;
 `;
 
 export const SidebarMenuItemsContainer = styled.div``;
@@ -51,6 +38,7 @@ export const SidebarMenuItem = styled.div<SidebarMenuItemProps>`
   text-align: ${(props) => (props.isOpen ? "left" : "center")};
   font-weight: 600;
   margin-bottom: 10px;
+  white-space: nowrap;
 
   &:hover {
     opacity: 0.8;
@@ -61,14 +49,19 @@ export const SidebarMenuItem = styled.div<SidebarMenuItemProps>`
   &:after {
     content: "";
     border: ${(props) =>
-      props.selected ? "1.4px solid white" : "1px solid #8db597"};
-    background: ${(props) => (props.selected ? "white" : "#8db597")};
+      props.selected
+        ? `1.4px solid ${defaultTheme.fourth.hex}`
+        : `1px solid ${defaultTheme.third.hex}`};
+    background: ${(props) =>
+      props.selected
+        ? `${defaultTheme.fourth.hex}`
+        : `${defaultTheme.third.hex}`};
     display: block;
     margin: 8px 0;
     filter: ${(props) =>
       props.selected
-        ? "drop-shadow(3px -4px 5px white)"
-        : "drop-shadow(0px 0px 0px white)"};
+        ? `drop-shadow(3px -4px 5px ${defaultTheme.fourth.hex})`
+        : `drop-shadow(0px 0px 0px ${defaultTheme.fourth.hex})`};
   }
 `;
 
@@ -79,6 +72,7 @@ export const SidebarMenuItemText = styled.p<SidebarTogglerProps>`
 export const SidebarMenuItemIcon = styled.i<SidebarTogglerProps>`
   font-size: 20px;
   padding-right: ${(props) => (props.isOpen ? "10px" : "0")};
+  transition: all 0.5s ease;
   bottom: -3px;
   position: relative;
 `;

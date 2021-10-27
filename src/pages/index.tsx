@@ -9,7 +9,7 @@ import { NextSeo } from "next-seo";
 
 function Application() {
   const sidebarBackgroundImage = "images/celtic.jpg";
-  const sidebarHeader = "Símbolos de Fé";
+  const sidebarHeaderImage = "/images/celtic-cross.svg";
   // const menuItems: SidebarMenuItems[] = [
   //   { name: "Home", path: ROUTES.HOME, icon: "MdAccountBalance" },
   //   { name: "Bíblia", path: ROUTES.BIBLE, icon: "MdAccountTree" },
@@ -42,7 +42,7 @@ function Application() {
         <NextSeo title="Símbolos de Fé" />
         <Sidebar
           backgroundImage={sidebarBackgroundImage}
-          sidebarHeader={sidebarHeader}
+          sidebarHeaderImage={sidebarHeaderImage}
           sidebarMenuItems={menuItems}
         />
         <MainContainer />

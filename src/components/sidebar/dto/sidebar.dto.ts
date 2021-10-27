@@ -2,7 +2,7 @@ import { IconType } from "react-icons";
 
 export class SidebarProps {
   backgroundImage: string = "";
-  sidebarHeader: string = "";
+  sidebarHeaderImage: string = "";
   sidebarMenuItems?: SidebarMenuItem[] = [];
 }
 

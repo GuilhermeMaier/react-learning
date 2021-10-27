@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { MdSwitchRight } from "react-icons/md";
 import { SidebarProps } from "./dto/sidebar.dto";
 import {
   SidebarContainer,
   SidebarHeader,
-  SidebarHeaderText,
   SidebarMenuItem,
   SidebarMenuItemIcon,
   SidebarMenuItemsContainer,
@@ -15,12 +14,21 @@ import {
 } from "./sidebar.styles";
 
 const Sidebar = (props: SidebarProps) => {
-  const { backgroundImage, sidebarHeader, sidebarMenuItems } = props;
+  const { backgroundImage, sidebarHeaderImage, sidebarMenuItems } = props;
 
   const [isSidebarOpen, setSidebarOpen] = useState(true);
   const [selectedMenuItem, setSelectedMenuItem] = useState(
     sidebarMenuItems[0].name
   );
+
+  useEffect(() => {
+    setSidebarOpen(window.innerWidth < 1024 && isSidebarOpen ? false : true);
+    const updateView = () => {
+      setSidebarOpen(window.innerWidth < 1024 && isSidebarOpen ? false : true);
+    };
+    window.addEventListener("resize", updateView);
+    return () => window.removeEventListener("resize", updateView);
+  }, []);
 
   const handleMenuItemClick = (name) => {
     setSelectedMenuItem(name);
@@ -47,8 +55,7 @@ const Sidebar = (props: SidebarProps) => {
   return (
     <SidebarContainer backgroundImage={backgroundImage} isOpen={isSidebarOpen}>
       <SidebarHeader isOpen={isSidebarOpen}>
-        <Image src={"/images/celtic-cross.svg"} height={60} width={60} />
-        <SidebarHeaderText>{sidebarHeader}</SidebarHeaderText>
+        <Image src={sidebarHeaderImage} height={60} width={60} />
       </SidebarHeader>
       <SidebarMenuItemsContainer>{menuItemsJSX}</SidebarMenuItemsContainer>
       <SidebarTogglerContainer isOpen={isSidebarOpen}>
