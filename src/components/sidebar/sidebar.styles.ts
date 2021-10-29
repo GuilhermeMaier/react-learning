@@ -3,6 +3,7 @@ import defaultTheme from "../../common/styles/colors";
 import {
   SidebarContainerProps,
   SidebarMenuItemProps,
+  SidebarSubmenuItemProps,
   SidebarTogglerProps,
 } from "./dto/sidebar.dto";
 
