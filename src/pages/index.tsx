@@ -10,18 +10,6 @@ import { NextSeo } from "next-seo";
 function Application() {
   const sidebarBackgroundImage = "images/celtic.jpg";
   const sidebarHeaderImage = "/images/celtic-cross.svg";
-  // const menuItems: SidebarMenuItems[] = [
-  //   { name: "Home", path: ROUTES.HOME, icon: "MdAccountBalance" },
-  //   { name: "Bíblia", path: ROUTES.BIBLE, icon: "MdAccountTree" },
-  //   {
-  //     name: "Westminster",
-  //     icon: "MdAnchor",
-  //     submenuItems: [
-  //       { name: "Catecismo Menor", path: ROUTES.WESTMINSTER_SHORTER_CATECHISM },
-  //       { name: "Catecismo Maior", path: ROUTES.WESTMINSTER_LARGER_CATECHISM },
-  //     ],
-  //   },
-  // ];
   const menuItems: SidebarMenuItem[] = [
     { name: "Home", path: ROUTES.HOME, icon: MdAccountBalance },
     { name: "Bíblia", path: ROUTES.BIBLE, icon: MdAccountTree },
@@ -29,8 +17,16 @@ function Application() {
       name: "Westminster",
       icon: MdAnchor,
       submenuItems: [
-        { name: "Catecismo Menor", path: ROUTES.WESTMINSTER_SHORTER_CATECHISM },
-        { name: "Catecismo Maior", path: ROUTES.WESTMINSTER_LARGER_CATECHISM },
+        {
+          name: "Catecismo Menor",
+          path: ROUTES.WESTMINSTER_SHORTER_CATECHISM,
+          icon: MdAnchor,
+        },
+        {
+          name: "Catecismo Maior",
+          path: ROUTES.WESTMINSTER_LARGER_CATECHISM,
+          icon: MdAnchor,
+        },
       ],
     },
   ];

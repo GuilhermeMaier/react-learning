@@ -10,13 +10,13 @@ export class SidebarMenuItem {
   name: string;
   path?: string;
   icon: IconType;
-  // icon: string;
   submenuItems?: SidebarSubmenuItems[];
 }
 
 export class SidebarSubmenuItems {
   name: string;
   path: string;
+  icon: IconType;
 }
 
 export class SidebarContainerProps {
@@ -27,7 +27,7 @@ export class SidebarContainerProps {
 export class SidebarMenuItemProps {
   key: number;
   selected: boolean;
-  isOpen: boolean;
+  isSubmenuOpened: boolean;
 }
 export class SidebarTogglerProps {
   isOpen: boolean;
