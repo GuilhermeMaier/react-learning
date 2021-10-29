@@ -27,6 +27,12 @@ export class SidebarContainerProps {
 export class SidebarMenuItemProps {
   key: number;
   selected: boolean;
+  isOpen: boolean;
+}
+
+export class SidebarSubmenuItemProps {
+  key: number;
+  selected: boolean;
   isSubmenuOpened: boolean;
 }
 export class SidebarTogglerProps {

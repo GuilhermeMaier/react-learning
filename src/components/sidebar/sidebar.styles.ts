@@ -75,7 +75,7 @@ export const SidebarMenuItem = styled.div<SidebarMenuItemProps>`
   }
 `;
 
-export const SidebarSubmenuItem = styled.div<SidebarMenuItemProps>`
+export const SidebarSubmenuItem = styled.div<SidebarSubmenuItemProps>`
   padding-left: 20px;
   text-align: ${(props) => (props.isSubmenuOpened ? "left" : "center")};
   font-weight: 600;
