@@ -1,7 +1,7 @@
 import React from "react";
 
-function Bible() {
+function ShorterCatechism() {
   return <div>{"Esta é o Catecismo Menor de Westminster"}</div>;
 }
 
-export default Bible;
+export default ShorterCatechism;

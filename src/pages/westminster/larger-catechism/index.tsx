@@ -1,7 +1,7 @@
 import React from "react";
 
-function Bible() {
+function LargerCatechism() {
   return <div>{"Esta é o Catecismo Maior de Westminster"}</div>;
 }
 
-export default Bible;
+export default LargerCatechism;

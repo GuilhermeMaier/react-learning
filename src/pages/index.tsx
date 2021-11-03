@@ -1,11 +1,12 @@
 import React from "react";
 import ROUTES from "../common/routes/routes.dto";
-import GlobalStyle from "../common/styles/global.styles";
 import Sidebar from "../components/sidebar";
 import { SidebarMenuItem } from "../components/sidebar/dto/sidebar.dto";
 import App, { MainContainer } from "./index.styles";
 import { MdAccountBalance, MdAccountTree, MdAnchor } from "react-icons/md";
 import { NextSeo } from "next-seo";
+import MainView from "../components/main-view";
+import Layout from "../components/layout/layout";
 
 function Application() {
   const sidebarBackgroundImage = "images/celtic.jpg";
@@ -15,6 +16,7 @@ function Application() {
     { name: "Bíblia", path: ROUTES.BIBLE, icon: MdAccountTree },
     {
       name: "Westminster",
+      path: "#",
       icon: MdAnchor,
       submenuItems: [
         {
@@ -34,14 +36,16 @@ function Application() {
   return (
     <>
       <App>
-        <GlobalStyle />
         <NextSeo title="Símbolos de Fé" />
-        <Sidebar
+        {/* <Sidebar
           backgroundImage={sidebarBackgroundImage}
           sidebarHeaderImage={sidebarHeaderImage}
           sidebarMenuItems={menuItems}
-        />
-        <MainContainer />
+        /> */}
+        <Layout>
+          <div>Teste</div>
+        </Layout>
+        {/* <MainView /> */}
       </App>
     </>
   );

@@ -14,6 +14,7 @@ import {
   SidebarToggler,
   SidebarTogglerContainer,
 } from "./sidebar.styles";
+import Link from "next/link";
 
 const Sidebar = (props: SidebarProps) => {
   const { backgroundImage, sidebarHeaderImage, sidebarMenuItems } = props;
