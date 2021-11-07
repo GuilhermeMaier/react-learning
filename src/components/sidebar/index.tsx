@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 import Image from "next/image";
 import { MdKeyboardArrowDown, MdSwitchRight } from "react-icons/md";
 import { SidebarProps } from "./dto/sidebar.dto";
@@ -14,9 +15,8 @@ import {
   SidebarToggler,
   SidebarTogglerContainer,
 } from "./sidebar.styles";
-import Link from "next/link";
 
-const Sidebar = (props: SidebarProps) => {
+function Sidebar(props: SidebarProps) {
   const { backgroundImage, sidebarHeaderImage, sidebarMenuItems } = props;
   const [isSidebarOpen, setSidebarOpen] = useState(true);
   const [selectedMenuItem, setSelectedMenuItem] = useState(
@@ -61,45 +61,49 @@ const Sidebar = (props: SidebarProps) => {
     const submenuItemsJSX = item.submenuItems?.map(
       (submenuItem, submenuIndex) => {
         return (
-          <SidebarSubmenuItem
-            className={"submenu"}
-            key={submenuIndex}
-            selected={selectedMenuItem === item.name}
-            isSubmenuOpened={isSubmenuOpened}
-          >
-            <SidebarMenuItemIcon isOpen={isSidebarOpen}>
-              {React.createElement(submenuItem.icon)}
-            </SidebarMenuItemIcon>
-            <SidebarMenuItemText isOpen={isSidebarOpen}>
-              {submenuItem.name}
-            </SidebarMenuItemText>
-          </SidebarSubmenuItem>
+          <Link href={submenuItem.path}>
+            <SidebarSubmenuItem
+              className={"submenu"}
+              key={submenuIndex}
+              selected={selectedMenuItem === item.name}
+              isSubmenuOpened={isSubmenuOpened}
+            >
+              <SidebarMenuItemIcon isOpen={isSidebarOpen}>
+                {React.createElement(submenuItem.icon)}
+              </SidebarMenuItemIcon>
+              <SidebarMenuItemText isOpen={isSidebarOpen}>
+                {submenuItem.name}
+              </SidebarMenuItemText>
+            </SidebarSubmenuItem>
+          </Link>
         );
       }
     );
 
     return (
-      <SidebarMenuItem
-        key={index}
-        selected={selectedMenuItem === item.name}
-        isOpen={isSidebarOpen}
-        onClick={() => handleMenuItemClick(item.name, index)}
-      >
-        <SidebarMenuItemIcon isOpen={isSidebarOpen}>
-          {React.createElement(item.icon)}
-        </SidebarMenuItemIcon>
-        <SidebarMenuItemText isOpen={isSidebarOpen}>
-          {item.name}
-        </SidebarMenuItemText>
-        {item.submenuItems?.length && (
-          <>
-            <SidebarDropdownIcon isSubmenuOpened={isSubmenuOpened}>
-              <MdKeyboardArrowDown />
-            </SidebarDropdownIcon>
-            {submenuItemsJSX}
-          </>
-        )}
-      </SidebarMenuItem>
+      <Link href={item.path}>
+        <SidebarMenuItem
+          key={index}
+          selected={selectedMenuItem === item.name}
+          isOpen={isSidebarOpen}
+          onClick={() => handleMenuItemClick(item.name, index)}
+        >
+          <SidebarMenuItemIcon isOpen={isSidebarOpen}>
+            {React.createElement(item.icon)}
+          </SidebarMenuItemIcon>
+          <SidebarMenuItemText isOpen={isSidebarOpen}>
+            {item.name}
+          </SidebarMenuItemText>
+          {item.submenuItems?.length && (
+            <>
+              <SidebarDropdownIcon isSubmenuOpened={isSubmenuOpened}>
+                <MdKeyboardArrowDown />
+              </SidebarDropdownIcon>
+              {submenuItemsJSX}
+            </>
+          )}
+        </SidebarMenuItem>
+      </Link>
     );
   });
 
@@ -121,6 +125,6 @@ const Sidebar = (props: SidebarProps) => {
       </SidebarTogglerContainer>
     </SidebarContainer>
   );
-};
+}
 
 export default Sidebar;
