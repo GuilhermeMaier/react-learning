@@ -30,20 +30,31 @@ function Sidebar(props: SidebarProps) {
       setSidebarOpen(window.innerWidth < 1024 && isSidebarOpen ? false : true);
     };
     window.addEventListener("resize", updateView);
-    return () => window.removeEventListener("resize", updateView);
-  }, []);
-
-  useEffect(() => {
     const submenus = {};
     sidebarMenuItems.forEach((item, index) => {
       if (item.submenuItems?.length) {
         submenus[index] = {};
-        submenus[index]["isOpen"] = true;
+        submenus[index]["isOpen"] = false;
         submenus[index]["isSelected"] = null;
       }
     });
     setsidebarSubmenuState(submenus);
-  }, [sidebarMenuItems]);
+    return () => window.removeEventListener("resize", updateView);
+  }, []);
+
+  // useEffect(() => {
+  //   const submenus = {};
+  //   sidebarMenuItems.forEach((item, index) => {
+  //     if (item.submenuItems?.length) {
+  //       submenus[index] = {};
+  //       submenus[index]["isOpen"] = sidebarSubmenuState.hasOwnProperty(index)
+  //         ? sidebarSubmenuState[index]["isOpen"]
+  //         : true;
+  //       submenus[index]["isSelected"] = null;
+  //     }
+  //   });
+  //   setsidebarSubmenuState(submenus);
+  // }, [sidebarMenuItems]);
 
   const handleMenuItemClick = (name, index) => {
     setSelectedMenuItem(name);
@@ -51,6 +62,7 @@ function Sidebar(props: SidebarProps) {
     if (sidebarSubmenuState.hasOwnProperty(index)) {
       submenuStatesCopy[index]["isOpen"] =
         !sidebarSubmenuState[index]["isOpen"];
+
       setsidebarSubmenuState(submenuStatesCopy);
     }
   };
