@@ -10,7 +10,7 @@ import {
 export const SidebarContainer = styled.div<SidebarContainerProps>`
   min-width: 80px;
   max-width: 280px;
-  width: ${(props) => (props.isOpen ? "20%" : "5%")};
+  width: 5%;
   background-image: linear-gradient(
       230deg,
       ${defaultTheme.secondary.rgbOpaque95} 0%,
@@ -23,9 +23,15 @@ export const SidebarContainer = styled.div<SidebarContainerProps>`
   color: ${defaultTheme.fourth.hex};
   height: 100vh;
   transition: all 0.5s ease;
+
+  ${(props) =>
+    props.isOpen &&
+    `
+    width: 20%;
+  `};
 `;
 
-export const SidebarHeader = styled.div<SidebarTogglerProps>`
+export const SidebarHeader = styled.div`
   > div {
     width: 100%;
     margin: 10px 0 !important;

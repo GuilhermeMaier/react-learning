@@ -3,17 +3,17 @@ import { IconType } from "react-icons";
 export class SidebarProps {
   backgroundImage: string = "";
   sidebarHeaderImage: string = "";
-  sidebarMenuItems?: SidebarMenuItem[] = [];
+  sidebarMenuItems?: SidebarMenuItemDTO[] = [];
 }
 
-export class SidebarMenuItem {
+export class SidebarMenuItemDTO {
   name: string;
   path?: string;
   icon: IconType;
-  submenuItems?: SidebarSubmenuItems[];
+  submenuItems?: SidebarSubmenuItemsDTO[];
 }
 
-export class SidebarSubmenuItems {
+export class SidebarSubmenuItemsDTO {
   name: string;
   path: string;
   icon: IconType;
@@ -25,13 +25,11 @@ export class SidebarContainerProps {
 }
 
 export class SidebarMenuItemProps {
-  key: number;
   selected: boolean;
   isOpen: boolean;
 }
 
 export class SidebarSubmenuItemProps {
-  key: number;
   selected: boolean;
   isSubmenuOpened: boolean;
 }

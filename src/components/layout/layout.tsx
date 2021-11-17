@@ -4,12 +4,12 @@ import ROUTES from "../../common/routes/routes.dto";
 import App from "../../pages/index.styles";
 import MainContainer from "../main-view/main-view.styles";
 import Sidebar from "../sidebar";
-import { SidebarMenuItem } from "../sidebar/dto/sidebar.dto";
+import { SidebarMenuItemDTO } from "../sidebar/dto/sidebar.dto";
 
 function Layout(props) {
   const sidebarBackgroundImage = "images/celtic.jpg";
   const sidebarHeaderImage = "/images/celtic-cross.svg";
-  const menuItems: SidebarMenuItem[] = [
+  const menuItems: SidebarMenuItemDTO[] = [
     { name: "Home", path: ROUTES.HOME, icon: MdAccountBalance },
     { name: "Bíblia", path: ROUTES.BIBLE, icon: MdAccountTree },
     {
